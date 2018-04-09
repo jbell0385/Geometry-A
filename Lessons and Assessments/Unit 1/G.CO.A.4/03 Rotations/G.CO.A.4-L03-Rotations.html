@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        G.CO.A.4-L03-Rotations
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/emspmg/style/custom-style.css" />
+</head>
+
+<body>
+    <!--=======================================
+        =            Start of Template            =
+        ========================================-->
+    <!-- In Canvas, remove the "container" class -->
+    <div class="container ems-container-fluid">
+        <!--=================================
+            =            Hero Banner            =
+            ==================================-->
+        <div id="" class="row hero">
+            <div class="hero-image">
+                <div class="">
+                    <!-- Add hero iframe here -->
+                    <img src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/hero-image.jpg" alt="">
+
+                </div>
+                <!-- Hero Text -->
+                <div class="hero-text-bg" style="">
+                    <div class="hero-text">
+                        <h1>Unit 1: Rotation Transformations</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====  End of Hero Banner  ====-->
+        <!--========================================
+    =            Objectives Snippet            =
+    =========================================-->
+        <div class="card">
+            <div class="card-header panel-heading-lt">
+                <i class="fa fa-bullseye card-header-icon"></i> Objectives
+            </div>
+            <div class="card-body">
+                <div class="col">
+                    <p>I can rotate a figure about a center of rotation for a given number of degrees in a given direction.</p>
+                    <ol>
+                        <li>
+                            <a href="#concept01">I can describe attributes of a rotation including center of rotation and direction of rotation.</a>
+                        </li>
+                        <li>
+                            <a href="#concept02">I can describe \(90^{\circ}\), \(180^{\circ}\), \(270^{\circ}\), and \(360^{\circ}\) <strong>counter-clockwise</strong> rotations around the origin.</a>
+                        </li>
+                        <li>
+                            <a href="#concept03">I can describe \(90^{\circ}\), \(180^{\circ}\), \(270^{\circ}\), and \(360^{\circ}\) <strong>clockwise</strong> rotations around the origin.</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <!--====  End of Objectives Snippet  ====-->
+        <!--========================================
+    =            Prior Knowledge Snippet       =
+    =========================================-->
+        <div class="card">
+            <div class="card-header panel-heading-pk">
+                <i class="fa fa-puzzle-piece card-header-icon" aria-hidden="true"></i>Prior Knowledge
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <ol>
+                        <!--To add more list items, copy and paste one below. You must change the data target -->
+                        <!--
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#exampleModal1">
+                                Coordinate
+                            </a>
+                        </li>
+-->
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#Pre-image">
+                                Pre-image
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#Transformation">
+                                Transformation
+                            </a>
+                        </li>
+                        <!--
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#exampleModal3">
+                               Congruent
+                            </a>
+                        </li>
+-->
+
+                    </ol>
+                </div>
+                <!-- Transformation -->
+                <!--You must change the id below to match the data-target above -->
+                <div class="modal fade" id="Transformation" tabindex="-1" role="dialog" aria-labelledby="Transformation" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="">
+                                    Transformation
+                                </h5>
+                                <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </a>
+                            </div>
+                            <!--This is where you insert content for the modal -->
+                            <div class="modal-body">
+                                <p>Reflection, rotation, translation, and dilation. All of them preserve shape, and the first three preserve size.
+                                </p>
+                                <img src="https://storage.googleapis.com/emspmg/Mathematics/glossary/transformation.png">
+
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Transformation-->
+                <!-- Pre-image -->
+                <!--You must change the id below to match the data-target above -->
+                <div class="modal fade" id="Pre-image" tabindex="-1" role="dialog" aria-labelledby="Pre-image" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="">
+                                    Pre-image
+                                </h5>
+                                <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </a>
+                            </div>
+                            <!--This is where you insert content for the modal -->
+                            <div class="modal-body">
+
+
+                                <!--Start Copy Here-->
+                                <!-- 1x2 Grid Image Right Grid -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        The original figure in a transformation.
+                                    </div>
+                                    <div class="col-md-6 image-responsive">
+                                        <!--Swap out image here-->
+                                        <img src="https://storage.googleapis.com/emspmg/Mathematics/glossary/pre-image.png">
+                                    </div>
+                                </div>
+                                <!--End 1x2 Image Right Grid -->
+
+                                <!--Stop Copy Here-->
+
+                                <div class="modal-footer">
+                                    <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Pre-image-->
+
+            </div>
+        </div>
+        <!--====  End of Prior Knowledge Snippet  ====-->
+        <!--========================================
+    =          Concept 1 Block Snippet         =
+    =========================================-->
+        <div class="card" id="concept01">
+            <div class="card-header panel-heading">
+                <i class="fa fa-book card-header-icon" aria-hidden="true"></i>1. Attributes of Rotation
+            </div>
+            <div class="card-body">
+                <div class="tabs-container">
+                    <nav>
+                        <div class="nav nav-tabs" id="" role="tablist">
+                            <!-- Add navigation tabs here. Make sure to give it a unique ID and the href matches the id below-->
+                            <a class="nav-item nav-link active" id="" data-toggle="tab" href="#tab-0101" role="tab" aria-controls="tab-0101" aria-selected="true">
+                                Instruction
+                            </a>
+                            <a class="nav-item nav-link" id="" data-toggle="tab" href="#tab-0102" role="tab" aria-controls="tab-0102" aria-selected="false">
+                                Examples
+                            </a>
+                            <a class="nav-item nav-link" id="" data-toggle="tab" href="#tab-0103" role="tab" aria-controls="tab-0103" aria-selected="false">
+                                Video
+                            </a>
+                            <a class="nav-item nav-link" id="" data-toggle="tab" href="#tab-0104" role="tab" aria-controls="tab-0104" aria-selected="false">
+                                Self-Check
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="">
+                        <!-- Make sure all id's match the href's above -->
+                        <!--Instruction-->
+                        <div class="tab-pane fade show active" id="tab-0101" role="tabpanel" aria-labelledby="tab01-tab">
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <h4 class="card-h4">What Is a Rotation?</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>A rotation is turning an object around a center point.</p>
+                                    <ol>
+                                        <li>Rotations are one of the four transformations (translations, reflections, rotations, and dilations).</li>
+                                        <li>Rotations are rigid, which means the image of the figure that is rotated is congruent to the pre-image.</li>
+                                        <li>Rotations are rotated around a center, which is usually a coordinate (e.g. \((2,3)\))</li>
+                                        <li>The amount of rotation is usually in degrees or radians.</li>
+                                    </ol>
+                                </div>
+                                <div class="col-md-6 image-responsive">
+                                    <!--Swap out image here-->
+                                    <img class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/i0101.gif">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+                            <hr>
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <h4 class="card-h4">Center of Rotation</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>A rotation needs a center of rotation that the figure is rotated around. Often the center of rotation is the origin \((0,0)\), but it can be any coordinate. If a center of rotation is not indicated, assume it is the origin.</p>
+                                </div>
+                                <div class="col-md-6 image-responsive">
+                                    <!--Swap out image here-->
+                                    <img src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/i0102.png">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+                            <hr>
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <h4 class="card-h4">Direction of Rotation</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>There are two possible directions of rotation:</p>
+                                    <ol>
+                                        <li>clockwise</li>
+                                        <li>counter-clockwise</li>
+                                    </ol>
+                                    <p>In math, if a direction is not indicated, then assume the direction of rotation is counter-clockwise.</p>
+                                </div>
+                                <div class="col-md-6 image-responsive">
+                                    <!--Swap out image here-->
+                                    <img src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/i0103.png">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+                            <hr>
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <h4 class="card-h4">Rotation Notation</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>The notation for a rotation is as follows: \[R_{(90^{\circ},(2,3))}(\triangle ABC)\]</p>
+                                    <ol>
+                                        <li>The \(R\) represents "Rotation"</li>
+                                        <li>The \(90^{\circ}\) spot is your amount of rotation</li>
+                                        <li>The \((2,3)\) spot is your center of rotation.</li>
+                                        <li>The \(\triangle ABC\) spot is what you are rotating. It could be a point, line, or a figure.</li>
+                                        <li><strong>Note:</strong> If you see \(O\), that represents "origin", which is \((0,0)\). </li>
+                                    </ol>
+                                </div>
+                                <div class="col-md-6 image-responsive">
+                                    <!--Swap out image here-->
+                                    <img src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/i0104.png">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+                        </div>
+                        <!--Examples-->
+                        <div class="tab-pane fade" id="tab-0102" role="tabpanel" aria-labelledby="tab02-tab">
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="">Example 1.1 - Clockwise Rotation</h4>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/e0101.png">
+                                    </div>
+                                    
+                                </div>
+                                <div class="col-md-6 image-responsive">
+                                    <h4 class="">Example 1.2 - Counter-clockwise Rotation</h4>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/e0102.png">
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+                        </div>
+                        <!--Video-->
+                        <div class="tab-pane fade" id="tab-0103" role="tabpanel" aria-labelledby="tab03-tab">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/iGq2crCw4S8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <!--Self-Check-->
+                        <div class="tab-pane fade" id="tab-0104" role="tabpanel" aria-labelledby="tab04-tab">
+                            <!-- Self-Check 1 Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="grid-subtitle">Self-Check 1.1</h4>
+                                    <p>
+                                        Coordinate \(F\) is rotated \(90^{\circ}\). Is the coordinate rotated clockwise or counter-clockwise?
+                                    </p>
+                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck-modal-0101">
+                                        Answer
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 image-responsive">
+                                    <!--Swap out image here-->
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/sc0101.png" />
+                                </div>
+                            </div>
+                            <!-- Modal 1 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck-modal-0101" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Self-Check 1.1
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span> </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <p>The direction of rotation is counter-clockwise.</p>
+                                            <img src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/sc0101-answer.png" alt="">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                            Close
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 1-->
+                            <!--End Self-Check 1 -->
+                            <hr>
+                            <!-- Self-Check 2 Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="grid-subtitle">Self-Check 1.2</h4>
+                                    <p>
+                                        Coordinate \(F\) is rotated \(90^{\circ}\). Is the coordinate rotated clockwise or counter-clockwise?
+                                    </p>
+                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck-modal-0102">
+                                        Answer
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 image-responsive">
+                                    <!--Swap out image here-->
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/sc0102.png" />
+                                </div>
+                            </div>
+                            <!-- Modal 1 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck-modal-0102" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Self-Check 1.2
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span> </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <p>The direction of rotation is clockwise.</p>
+                                            <img src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/sc0102-answer.png" alt="">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                            Close
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 1-->
+                            <!--End Self-Check 2 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====  End of Concept 1 Block Snippet  ====-->
+
+        <!--========================================
+        =          Concept 2 Block Snippet         =
+        =========================================-->
+        <div class="card" id="concept02">
+            <div class="card-header panel-heading">
+                <i class="fa fa-book card-header-icon" aria-hidden="true"></i>2. Rotations Around the Origin - Counter-Clockwise
+            </div>
+            <div class="card-body">
+                <div class="tabs-container">
+                    <nav>
+                        <div class="nav nav-tabs" id="" role="tablist">
+                            <!-- Add navigation tabs here. Make sure to give it a unique ID and the href matches the id below-->
+                            <a class="nav-item nav-link active" id="" data-toggle="tab" href="#tab-0201" role="tab" aria-controls="tab-0201" aria-selected="true">
+                                Instruction
+                            </a>
+                            <a class="nav-item nav-link" id="" data-toggle="tab" href="#tab-0202" role="tab" aria-controls="tab-0202" aria-selected="false">
+                                Examples
+                            </a>
+                            <a class="nav-item nav-link" id="" data-toggle="tab" href="#tab-0203" role="tab" aria-controls="tab-0203" aria-selected="false">
+                                Video
+                            </a>
+                            <a class="nav-item nav-link" id="" data-toggle="tab" href="#tab-0204" role="tab" aria-controls="tab-0204" aria-selected="false">
+                                Self-Check
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="">
+                        <!-- Make sure all id's match the href's above -->
+                        <!--Instruction-->
+                        <div class="tab-pane fade show active" id="tab-0201" role="tabpanel" aria-labelledby="tab01-tab">
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="col">
+                                <p>When a coordinate or figure is rotated counter-clockwise around the origin, then the following is true:</p>
+                                <ol>
+                                    <li>\(R_{(90^{\circ},O)}(x,y) = (-y,x)\)</li>
+                                    <li>\(R_{(180^{\circ},O)}(x,y) = (-x,-y)\)</li>
+                                    <li>\(R_{(270^{\circ},O)}(x,y) = (y,-x)\)</li>
+                                    <li>\(R_{(360^{\circ},O)}(x,y) = (x,y)\)</li>
+                                </ol>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+                            <!-- 2x2 Grid Image Bottom Grid -->
+                            <div class="row">
+                                <!-- Top-Left -->
+                                <div class="col-md-6 col-divider d-flex justify-content-center align-items-center">
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/i0201.png">
+                                </div>
+                                <!-- Top-Right -->
+                                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/i0202.png">
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="row">
+                                <!-- Bottom-Left -->
+                                <div class="col-md-6 col-divider d-flex justify-content-center align-items-center">
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/i0203.png">
+                                </div>
+                                <!-- Bottom-Right -->
+                                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/i0204.png">
+                                </div>
+                            </div>
+                            <!--End 2x2 Image Right Grid -->
+                        </div>
+                        <!--Examples-->
+                        <div class="tab-pane fade" id="tab-0202" role="tabpanel" aria-labelledby="tab02-tab">
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <h4 class="card-h4">Example 2.1 - Rotation by 90° - Counter-Clockwise</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>Rotate \(\triangle ABC\) counter-clockwise by \(90^{\circ}\) about the origin.</p>
+                                    <ol>
+                                        <li>Remember \(R_{(90^{\circ},O)}(x,y) = (-y,x)\).</li>
+                                        <li>A: \(R_{(90^{\circ},O)}(1,2) = (-2,1)\).</li>
+                                        <li>B: \(R_{(90^{\circ},O)}(1,3) = (-3,1)\).</li>
+                                        <li>C: \(R_{(90^{\circ},O)}(-2,3) = (-3,-2)\).</li>
+                                    </ol>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/e0201.png">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+                            <hr>
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <h4 class="card-h4">Example 2.2 - Rotation by 180° - Counter-Clockwise</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>Rotate \(\triangle ABC\) counter-clockwise by \(180^{\circ}\) about the origin.</p>
+                                    <ol>
+                                        <li>Remember \(R_{(180^{\circ},O)}(x,y) = (-x,-y)\).</li>
+                                        <li>A: \(R_{(180^{\circ},O)}(1,2) = (-1,-2)\).</li>
+                                        <li>B: \(R_{(180^{\circ},O)}(1,3) = (-1,-3)\).</li>
+                                        <li>C: \(R_{(180^{\circ},O)}(-2,3) = (2,-3)\).</li>
+                                    </ol>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/e0202.png">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+                            <hr>
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <h4 class="card-h4">Example 2.3 - Rotation by 270° - Counter-Clockwise</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>Rotate \(\triangle ABC\) counter-clockwise by \(270^{\circ}\) about the origin.</p>
+                                    <ol>
+                                        <li>Remember \(r_{(270^{\circ},O)}(x,y) = (y,-x)\).</li>
+                                        <li>A: \(r_{(270^{\circ},O)}(1,2) = (2,-1)\).</li>
+                                        <li>B: \(r_{(270^{\circ},O)}(1,3) = (3,1)\).</li>
+                                        <li>C: \(r_{(270^{\circ},O)}(-2,3) = (3,2)\).</li>
+                                    </ol>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/e0203.png">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+                        </div>
+                        <!--Video-->
+                        <div class="tab-pane fade" id="tab-0203" role="tabpanel" aria-labelledby="tab03-tab">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/aLqi7a1uGhQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <!--Self-Check-->
+                        <div class="tab-pane fade" id="tab-0204" role="tabpanel" aria-labelledby="tab04-tab">
+                            <!-- Self-Check 1 Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="grid-subtitle">Self-Check 2.1</h4>
+                                    <p>
+                                        What are the coordinates of \(\triangle ABC\) when rotated \(90^{\circ}\) counter-clockwise about the origin.
+                                    </p>
+                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck-modal-0201">
+                                            Answer
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 image-responsive">
+                                    <!--Swap out image here-->
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/sc0201.png" />
+                                </div>
+                            </div>
+                            <!-- Modal 1 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck-modal-0201" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Self-Check 2.1
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <p>
+                                                The coordinates of \(\triangle ABC\) after a rotation of \(90^{\circ}\) counter-clockwise are:
+                                            </p>
+                                            <ol>
+                                                <li>A: \((-1,-1)\)</li>
+                                                <li>B: \((-2,-1)\)</li>
+                                                <li>C: \((-2,-3)\)</li>
+                                            </ol>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                                Close
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 1-->
+                            <!--End Self-Check 1 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====  End of Concept 2 Block Snippet  ====-->
+        <!--========================================
+        =          Concept 3 Block Snippet         =
+        =========================================-->
+        <div class="card" id="concept03">
+            <div class="card-header panel-heading">
+                <i class="fa fa-book card-header-icon" aria-hidden="true"></i>3. Rotations Around the Origin - Clockwise
+            </div>
+            <div class="card-body">
+                <div class="tabs-container">
+                    <nav>
+                        <div class="nav nav-tabs" id="" role="tablist">
+                            <!-- Add navigation tabs here. Make sure to give it a unique ID and the href matches the id below-->
+                            <a class="nav-item nav-link active" id="" data-toggle="tab" href="#tab-0301" role="tab" aria-controls="tab-0301" aria-selected="true">
+                                Instruction
+                            </a>
+                            <a class="nav-item nav-link" id="" data-toggle="tab" href="#tab-0302" role="tab" aria-controls="tab-0302" aria-selected="false">
+                                Examples
+                            </a>
+                            <a class="nav-item nav-link" id="" data-toggle="tab" href="#tab-0303" role="tab" aria-controls="tab-0303" aria-selected="false">
+                                Video
+                            </a>
+                            <a class="nav-item nav-link" id="" data-toggle="tab" href="#tab-0304" role="tab" aria-controls="tab-0304" aria-selected="false">
+                                Self-Check
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="">
+                        <!-- Make sure all id's match the href's above -->
+                        <!--Instruction-->
+                        <div class="tab-pane fade show active" id="tab-0301" role="tabpanel" aria-labelledby="tab01-tab">
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>
+                                        If you have to rotate a figure clockwise, you can use the same rules as the counter-clockwise with some modification.
+                                    </p>
+                                    <p>
+                                        The important concept you need to understand about clockwise rotation around the origin is the following:
+                                    </p>
+                                    <div class="table-responsive">
+                                        <table class="table table-bordered table-striped text-center">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Counter-Clockwise Rotation</th>
+                                                    <th scope="col">Clockwise Rotation</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>\(90^{\circ}\)</td>
+                                                    <td>\(270^{\circ}\)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>\(180^{\circ}\)</td>
+                                                    <td>\(180^{\circ}\)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>\(270^{\circ}\)</td>
+                                                    <td>\(90^{\circ}\)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>\(360^{\circ}\)</td>
+                                                    <td>\(360^{\circ}\)</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    <p>When a coordinate or figure is rotated clockwise around the origin, then the following is true:</p>
+                                    <ol>
+                                        <li>\(R_{(90^{\circ},O)} \rightarrow R_{(270^{\circ},O)}(x,y) = (y,-x)\)</li>
+                                        <li>\(R_{(180^{\circ},O)}(x,y) = (-x,-y)\)</li>
+                                        <li>\(R_{(270^{\circ},O)} \rightarrow R_{(90^{\circ},O)}(x,y) = (-y,x)\)</li>
+                                        <li>\(R_{(360^{\circ},O)}(x,y) = (x,y)\)</li>
+                                    </ol>
+                                </div>
+                                <div class="col-md-6 image-responsive">
+                                    <!--Swap out image here-->
+                                    <img src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/i0301.png">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+                        </div>
+                        <!--Examples-->
+                        <div class="tab-pane fade" id="tab-0302" role="tabpanel" aria-labelledby="tab02-tab">
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <h4 class="card-h4">Example 3.1 - Rotation by 90° - Clockwise</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>Rotate \(\triangle ABC\) clockwise by \(90^{\circ}\) about the origin.</p>
+                                    <ol>
+                                        <li>Remember a rotation of \(90^{\circ}\) clockwise is the same as a \(270^{\circ}\) rotation counter-clockwise. Therefore, you should use the formula for \(270^{\circ}\).</li>
+                                        <li>\(R_{(270^{\circ},O)}(x,y) = (y,-x)\).</li>
+                                        <li>A: \(R_{(270^{\circ},O)}(1,2) = (2,-1)\).</li>
+                                        <li>B: \(R_{(270^{\circ},O)}(1,3) = (3,-1)\).</li>
+                                        <li>C: \(R_{(270^{\circ},O)}(-2,3) = (3,2)\).</li>
+                                    </ol>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/e0301.png" alt="">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+                            <hr>
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <h4 class="card-h4">Example 3.2 - Rotation by 270° - Clockwise</h4>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>Rotate \(\triangle ABC\) clockwise by \(270^{\circ}\) about the origin.</p>
+                                    <ol>
+                                        <li>Remember a rotation of \(270^{\circ}\) clockwise is the same as a \(90^{\circ}\) rotation counter-clockwise. Therefore, you should use the formula for \(90^{\circ}\).</li>
+                                        <li>\(R_{(90^{\circ},O)}(x,y) = (-y,x)\).</li>
+                                        <li>A: \(R_{(90^{\circ},O)}(1,2) = (-2,1)\).</li>
+                                        <li>B: \(R_{(90^{\circ},O)}(1,3) = (-3,1)\).</li>
+                                        <li>C: \(R_{(90^{\circ},O)}(-2,3) = (-3,-2)\).</li>
+                                    </ol>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/e0302.png" alt="">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+                        </div>
+                        <!--Video-->
+                        <div class="tab-pane fade" id="tab-0303" role="tabpanel" aria-labelledby="tab03-tab">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/y4XBUsDM9qA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <!--Self-Check-->
+                        <div class="tab-pane fade" id="tab-0304" role="tabpanel" aria-labelledby="tab04-tab">
+                            <!-- Self-Check 1 Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="grid-subtitle">Self-Check 3.1</h4>
+                                    <p>
+                                        What are the coordinates of \(\triangle ABC\) when rotated \(90^{\circ}\) clockwise about the origin.
+                                    </p>
+                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck-modal-0X01">
+                                            Answer
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/sc0301.png" />
+                                </div>
+                            </div>
+                            <!-- Modal 1 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck-modal-0X01" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Self-Check 3.1
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <p>the coordinates of \(\triangle ABC\) when rotated \(90^{\circ}\) <strong>clockwise</strong> are:</p>
+                                            <ol>
+                                                <li>A': \((1,1)\)</li>
+                                                <li>B': \((2,1)\)</li>
+                                                <li>C': \((2,3)\)</li>
+                                            </ol>
+                                            <img src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.4/L03-Rotations/sc0301-answer.png" alt="">
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                                Close
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 1-->
+                            <!--End Self-Check 1 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Toolkit-->
+        <div id="btn-tools" class="row bg-primary">
+            <a class="bs-btn bs-btn-primary" title="Graphing Calculator" data-placement="top" data-target="#desmos-graphing-calculator" data-toggle="modal"> <i class="fa fa-chart-line" style="font-size: 25px;" aria-hidden="true"> </i> </a>
+            <a class="bs-btn bs-btn-primary" title="Scientific Calculator" data-placement="top" data-target="#desmos-scientific-calculator" data-toggle="modal"> <i class="fa fa-calculator" style="font-size: 25px;" aria-hidden="true"> </i> </a>
+        </div>
+        <div id="desmos-graphing-calculator" class="modal fade" role="dialog" aria-labelledby="desmos graphing calculator" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div id="" class="modal-content ems-modal-content">
+                    <div class="modal-header">
+                        <h5 id="desmos-graphing-calculator-head" class="modal-title">Desmos Graphing Calculator</h5>
+                        <a class="close" aria-label="Close" data-dismiss="modal"> <span aria-hidden="true"> &times; </span> </a>
+                    </div>
+                    <div class="modal-body embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://storage.googleapis.com/emspmg/Mathematics/Tools/desmos.html" width="300" height="150"></iframe>
+                    </div>
+                    <div class="modal-footer"><a class="bs-btn bs-btn-primary" data-dismiss="modal"> Close </a></div>
+                </div>
+            </div>
+        </div>
+        <div id="desmos-scientific-calculator" class="modal fade" role="dialog" aria-labelledby="desmos scientific calculator" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div id="" class="modal-content ems-modal-content">
+                    <div class="modal-header">
+                        <h5 id="desmos-scientific-calculator-head" class="modal-title">Desmos Scientific Calculator</h5>
+                        <a class="close" aria-label="Close" data-dismiss="modal"> <span aria-hidden="true"> &times; </span> </a>
+                    </div>
+                    <div class="modal-body embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.desmos.com/scientific" width="300" height="150"></iframe>
+                    </div>
+                    <div class="modal-footer"><a class="bs-btn bs-btn-primary" data-dismiss="modal"> Close </a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Tool Kit-->
+        </div>
+        <!--====  End of Concept 3 Block Snippet  ====-->
+
+
+
+        <!--====  End of Start of Template  ====-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+
+
+        </script>
+        <script src="https://storage.googleapis.com/emspmg/style/bundle.js" type="text/javascript"></script>
+</body>
+
+</html>

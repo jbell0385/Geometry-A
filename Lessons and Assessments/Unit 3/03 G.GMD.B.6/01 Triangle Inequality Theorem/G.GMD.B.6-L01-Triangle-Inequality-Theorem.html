@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        G.GMD.B.6: Triangle Inequality Theorem
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/emspmg/style/custom-style.css" />
+</head>
+
+<body>
+    <!--=======================================
+    =            Start of Template            =
+    ========================================-->
+    <!-- In Canvas, remove the "container" class -->
+    <div class="container ems-container-fluid">
+        <!--=================================
+        =            Hero Banner            =
+        ==================================-->
+        <div id="" class="row hero">
+            <div class="hero-image">
+                <div>
+                    <!-- Add hero iframe here -->
+                    <img src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L01-Triangle-Inequality-Theorem/hero-image.jpg" alt="">
+                </div>
+                <!-- Hero Text -->
+                <div class="hero-text-bg" style="">
+                    <div class="hero-text">
+                        <h1>G.GMD.B.6: Triangle Inequality Theorem</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====  End of Hero Banner  ====-->
+        <!--========================================
+    =            Objectives Snippet            =
+    =========================================-->
+        <div class="card">
+            <div class="card-header panel-heading-lt">
+                <i class="fa fa-bullseye card-header-icon"></i> Objectives
+            </div>
+            <div class="card-body">
+                <div class="col">
+                    <p>I can apply triangle side length properties to decide which lengths form a triangle.
+                    </p>
+                    <ol>
+                        <li>
+                            I can apply the Triangle Inequality Theorem to determine if three given side lengths form a triangle.
+                        </li>
+                        <li>
+                            I can determine the range for the third side of a triangle given two sides.
+
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <!--====  End of Objectives Snippet  ====-->
+        <!--========================================
+    =            Prior Knowledge Snippet       =
+    =========================================-->
+        <div class="card">
+            <div class="card-header panel-heading-pk">
+                <i class="fa fa-puzzle-piece card-header-icon" aria-hidden="true"></i> Prior Knowledge
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <ol>
+                        <!--To add more list items, copy and paste one below. You must change the data target -->
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#exampleModal1">
+                                Absolute Value
+                            </a>
+                        </li>
+
+                    </ol>
+                </div>
+                <!-- Modal 1 -->
+                <!--You must change the id below to match the data-target above -->
+                <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="">
+                                    Absolute Value Coming Soon
+                                </h5>
+                                <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </a>
+                            </div>
+                            <!--This is where you insert content for the modal -->
+                            <div class="modal-body">
+                               
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Modal 1-->
+
+
+            </div>
+        </div>
+        <!--====  End of Prior Knowledge Snippet  ====-->
+        <!--========================================
+    =          Concept # 1 Block Snippet         =
+    =========================================-->
+        <div class="card">
+            <div class="card-header panel-heading">
+                <i class="fa fa-book card-header-icon" aria-hidden="true"></i>1. Triangle Inequality Theorem
+            </div>
+            <div class="card-body">
+                <div class="tabs-container">
+                    <nav>
+                        <div class="nav nav-tabs" id="" role="tablist">
+                            <!-- Add navigation tabs here. Make sure to give it a unique ID and the href matches the id below-->
+                            <a class="nav-item nav-link active" id="instruction0101" data-toggle="tab" href="#instruction-0101" role="tab" aria-controls="tab-0X01" aria-selected="true">
+                                Instruction
+                            </a>
+                            <a class="nav-item nav-link" id="examples0102" data-toggle="tab" href="#examples-0102" role="tab" aria-controls="tab-0X02" aria-selected="false">
+                                Examples
+                            </a>
+                            <a class="nav-item nav-link" id="interactive0103" data-toggle="tab" href="#interactive-0103" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                                Interactive
+                            </a>
+                            <a class="nav-item nav-link" id="selfcheck0104" data-toggle="tab" href="#selfcheck-0104" role="tab" aria-controls="tab-0X04" aria-selected="false">
+Self-Check
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="">
+                        <!-- Make sure all id's match the href's above -->
+                        <!--Tab 1-->
+                        <div class="tab-pane fade show active" id="instruction-0101" role="tabpanel" aria-labelledby="tab01-tab">
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Triangle Inequality Theorem</h4>
+                                    <p>The Triangle Inequality Theorem states that the sum of any two sides of a triangle must be greater than the third side.</p>
+                                    <hr style="width:50%">
+                                    <p>\(side\ 1+side\ 2>side\ 3\) or \(BC+AB>AC\)
+                                    </p>
+                                    <p>\(side\ 2+side\ 3>side\ 1\) or \(AB+AC>BC\)</p>
+                                    <p>\(side\ 1+side\ 3>side\ 2\) or \(BC+AC>AB\)</p>
+                                    <hr style="width:50%">
+
+                                    <p>A generalization and shortcut that can be made is as follows:</p>
+                                    <ul>
+                                        <li>first short side + second short side > long side</li>
+                                    </ul>
+                                    <p>Notice that the sum of the two shortest side lengths must be greater than the largest side. The sum can NOT be equal to the largest side because that would create segments that can not create any angle to make a triangle. This is because it will only create two line segments.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L01-Triangle-Inequality-Theorem/G.GMD.B.6%20-%20L01i0101.png">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+                        </div>
+                        <!--Tab 2-->
+                        <div class="tab-pane fade" id="examples-0102" role="tabpanel" aria-labelledby="tab02-tab">
+
+                            <!-- 1x2 Grid Image Right Grid -->
+
+                            <h4 class="card-h4 mb-4">Example 1.1</h4>
+                            <div class="row">
+                                <div class="col-md-4">
+
+                                    <h5> Lengths That Create a Triangle </h5>
+                                    <p>Can the side lengths 6 cm, 7 cm, and 8 cm create a triangle?
+                                    </p>
+                                </div>
+                                <div class="col-md-8">
+                                    <!--Swap out image here-->
+                                    <p><strong>Solution:</strong></p>
+                                    <p>Using the method from the Instruction tab, any of the given side lengths can be used for sides 1, 2, or 3. The following will use 6 cm, 7 cm, and 8 cm as side 1, side 2, and side 3 respectively.
+                                    </p>
+                                    <table class="table table-borderless">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <p>\(side\ 1+side\ 2>side\ 3\)</p>
+                                                    <p>\(6+7>8\) ?</p>
+                                                    <p>\(13>8\) ? True
+                                                    </p>
+
+                                                </td>
+                                                <td>
+                                                    <p>\(side\ 2+side\ 3>side\ 1\)
+                                                    </p>
+                                                    <p>\(7+8>6\) ?</p>
+
+
+                                                    <p>\(15>6\) ? True</p>
+
+                                                </td>
+                                                <td>
+                                                    <p>\(side\ 1+side\ 3>side\ 2\)</p>
+                                                    <p>\(6+8>7\) ?</p>
+                                                    <p>\(14>7\) ? True</p>
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <hr>
+                                    <p>Using the generalization, you only need to check that the sum of the two short sides is greater than that third side.
+                                    </p>
+                                    <p>first short side + second short side > long side</p>
+                                    <p>\(6+7>8\) ?</p>
+                                    <p>\(13>8\) ? True
+                                    </p>
+                                    <p>Since this case is true, it is possible to have a triangle with the side lengths of 6 cm, 7 cm, and 8 cm.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+
+                            <!--Stop Copy Here-->
+
+                            <hr>
+                            <h4 class="card-h4 mb-4">Example 1.2</h4>
+                            <div class="row">
+                                <div class="col-md-4">
+
+                                    <h5> Lengths That Do Not Create a Triangle </h5>
+                                    <p>Can the side lengths 10 in, 7 in, and 3 in create a triangle?
+                                    </p>
+                                </div>
+                                <div class="col-md-8">
+                                    <!--Swap out image here-->
+                                    <p><strong>Solution:</strong></p>
+                                    <p>Using the method from the Instruction tab, any of the given side lengths can be used for sides 1, 2, or 3. The following will use 10 in, 7 in, and 3 in as side 1, side 2, and side 3 respectively.
+                                    </p>
+                                    <table class="table table-borderless">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <p>\(side\ 1+side\ 2>side\ 3\)</p>
+                                                    <p>\(10+7>3\) ?</p>
+                                                    <p>\(17>3\) ? True
+                                                    </p>
+
+                                                </td>
+                                                <td>
+                                                    <p>\(side\ 2+side\ 3>side\ 1\)
+                                                    </p>
+                                                    <p>\(7+3>10\) ?</p>
+
+
+                                                    <p>\(10>10\) ? False</p>
+
+                                                </td>
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <hr>
+                                    <p>Since you have found a false statement, you do not have to continue to the last inequality because you have found that the lengths 3 in, 7 in, and 10 in do not create a triangle.
+
+                                    </p>
+                                    <p>Notice here that using the generalization would have given you the answer quicker by choosing to check the sum of the two shorter sides at the beginning.
+                                    </p>
+                                    <p>\(side\ 2+side\ 3>side\ 1\)
+                                    </p>
+                                    <p>\(7+3>10\) ?
+
+                                    </p>
+                                    <p>\(10>10\) ? False
+                                    </p>
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+
+                            <!--Stop Copy Here-->
+                            <hr>
+                            <h4 class="card-h4 mb-4">Example 1.3</h4>
+                            <div class="row">
+                                <div class="col-md-4">
+
+                                    <h5> Lengths That Do Not Create a Triangle </h5>
+                                    <p>Can the side lengths 4.7 ft, 12.3 ft, and 4.7 ft create a triangle?
+                                    </p>
+                                </div>
+                                <div class="col-md-8">
+                                    <!--Swap out image here-->
+                                    <p><strong>Solution:</strong></p>
+                                    <p>Here, use the generalization to check if a triangle can be created. Notice that both short sides are congruent so they can be used interchangeably.
+
+
+                                    </p>
+                                    <table class="table table-borderless">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <p>first short side + second short side > long side</p>
+                                                    <p>\(4.7+4.7>12.3\) ?
+                                                    </p>
+                                                    <p>\(9.4>12.3\) ? False
+                                                    </p>
+
+                                                </td>
+
+
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <hr>
+                                    <p>Since there is a false circumstance, side lengths of 4.7 ft, 12.3 ft, and 4.7 ft can not make a triangle.
+
+
+                                    </p>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!--Tab 3-->
+                        <div class="tab-pane fade" id="interactive-0103" role="tabpanel" aria-labelledby="tab03-tab">
+                            <h4>Explore the possible side and angles of a triangle using desmos.</h4>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe src="https://www.desmos.com/calculator/f6dqwaazgp?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="selfcheck-0104" role="tabpanel" aria-labelledby="tab04-tab">
+                            <!-- Start copying here -->
+                            <!--Self-Check # Grid-->
+                            <!-- 2x2 Grid Image Bottom Grid -->
+                            <div class="row">
+                                <!-- Top-Left -->
+                                <div class="col-md-6 col-divider">
+                                    <h4 class="grid-subtitle">
+                                        Self-Check 1.1
+                                    </h4>
+                                    <p>Will these side lengths form a triangle? Can the side lengths 8 ft, 11 ft, and 5 ft create a triangle?
+                                    </p>
+
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck1-modal-0104">
+                                    Answer
+                            </a>
+
+
+
+
+
+                                    </div>
+                                </div>
+                                <!-- Top-Right -->
+                                <div class="col-md-6">
+                                    <h4 class="grid-subtitle">
+                                        Self-Check 1.2
+                                    </h4>
+                                    <p>Jack has some extra wood from building the picture frame below. He is wondering if he can build a second frame from the extra wood. The wood pieces are 15 inches, 15 inches, and 8 inches. Will Jack be able to make another frame with the given lengths?
+                                    </p>
+                                    <div class="image-responsive d-flex justify-content-center align-items-center">
+                                        <!--Swap out image here-->
+                                        <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L01-Triangle-Inequality-Theorem/G.GMD.B.6%20-%20L01sc0102.png">
+                                    </div>
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck2-modal-0104">
+                                Answer
+                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div class="row">
+                                <!-- Bottom-Left -->
+                                <div class="col-md-6 col-divider">
+                                    <h4 class="grid-subtitle">
+                                        Self-Check 1.3
+                                    </h4>
+                                    <p>Use Desmos to create a triangle with the lengths 15 cm, 8 cm, 7 cm. After creating the triangles, use inequalities to explain why.</p>
+                                    <p>Please click "edit graph on desmos".</p>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe src="https://www.desmos.com/calculator/titzfuer8k?embed" width="1000px" height="1000px" style="border: 1px solid #ccc" frameborder=0></iframe>
+                                    </div>
+
+
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck3-modal-0104">
+                                Answer
+                            </a>
+                                    </div>
+                                </div>
+                                <!-- Bottom-Right -->
+                                <div class="col-md-6">
+                                    <h4 class="grid-subtitle">
+                                        Self-Check 1.4
+                                    </h4>
+                                    <p>Use Desmos to create a triangle with the lengths 8 mm, 8 mm, 15 mm. After creating the triangles, use inequalities to explain why.
+                                    </p>
+                                    <p>Please click "edit graph on desmos".</p>
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe src="https://www.desmos.com/calculator/qp7v8h66p2?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+                                    </div>
+
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck4-modal-0104">
+                                Answer
+                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End 2x2 Image Right Grid -->
+                            <!-- Modal 1 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck1-modal-0104" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 1.1
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                       
+                                    </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <p>Using the method from the Instruction tab, any of the given side lengths can be used for sides 1, 2, or 3. The following will use 8 ft, 11 ft and 5 ft as side 1, side 2 and side 3 respectively.
+
+                                            </p>
+
+                                            <table class="table table-borderless">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <p>\(side\ 1+side\ 2>side\ 3\)</p>
+                                                            <p>\(8+11>5\) ?
+                                                            </p>
+                                                            <p>\(19>5\) ? True
+                                                            </p>
+
+                                                        </td>
+                                                        <td>
+                                                            <p>\(side\ 2+side\ 3>side\ 1\)
+                                                            </p>
+                                                            <p>\(11+5>8\) ?</p>
+
+
+                                                            <p>\(16>8\) ? True</p>
+
+                                                        </td>
+                                                        <td>
+                                                            <p>\(side\ 1+side\ 3>side\ 2\)</p>
+                                                            <p>\(8+5>11\) ?
+                                                            </p>
+                                                            <p>\(13>11\) ? True</p>
+
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p>Using the generalization, you only need to check that the sum of the two short sides is greater than that third side.
+                                            </p>
+                                            <p>first short side + second short side > long side</p>
+                                            <p>\(5+8>11\) ?
+                                            </p>
+                                            <p>\(13>11\) ? True</p>
+                                            <p>Since this case is true, it is possible to have a triangle with the side lengths of 8 ft, 11 ft, and 5 ft.
+
+                                            </p>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 1-->
+                            <!-- Modal 2 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck2-modal-0104" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 1.2
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <p>
+                                                Using the method from the Instruction tab, any of the given side lengths can be used for sides 1, 2, or 3. The following will use 15 ft, 15 ft and 8 ft as side 1, side 2 and side 3 respectively.
+                                            </p>
+                                            <table class="table table-borderless">
+                                                <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            <p>\(side\ 1+side\ 2>side\ 3\)</p>
+                                                            <p>\(15+15>8\) ?
+                                                            </p>
+                                                            <p>\(30>8\) ? True
+                                                            </p>
+
+                                                        </td>
+                                                        <td>
+                                                            <p>\(side\ 2+side\ 3>side\ 1\)
+                                                            </p>
+                                                            <p>\(15+8>15\) ?</p>
+
+
+                                                            <p>\(23>15\) ? True</p>
+
+                                                        </td>
+                                                        <td>
+                                                            <p>\(side\ 1+side\ 3>side\ 2\)</p>
+                                                            <p>\(15+8>15\) ?
+                                                            </p>
+                                                            <p>\(23>15\) ? True</p>
+
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <p>Using the generalization, you only need to check that the sum of the two short sides is greater than that third side. Since the two larger sides are congruent, pick either 15 to represent a shorter side. </p>
+                                            <p>first short side + second short side > long side
+                                            </p>
+                                            <p>\(8+15>15\) ?</p>
+                                            <p>\(23>15\) ? True</p>
+                                            <p>Since this case is true, it is possible to have a triangle with the side lengths of 15 ft, 15 ft, and 8 ft.</p>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 2-->
+                            <!-- Modal 3 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck3-modal-0104" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 1.3
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <p>first short side + second short side > long side
+                                            </p>
+                                            <p>\(8+7>15\) ?</p>
+                                            <p>\(15>15\) ? False</p>
+                                            <p>Since this case is false, it is not possible to have a triangle with the side lengths of 15 cm, 8 cm, and 7 cm.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 3-->
+                            <!-- Modal 4 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck4-modal-0104" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 1.4
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <p>first short side + second short side > long side</p>
+                                            <p>\(8+8>15\) ?
+                                            </p>
+                                            <p>\(16>15\) ? True</p>
+                                            <p>Since this case is true, it is possible to have a triangle with the side lengths of 8 mm, 8 mm and 15 mm.
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 4-->
+                            <!--End Self-Check # Grid-->
+                            <!-- Stop copying here -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====  End of Concept # 1 Block Snippet  ====-->
+        <!-- Copy from here -->
+        <!--========================================
+    =          Concept # 2 Block Snippet         =
+    =========================================-->
+        <div class="card">
+            <div class="card-header panel-heading">
+                <i class="fa fa-book card-header-icon" aria-hidden="true"></i> 2. Finding the Range of the Third Side
+            </div>
+            <div class="card-body">
+                <div class="tabs-container">
+                    <nav>
+                        <div class="nav nav-tabs" id="" role="tablist">
+                            <!-- Add navigation tabs here. Make sure to give it a unique ID and the href matches the id below-->
+                            <a class="nav-item nav-link active" id="instruction0201" data-toggle="tab" href="#instruction-0201" role="tab" aria-controls="tab-0X01" aria-selected="true">
+                            Instruction
+                        </a>
+                            <a class="nav-item nav-link" id="examples0202" data-toggle="tab" href="#examples-0202" role="tab" aria-controls="tab-0X02" aria-selected="false">
+                            Examples
+                        </a>
+                            <a class="nav-item nav-link" id="video0203" data-toggle="tab" href="#video-0203" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                            Video
+                        </a>
+                            <a class="nav-item nav-link" id="selfcheck0204" data-toggle="tab" href="#selfcheck-0204" role="tab" aria-controls="tab-0X04" aria-selected="false">
+                            Self-Check
+                        </a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="">
+                        <!-- Make sure all id's match the href's above -->
+                        <!--Tab 1-->
+                        <div class="tab-pane fade show active" id="instruction-0201" role="tabpanel" aria-labelledby="tab01-tab">
+                            <h4>Constructing Triangles When Only Two Side Lengths Are Given</h4>
+                            <p>Next you will apply the Triangle Inequality Theorem in order to find the possible side lengths of a triangle when only two side lengths are provided. Unfortunately, you will not know whether the given sides are the shortest, longest or a mix, so all scenarios will have to be assumed true in order to find a range of possible values for the third side. </p>
+                            <p>Examine the examples to learn how to create a compound inequality in order to find all possible values of the third side of the triangle.</p>
+                        </div>
+                        <!--Tab 2-->
+                        <div class="tab-pane fade" id="examples-0202" role="tabpanel" aria-labelledby="tab02-tab">
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Example 2.1</h4>
+                                    <h5>Create a Range of Values for the Third Side of a Triangle
+                                    </h5>
+                                    <p>Find the range of possible values for \(\overline{AB}\) in \(\triangle ABC\). The triangle is not drawn to scale.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-300" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L01-Triangle-Inequality-Theorem/G.GMD.B.6%20-%20L01e0201.png">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+
+                            <!--Stop Copy Here-->
+                            <hr>
+                            <p>For questions like this, you do not know if you are given the two shortest, the two longest sides or one of each, so all situations must be investigated.
+                            </p>
+                            <table class="table table-bordered">
+                                <tbody>
+                                    <tr>
+                                        <td style="width: 50%;">
+
+                                            <p>The generalization of the Triangle Inequality Theorem states that the sum of the two short sides must be greater than the longest side. Therefore, the length of the longest possible side must be less than the sum of the other two shorter sides. If \(\overline{AB}\) is the longest, then it must be less than 17 units long.
+                                            </p>
+
+
+
+                                        </td>
+                                        <td>
+
+                                            <!--Swap out image here-->
+                                            <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L01-Triangle-Inequality-Theorem/G.GMD.B.6%20-%20L01e0201%20answer%201.png">
+
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 50%;">
+                                            <p>Also by the Triangle Inequality Theorem, if \(\overline{AB}\) is instead the shortest side of the triangle, find its value by subtracting the other short side to both sides of the equation in order isolate it.
+                                            </p>
+                                            <p>
+                                                In case this value is negative, the absolute value of the answer must be used because lengths are always positive.
+
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L01-Triangle-Inequality-Theorem/G.GMD.B.6%20-%20L01e0201%20answer%202.png">
+                                            <hr style="width:50%">
+                                            <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L01-Triangle-Inequality-Theorem/G.GMD.B.6%20-%20L01e0201%20answer%203.png">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>To find the range of the third side you can solve two separate inequalities then combine them into one compound inequality. Always write the values least to greatest with the missing side in the middle and use less than symbols with the missing side in between.
+                                        </td>
+                                        <td>Now combine both inequalities into one statement to create a compound inequality. \(3\lt AB\lt 17\) This states that the third side can be greater than 3 units but less than 17 units long. Notice that 3 and 17 can not be used as values.
+
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <!--Tab 3-->
+                        <div class="tab-pane fade" id="video-0203" role="tabpanel" aria-labelledby="tab03-tab">
+                            Video Coming Soon
+                        </div>
+                        <div class="tab-pane fade" id="selfcheck-0204" role="tabpanel" aria-labelledby="tab03-tab">
+                            <!-- Self-Check 1 Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="grid-subtitle">Self-Check 2.1</h4>
+                                    <p>
+                                        Find the range of possible side lengths for the third side length using the two given sides. The triangle is not drawn to scale.
+
+                                    </p>
+                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck1-modal-0204">
+                Answer
+            </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-300" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L01-Triangle-Inequality-Theorem/G.GMD.B.6%20-%20L01sc0201.png" />
+                                </div>
+                            </div>
+                            <!-- Modal 1 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck1-modal-0204" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 2.1
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <p>Find the range by assuming the missing side could be either the shortest or longest side. If it is actually the middle length, the range from least to greatest will automatically include it.
+                                            </p>
+                                            <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                <!--Swap out image here-->
+                                                <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L01-Triangle-Inequality-Theorem/G.GMD.B.6%20-%20L01sc0201%20answer.png" />
+                                            </div>
+                                            <p>\(\overline{OH}\) must be greater than 4 units but less than 28 units long. Notice that 4 and 28 can not be used as values.
+                                            </p>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                    Close
+                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 1-->
+                            <!--End Self-Check 1 -->
+                            <hr>
+                            <!-- Self-Check 2 Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="grid-subtitle">Self-Check 2.2</h4>
+                                    <p>
+                                        A triangle has two congruent side lengths of 9.5 inches each. Find the range of values for the third side.
+                                    </p>
+                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck2-modal-0204">
+                Answer
+            </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    
+                                </div>
+                            </div>
+                            <!-- Modal 1 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck2-modal-0204" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 2.2
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <p>Find the range by assuming the missing side could be either the shortest or longest side. If it is actually the middle length (meaning here that all three sides would be congruent), the range from least to greatest will automatically include it. \(x\) will be used here to represent the missing side length.
+                                            </p>
+                                            <div class="image-responsive justify-content-center align-items-center">
+                                                <!--Swap out image here-->
+                                                <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L01-Triangle-Inequality-Theorem/G.GMD.B.6%20-%20L01sc0202%20answer.png" />
+                                                <p>\(\overline{OH}\) must be greater than 0 units but less than 19 units long. Notice that 0 and 19 can not be used as values.
+                                                </p>
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                    Close
+                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 1-->
+                            <!--End Self-Check 2 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Toolkit-->
+        <div id="btn-tools" class="row bg-primary">
+            <a class="bs-btn bs-btn-primary" title="Graphing Calculator" data-placement="top" data-target="#desmos-graphing-calculator" data-toggle="modal"> <i class="fa fa-chart-line" style="font-size: 25px;" aria-hidden="true"> </i> </a>
+            <a class="bs-btn bs-btn-primary" title="Scientific Calculator" data-placement="top" data-target="#desmos-scientific-calculator" data-toggle="modal"> <i class="fa fa-calculator" style="font-size: 25px;" aria-hidden="true"> </i> </a>
+        </div>
+        <div id="desmos-graphing-calculator" class="modal fade" role="dialog" aria-labelledby="desmos graphing calculator" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div id="" class="modal-content ems-modal-content">
+                    <div class="modal-header">
+                        <h5 id="desmos-graphing-calculator-head" class="modal-title">Desmos Graphing Calculator</h5>
+                        <a class="close" aria-label="Close" data-dismiss="modal"> <span aria-hidden="true"> &times; </span> </a>
+                    </div>
+                    <div class="modal-body embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://storage.googleapis.com/emspmg/Mathematics/Tools/desmos.html" width="300" height="150"></iframe>
+                    </div>
+                    <div class="modal-footer"><a class="bs-btn bs-btn-primary" data-dismiss="modal"> Close </a></div>
+                </div>
+            </div>
+        </div>
+        <div id="desmos-scientific-calculator" class="modal fade" role="dialog" aria-labelledby="desmos scientific calculator" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div id="" class="modal-content ems-modal-content">
+                    <div class="modal-header">
+                        <h5 id="desmos-scientific-calculator-head" class="modal-title">Desmos Scientific Calculator</h5>
+                        <a class="close" aria-label="Close" data-dismiss="modal"> <span aria-hidden="true"> &times; </span> </a>
+                    </div>
+                    <div class="modal-body embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.desmos.com/scientific" width="300" height="150"></iframe>
+                    </div>
+                    <div class="modal-footer"><a class="bs-btn bs-btn-primary" data-dismiss="modal"> Close </a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Tool Kit-->
+        </div>
+        <!--====  End of Concept # 2 Block Snippet  ====-->
+        <!-- Copy to here    -->
+    </div>
+    <!--====  End of Start of Template  ====-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+
+
+    </script>
+    <script src="https://storage.googleapis.com/emspmg/style/bundle.js"></script>
+</body>
+
+</html>

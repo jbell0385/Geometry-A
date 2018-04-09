@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        G.CO.C.9_Introduction to Proofs
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/emspmg/style/custom-style.css" />
+</head>
+
+<body>
+    <!--=======================================
+    =            Start of Template            =
+    ========================================-->
+    <!-- In Canvas, remove the "container" class -->
+    <div class="container ems-container-fluid">
+        <!--=================================
+        =            Hero Banner            =
+        ==================================-->
+        <div id="" class="row hero">
+            <div class="hero-image">
+                <div>
+                    <!-- Add hero iframe here -->
+                    <img src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/hero-image.jpg" alt="picture of a statue of lady justice with the scales and a sword.">
+                </div>
+                <!-- Hero Text -->
+                <div class="hero-text-bg" style="left: 5%; top: 5%;" data-mce-style="left: 5%; top: 5%;">
+                    <div class="hero-text">
+                        <h1>G.CO.C.9_Introduction to Proofs</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====  End of Hero Banner  ====-->
+        <!--========================================
+    =            Objectives Snippet            =
+    =========================================-->
+        <div class="card">
+            <div class="card-header panel-heading-lt">
+                <i class="fa fa-bullseye card-header-icon"></i> Objectives
+            </div>
+            <div class="card-body">
+                <div class="col">
+                    <p>I can create a two-column proof to solve problems clearly.
+                    </p>
+                    <ol>
+                        <li>
+                           <a href="#concept1"> I can apply algebraic properties of equality to create a two-column proof to solve algebraic equations.</a>
+                        </li>
+                        <li>
+                            <a href="#concept2">I can write a two-column proof in order to prove properties of angles.</a>
+                        </li>
+                        <li><a href="#concept3">I can write a two-column proof in order to prove two lines are parallel.</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <!--====  End of Objectives Snippet  ====-->
+        <!--========================================
+    =            Prior Knowledge Snippet       =
+    =========================================-->
+        <div class="card">
+            <div class="card-header panel-heading-pk">
+                <i class="fa fa-puzzle-piece card-header-icon" aria-hidden="true"></i> Prior Knowledge
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <ol>
+                        <!--To add more list items, copy and paste one below. You must change the data target -->
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#algebraic-properties-of-equality">
+                                Algebraic Properties of Equality
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#exampleModal2">
+                               Conditional Statements
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#vertical-angles">
+                               Vertical Angle Theorem
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#complementary-angles">
+                               Complementary Angles
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#supplementary-angles">
+                              Supplementary Angles
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#linear-pair">
+                               Linear Pair
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#types-of-angles">
+                               Types of Angles
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#transversal-angles">
+                               Angle Theorems Created by Transversals
+                            </a>
+                        </li>
+                    </ol>
+                </div>
+                <!-- Algebraic Properties of Equality -->
+                <!--You must change the id below to match the data-target above -->
+                <div class="modal fade" id="algebraic-properties-of-equality" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="">
+                                    Algebraic Properties of Equality
+                                </h5>
+                                <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </a>
+                            </div>
+                            <!--This is where you insert content for the modal -->
+                            <div class="modal-body" style="width:75%;">
+                                <!--Start Copy Here-->
+                                <!-- 1x2 Grid Image Right Grid -->
+                                <div class="row">
+                                    <div class="col">
+                                        <table class="table table-striped table-bordered">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Name</th>
+                                                    <th scope="col">Property</th>
+                                                    <th scope="col">Example</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th scope="row">Commutative Property of Addition</th>
+                                                    <td>\(a+b=b+a\)</td>
+                                                    <td>\(3+4=4+3\)<br>\(3+x=x+3\)</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Commutative Property of Multiplication</th>
+                                                    <td>\(ab=ba\)</td>
+                                                    <td>\(3(5)=5(3)\)<br>\(x(2)=2(x)\)</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Associative Property of Addition</th>
+                                                    <td>\((a+b)+c=a+(b+c)\)</td>
+                                                    <td>\((2+3)+4=2+(3+4)\)</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Associative Property of Multiplication</th>
+                                                    <td>\((AB)C=A(BC)\)</td>
+                                                    <td>\((4\cdot3)2=4(3\cdot2)\)</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Distributive Property of Multiplication over Addition</th>
+                                                    <td>\(a(b+c)=ab+ac\)</td>
+                                                    <td>\(3(4+5)=3(4)+3(5)\)<br>\(7(x-3)=7x-7(3)\)</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Additive Identity Property</th>
+                                                    <td>\(a+0=0+a=a\)</td>
+                                                    <td>\(3+0=0+3=3\)<br>\(x+0=0+x=x\)</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Multiplication Identity Property</th>
+                                                    <td>\(1(a)=a(1)=a\)</td>
+                                                    <td>\(1(3)=3(1)=3\)<br>\(1(x)=x(1)=x\)</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Quotient Property</th>
+                                                    <td>\(a(\frac{1}{b})=\frac{a}{b}\)</td>
+                                                    <td>\(5(\frac{1}{6})=\frac{5}{6}\)</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">Multiplication Property of Zero</th>
+                                                    <td>\(0(a)=a(0)=0\)</td>
+                                                    <td>\(0(9)=9(0)=0\)</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
+                                <!--End 1x2 Image Right Grid -->
+
+                                <!--Stop Copy Here-->
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Algebraic Properties of Equality-->
+                <!-- Vertical Angles -->
+                <!--You must change the id below to match the data-target above -->
+                <div class="modal fade" id="vertical-angles" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="">
+                                    Vertical Angles
+                                </h5>
+                                <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </a>
+                            </div>
+                            <!--This is where you insert content for the modal -->
+                            <div class="modal-body">
+                                <!--Start Copy Here-->
+                                <!-- 1x2 Grid Image Right Grid -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p>When two straight lines intersect, the pairs of oppposite angles are congruent. </p>
+
+                                        <p>Look for vertical angles in shapes, such as two connected triangles.</p>
+
+                                    </div>
+                                    <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                        <!--Swap out image here-->
+                                        <img class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/glossary/vertical-angles.png">
+                                    </div>
+                                </div>
+                                <!--End 1x2 Image Right Grid -->
+
+                                <!--Stop Copy Here-->
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Vertical Angles-->
+                 <!-- Complementary Angles -->
+                <!--You must change the id below to match the data-target above -->
+                <div class="modal fade" id="complementary-angles" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="">
+                                    Complementary Angles
+                                </h5>
+                                <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </a>
+                            </div>
+                            <!--This is where you insert content for the modal -->
+                            <div class="modal-body">
+                                <!--Start Copy Here-->
+                                <!-- 1x2 Grid Image Right Grid -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p>Two or more angles that add up to \(90^{\circ}\).</p>
+
+                                    </div>
+                                    <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                        <!--Swap out image here-->
+                                        <img class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/glossary/complementary-angles.png">
+                                    </div>
+                                </div>
+                                <!--End 1x2 Image Right Grid -->
+
+                                <!--Stop Copy Here-->
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Complementary Angles-->
+                 <!-- Supplementary Angles -->
+                <!--You must change the id below to match the data-target above -->
+                <div class="modal fade" id="supplementary-angles" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="">
+                                    Supplementary Angles
+                                </h5>
+                                <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </a>
+                            </div>
+                            <!--This is where you insert content for the modal -->
+                            <div class="modal-body">
+                                <!--Start Copy Here-->
+                                <!-- 1x2 Grid Image Right Grid -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p>Two or more angles that add up to \(180^{\circ}\).</p>
+
+                                    </div>
+                                    <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                        <!--Swap out image here-->
+                                        <img class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/glossary/supplementary-angles.png">
+                                    </div>
+                                </div>
+                                <!--End 1x2 Image Right Grid -->
+
+                                <!--Stop Copy Here-->
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Supplementary Angles-->
+
+                <!-- Linear Pair -->
+                <!--You must change the id below to match the data-target above -->
+                <div class="modal fade" id="linear-pair" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="">
+                                    Linear Pair
+                                </h5>
+                                <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </a>
+                            </div>
+                            <!--This is where you insert content for the modal -->
+                            <div class="modal-body">
+                                <!--Start Copy Here-->
+                                <!-- 1x2 Grid Image Right Grid -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p>Two angles that share a side and the two angles add up to \(180^{\circ}\).</p>
+
+                                    </div>
+                                    <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                        <!--Swap out image here-->
+                                        <img class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/glossary/linear-pair.png">
+                                    </div>
+                                </div>
+                                <!--End 1x2 Image Right Grid -->
+
+                                <!--Stop Copy Here-->
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Linear Pair-->
+                 <!-- Types of Angles -->
+                <!--You must change the id below to match the data-target above -->
+                <div class="modal fade" id="types-of-angles" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="">
+                                    Types of Angles
+                                </h5>
+                                <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </a>
+                            </div>
+                            <!--This is where you insert content for the modal -->
+                            <div class="modal-body">
+                                <!--Start Copy Here-->
+                                <!-- 1x2 Grid Image Right Grid -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p>Types of Angles:</p>
+                                        <ol>
+                                            <li>Right Angle: An angle that is \(90^{\circ}\).</li>
+                                            <li>Obtuse: An angle that is greater than \(90^{\circ}\).</li>
+                                            <li>Acute Angle: An angle that is less than \(90^{\circ}\).</li>
+                                            <li>Straight Angle: An angle that is \(180^{\circ}\).</li>
+                                        </ol>
+
+                                    </div>
+                                    <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                        <!--Swap out image here-->
+                                        <img class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/glossary/types-of-angles.png">
+                                    </div>
+                                </div>
+                                <!--End 1x2 Image Right Grid -->
+
+                                <!--Stop Copy Here-->
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Types of Angles-->
+                  <!-- Transversal Angles -->
+                <!--You must change the id below to match the data-target above -->
+                <div class="modal fade" id="transversal-angles" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="">
+                                    Transversal Angles
+                                </h5>
+                                <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </a>
+                            </div>
+                            <!--This is where you insert content for the modal -->
+                            <div class="modal-body">
+                                <!--Start Copy Here-->
+                                <!-- 1x2 Grid Image Right Grid -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p>Transversal Angles:</p>
+                                        <ol>
+                                            <li>Alternate Interior Angles: Angles inbetween the lines and on opposite sides of the transversal.</li>
+                                            <li>Alternate Exterior Angles: Angles outside the lines and on opposite sides of the transversal.</li>
+                                            <li>Same-Side Interior Angles: Angles inbetween the lines and on the same side of the transversal.</li>
+                                            <li>Corresponding Angles: Angles on the same side of the transversal and in the same relative position.</li>
+                                        </ol>
+
+                                    </div>
+                                    <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                        <!--Swap out image here-->
+                                        <img class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/glossary/transversal-angles.png">
+                                    </div>
+                                </div>
+                                <!--End 1x2 Image Right Grid -->
+
+                                <!--Stop Copy Here-->
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Transversal Angles-->
+
+
+            </div>
+        </div>
+        <!--====  End of Prior Knowledge Snippet  ====-->
+        <!--========================================
+    =          Concept # 1 Block Snippet         =
+    =========================================-->
+        <div class="card" id="concept1">
+            <div class="card-header panel-heading">
+                <i class="fa fa-book card-header-icon" aria-hidden="true"></i>1. Two-Column Algebraic Proofs
+            </div>
+            <div class="card-body">
+                <div class="tabs-container">
+                    <nav>
+                        <div class="nav nav-tabs" id="" role="tablist">
+                            <!-- Add navigation tabs here. Make sure to give it a unique ID and the href matches the id below-->
+                            <a class="nav-item nav-link active" id="instruction0101" data-toggle="tab" href="#instruction-0101" role="tab" aria-controls="tab-0X01" aria-selected="true">
+                                Instruction
+                            </a>
+                            <a class="nav-item nav-link" id="examples0102" data-toggle="tab" href="#examples-0102" role="tab" aria-controls="tab-0X02" aria-selected="false">
+                                Examples
+                            </a>
+                            <a class="nav-item nav-link" id="video0103" data-toggle="tab" href="#video-0103" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                                Video
+                            </a>
+                            <a class="nav-item nav-link" id="selfcheck0104" data-toggle="tab" href="#selfcheck-0104" role="tab" aria-controls="tab-0X04" aria-selected="false">
+                                Self-Check
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="">
+                        <!-- Make sure all id's match the href's above -->
+                        <!--Tab 1-->
+                        <div class="tab-pane fade show active" id="instruction-0101" role="tabpanel" aria-labelledby="tab01-tab">
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Two-Column Proof
+                                    </h4>
+                                    <p>A two-column proof is one way to create a clearly organized process in order to show that a conjecture, or educated guess, is true. It consists of a list of statements written in the left column, and the reasons for why each of the statements can be made written in the right column. Every step of the proof (that is, each conclusion that is made) is a row in the two-column proof. The following is an example of an algebraic proof.
+                                    </p>
+
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-i0101.png">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+                            <hr>
+                            <h4>Algebraic Properties of Equality</h4>
+                            <p>Review the following algebraic properties of equality. These will be used in the following algebraic proofs. The last three properties on the list are new to you. Please be sure to create vocabulary flash cards for any words that you have forgotten or do not know.
+                            </p>
+                            <hr style="width:50%">
+                            <!--Table-->
+                            <table class="table table-bordered table-striped">
+
+                                <!--Table head-->
+                                <thead>
+                                    <tr>
+                                        <th>Algebraic Properties of Equality</th>
+
+                                    </tr>
+                                </thead>
+                                <!--Table head-->
+
+                                <!--Table body-->
+                                <tbody>
+                                    <tr>
+
+                                        <td>Addition Property of Equality</td>
+                                        <td>If \(a=b\), then \(a + c = b + c\)</td>
+
+                                    </tr>
+                                    <tr>
+
+                                        <td>Subtraction Property of Equality</td>
+                                        <td>If \(a=b\), then \(a-c=b-c\)</td>
+
+                                    </tr>
+                                    <tr>
+
+                                        <td>Multiplication Property of Equality</td>
+                                        <td>If \(a=b\), then \(a\cdot c=b\cdot c\)</td>
+
+                                    </tr>
+                                    <tr>
+
+                                        <td>Division Property of Equality</td>
+                                        <td>If \(a=b\), then \(\frac{a}{c}=\frac{b}{c}\)</td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>Combine Like Terms</td>
+                                        <td>\(5x + 2x = 14\)<br><span style="color:#BE1A18">\(7x\)</span>\(= 14\)
+                                        </td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>Distributive Property of Multiplication Over Addition or Subtraction. </td>
+                                        <td>\(a\left(b+c\right)=ab+ac\) \(a\left(b-c\right)=ab-ac\)
+                                        </td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>Substitution Property of Equality</td>
+                                        <td>If \(a=b\), then in any expression \(a\) could be substituted with \(b\).
+                                        </td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>Reflexive Property of Equality</td>
+                                        <td>For any real number \(a, a=a\).
+                                        </td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>Symmetric Property of Equality</td>
+                                        <td>If \(a=b\), then \(b=a\).
+                                        </td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>Transitive Property of Equality</td>
+                                        <td>If \(a=b\) and \(b=c\), then \(a=c\).
+                                        </td>
+                                    </tr>
+
+                                </tbody>
+                                <!--Table body-->
+
+
+
+                            </table>
+                            <hr>
+                            <h4>Steps to help Write a Two-Column Proof</h4>
+                            <hr style="width:50%">
+                            <p>The following steps will help guide you through proofs for the rest of the course. Two-column proofs are helpful because they break complicated topics into individual steps.They allow you to develop critical analysis skills and enable you to defend your answers more clearly.
+                            </p>
+                            <hr style="width:50%">
+                            <p><strong>Step 1:</strong> Read the problem over carefully. You can start the proof with all of the given information or add them in as they make sense within the proof. The prove statement is the final step, or answer, to your proof.</p>
+                            <hr style="width:50%">
+                            <p><strong>Step 2:</strong> If necessary, draw a picture of the problem to help you visualize what is given and what you want to prove. This is especially helpful for geometric proofs. Include labels that will help you see congruent angles, congruent segments, parallel lines, or other important details if necessary.
+                            </p>
+                            <hr style="width:50%">
+                            <p><strong>Step 3:</strong> Use the prove statement to guide your statements in the proof. Each should get closer to proving the final statement true and must have a reason which includes definitions, postulates, or theorems for justification.</p>
+                            <hr style="width:50%">
+                            <p><strong>Step 4:</strong> Use the statement from each row to help you create the next statement. Steps must follow a logical order and are built off of the prior step.
+                            </p>
+                            <hr style="width:50%">
+                            <p><strong>Step 5:</strong> Once you have arrived at your solution, read through the two-column proof you’ve written to be assured that each step has the correct reasoning. This helps emphasize the clarity and effectiveness of your argument.
+                            </p>
+
+
+                        </div>
+                        <!--Tab 2-->
+                        <div class="tab-pane fade" id="examples-0102" role="tabpanel" aria-labelledby="tab02-tab">
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h4>Example 1.1</h4>
+                                    <h5>Solve Algebraic Equations Using a Two-Column Proof</h5>
+                                    <p>The following example shows how to use a two-column proof to obtain the answer of an algebraic equation. Review the steps on the Instruction tab as you examine this proof. Remember, statements are made on the left with the reasoning as to why each is true on the right. Descriptions are off to the side for clarification. Always check your answer afterward.
+                                    </p>
+                                    <p>Given: \(2x+3=4x-7\)
+                                    </p>
+                                    <p>Prove: \(x = 5\)</p>
+                                </div>
+                                <div class="col-md-8 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-800" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-e0101.png">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+
+                        </div>
+                        <!--Tab 3-->
+                        <div class="tab-pane fade" id="video-0103" role="tabpanel" aria-labelledby="tab03-tab">
+                            Video Coming Soon
+                        </div>
+                        <div class="tab-pane fade" id="selfcheck-0104" role="tabpanel" aria-labelledby="tab03-tab">
+                            <!-- Self-Check 1 Grid -->
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h4 class="grid-subtitle">Self-Check 1.1</h4>
+                                    <p>
+                                        Prove that the solution to the equation is correct. Complete the following proof on a separate sheet of paper.
+                                    </p>
+                                    <p>Given: \(7x + 7 = 4x - 5\)
+                                    </p>
+                                    <p>Prove: \(x = - 4\)
+                                    </p>
+                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck1-modal-0104">
+                Answer
+            </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0101.png" />
+                                </div>
+                            </div>
+                            <!-- Modal 1 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck1-modal-0104" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 1.1
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <div class=" image-responsive d-flex justify-content-center align-items-center">
+                                                <!--Swap out image here-->
+                                                <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0101answer.png" />
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                    Close
+                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 1-->
+                            <!--End Self-Check 1 -->
+                            <hr>
+
+                            <!-- Self-Check 2 Grid -->
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h4 class="grid-subtitle">Self-Check 1.2</h4>
+                                    <p>Prove that the solution to the equation is correct. Complete the following proof on a separate sheet of paper.</p>
+                                    <p>Given: \(3x+2x+17=10x-13\)</p>
+                                    <p>Prove: \(x=6\)</p>
+
+
+                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck2-modal-0104">
+                Answer
+            </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0102.png" />
+                                </div>
+                            </div>
+                            <!-- Modal 2 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck2-modal-0104" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 1.2
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                <!--Swap out image here-->
+                                                <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0102answer.png" />
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                    Close
+                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                            <!-- End of Modal 1-->
+                            <!--End Self-Check 2 -->
+
+                            <!-- Self-Check 3 Grid -->
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <h4 class="grid-subtitle">Self-Check 1.3</h4>
+                                    <p>Prove that the solution to the equation is correct. Complete the following proof on a separate sheet of paper.</p>
+                                    <p>Given: \(6x+13=-5\)</p>
+                                    <p>Prove: \(x=-3\)</p>
+
+
+                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck3-modal-0104">
+                Answer
+            </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-8 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0103.png" />
+                                </div>
+                            </div>
+                            <!-- Modal 1 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck3-modal-0104" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 1.3
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                <!--Swap out image here-->
+                                                <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0103answer.png" />
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                    Close
+                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End of Modal 1-->
+                                <!--End Self-Check 3 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====  End of Concept #1 Block Snippet  ====-->
+        <!-- Copy from here -->
+        <!--========================================
+    =          Concept # 2 Block Snippet         =
+    =========================================-->
+        <div class="card" id="concept2">
+            <div class="card-header panel-heading">
+                <i class="fa fa-book card-header-icon" aria-hidden="true"></i>2. Prove Angle Relationships
+            </div>
+            <div class="card-body">
+                <div class="tabs-container">
+                    <nav>
+                        <div class="nav nav-tabs" id="" role="tablist">
+                            <!-- Add navigation tabs here. Make sure to give it a unique ID and the href matches the id below-->
+                            <a class="nav-item nav-link active" id="instruction0102" data-toggle="tab" href="#instruction-0102" role="tab" aria-controls="tab-0X01" aria-selected="true">
+                            Instruction
+                        </a>
+                            <a class="nav-item nav-link" id="examples0202" data-toggle="tab" href="#examples-0202" role="tab" aria-controls="tab-0X02" aria-selected="false">
+                            Examples
+                        </a>
+                            <a class="nav-item nav-link" id="video0302" data-toggle="tab" href="#video-0302" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                            Video
+                        </a>
+                            <a class="nav-item nav-link" id="selfcheck0402" data-toggle="tab" href="#selfcheck-0402" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                            Self-Check
+                        </a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="">
+                        <!-- Make sure all id's match the href's above -->
+                        <!--Tab 1-->
+                        <div class="tab-pane fade show active" id="instruction-0102" role="tabpanel" aria-labelledby="tab01-tab">
+                            <p>Two-column proofs are used in geometry the same way they are used in algebra. To prove conjectures true, make statements using geometric definitions as the reasons. Examine the questions in the example tab and compare and contrast the new geometric proofs with the algebraic proofs.
+                            </p>
+                            <p>Remember to follow the same steps introduced with algebraic proofs.
+                            </p>
+                            <p>The following properties are used for congruence similar to their properties of equality.
+                            </p>
+                            <!--Table-->
+                            <table class="table table-bordered table-striped">
+
+                                <!--Table head-->
+                                <thead>
+                                    <tr>
+                                        <th>Congruence Properties</th>
+
+                                    </tr>
+                                </thead>
+                                <!--Table head-->
+
+                                <!--Table body-->
+                                <tbody>
+                                    <tr>
+
+                                        <td>Definition of Congruence</td>
+                                        <td>If \(m\angle R=m\angle S\), then \(\angle R\cong \angle S\). </td>
+
+                                    </tr>
+                                    <tr>
+
+                                        <td>Substitution Property of Congruence</td>
+                                        <td>If \(\angle C\cong \angle D, \angle C\cong \angle E\) and \(\angle D\cong \angle F\), then \(\angle E\cong \angle F\)
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+
+                                        <td>Reflexive Property of Congruence</td>
+                                        <td>For any segment \(\overline{AB},\ \overline{AB}\cong \overline{AB}\). </td>
+
+                                    </tr>
+                                    <tr>
+
+                                        <td>Symmetric Property of Congruence</td>
+                                        <td>If \(\overline{AB}\cong \overline{CD}\), then \(\overline{CD}\cong\overline{AB}\).</td>
+                                    </tr>
+                                    <tr>
+
+                                        <td>
+                                            Transitive Property of Congruence
+                                        </td>
+                                        <td>If \(\overline{AB}\cong\) \(\overline{CD}\) and \(\overline{CD}\cong \overline{EF}\), then \(\overline{AB}\cong \overline{EF}\).
+                                        </td>
+                                    </tr>
+
+
+                                </tbody>
+                                <!--Table body-->
+
+
+
+                            </table>
+                            <hr>
+                            <!--Start Copy Here-->
+                            <!-- 2x2 Grid Image Bottom Grid -->
+                            <div class="row">
+                                <!-- Top-Left -->
+                                <div class="col-md-6 col-divider image-responsive d-flex justify-content-center align-items-center">
+                                    <p class="grid-subtitle">One way to understand the transitive property of congruence, is as follows: </p>
+                                    <img class="img-200" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-i0201.png">
+
+                                </div>
+                                <!-- Top-Right -->
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <p class="grid-subtitle">Since the \(\angle 2\) is congruent to both angles, the two angles must be congruent. You can cross out the two \(\angle 2\)’s to help lead faster to the final answer:
+                                    </p>
+                                    <img class="img-200" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-i0202.png">
+
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                        <!--Tab 2-->
+                        <div class="tab-pane fade" id="examples-0202" role="tabpanel" aria-labelledby="tab02-tab">
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6 col-divider">
+                                    <h4 class="grid-subtitle">Example 2.1</h4>
+                                    <h5>Prove Angle Relationships Using Adjacent Angles</h5>
+                                    <p>Examine the following diagram and its proof. Be sure to follow the same steps as algebraic proofs. Use the given information to help you formulate a plan to conclude that the prove statement must be true. </p>
+                                    <p>Given: \(\angle ABC\) is a right angle and \(m\angle 1+m\angle 2=\angle ABC\)
+                                    </p>
+                                    <p>Prove: \(m\angle 1+m\angle 2=90^{\circ }\)</p>
+
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-200" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-e0201.png">
+
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+                            <hr style="width:50%">
+                            <div class="col">
+                                <p><b>Solution:</b></p>
+                                <div class="image-responsive d-flex justify-content-center align-items-center">
+                                    <img class="img-800" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-e0201_1.png">
+                                </div>
+                            </div>
+                            <hr>
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6 col-divider">
+                                    <h4>Example 2.2</h4>
+                                    <h5>Prove Angles Congruent Using Parallel Lines</h5>
+                                    <p><b>Prove the Alternate Exterior Angles Theorem</b></p>
+                                    <p>You can also use two-column proofs to show angle relationships when given parallel lines and a transversal.
+                                    </p>
+                                    <p>Given: \(m\parallel n\) and \(m\angle 1\cong m\angle 2\)
+                                    </p>
+                                    <p>Prove: \(\angle 1\cong\angle 4\)
+                                    </p>
+
+
+
+                                </div>
+                                <div class="col-md-6 image-responsive  justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-800" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-e0202.png">
+
+
+                                </div>
+                            </div>
+
+                            <hr style="width:50%">
+                            <div class="col">
+                                <h4 class=""><i>Solution:</i></h4>
+                                <div class="image-responsive d-flex justify-content-center align-items-center">
+                                    <img class="img-800" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-e0202-answer.png">
+                                </div>
+                            </div>
+
+                            <!--End 1x2 Image Right Grid -->
+                            <hr>
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6 col-divider">
+                                    <h4>Example 2.3</h4>
+                                    <h5>Prove Angle Relationships Using Parallel Lines</h5>
+                                    <p>Given: \(m\parallel n\)
+                                    </p>
+                                    <p>Prove: \(\angle 1\) and \(\angle 3\) are supplementary</p>
+
+
+
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-800" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-e0203.png">
+                                </div>
+                            </div>
+                            <hr style="width:50%">
+                            <div class="col">
+                                <h4 class=""><i>Solution:</i></h4>
+                                <div class="image-responsive d-flex justify-content-center align-items-center">
+                                    <img class="img-800" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-e0203-answer.png">
+                                </div>
+                            </div>
+
+                            <!--End 1x2 Image Right Grid -->
+                        </div>
+                        <!--Tab 3-->
+                        <div class="tab-pane fade" id="video-0302" role="tabpanel" aria-labelledby="tab03-tab">
+                            Video Coming Soon
+                        </div>
+                        <div class="tab-pane fade" id="selfcheck-0402" role="tabpanel" aria-labelledby="tab04-tab">
+                            <!-- Self-Check 1 Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="grid-subtitle">Self Check 2.1</h4>
+                                    <h5 class="grid-subtitle">Prove the Alternate Interior Angles Theorem
+                                    </h5>
+                                    <p>
+                                        Use the given information to prove the requested statement. Complete the blanks in the proof.</p>
+                                    <p>Given: \(d\parallel e\) and \(\angle 5\cong \angle 6\)</p>
+                                    <p>Prove: \(\angle 5\cong\angle 7\)</p>
+                                    <hr style="width:50%">
+                                    <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0201table.png" />
+
+
+                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck1-modal-0402">
+                Answer
+            </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0201.png" />
+
+                                </div>
+                            </div>
+                            <!-- Modal 1 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck1-modal-0402" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 2.1
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                <!--Swap out image here-->
+                                                <img class="img-800" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0201answer.png" />
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                    Close
+                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 1-->
+                            <!--End Self-Check 1 -->
+                            <hr>
+                            <!-- Self-Check 2 Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="grid-subtitle">Self-Check 2.2</h4>
+                                    <h5 class="grid-subtitle">Prove the Alternate Exterior Angles Theorem</h5>
+                                    <p>Use the given information to prove the requested statement. Complete the blanks in the proof. </p>
+                                    <p>Given: \(p\parallel s\) and \(\angle 1\cong \angle 2\)
+                                    </p>
+                                    <p>Prove: \(\angle 3\cong\angle 4\)
+                                    </p>
+                                    <hr style="width:50%">
+                                    <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0202_1.png" />
+
+                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck2-modal-0402">
+                Answer
+            </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-300" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0202.png" />
+
+                                </div>
+                            </div>
+                            <!-- Modal 1 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck2-modal-0402" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 2.2
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                <!--Swap out image here-->
+                                                <img class="img-800" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0202answer.png" />
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                    Close
+                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 1-->
+                            <!--End Self-Check 2 -->
+                            <hr>
+                            <!-- Self-Check 1 Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="grid-subtitle">Self-Check 2.3</h4>
+                                    <h5 class="grid-subtitle">Prove the Vertical Angles Theorem</h5>
+                                    <p>Use the given information to prove the requested statement. Create your own two-column proof.
+                                    </p>
+                                    <p>Given: \(\overleftrightarrow {AB}\) and \(\overleftrightarrow {CD}\) create supplementary pairs \(\angle1\) with \(\angle3\) and \(\angle2\) with \(\angle3\). </p>
+                                    <p>Prove: \(\angle 1\cong\angle 2\)
+                                    </p>
+                                     <hr style="width:50%">
+                                    <img class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0203table.png" />
+                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck3-modal-0402">
+                Answer
+            </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0203.png" />
+                                   
+                                </div>
+                            </div>
+                            <!-- Modal 1 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck3-modal-0402" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 2.3
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                <!--Swap out image here-->
+                                                <img class="img-800" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0203answer.png" />
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                    Close
+                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 1-->
+                            <!--End Self-Check 1 -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====  End of Concept # 2 Block Snippet  ====-->
+        <!-- Copy from here -->
+        <!--========================================
+    =          Concept # 3 Block Snippet         =
+    =========================================-->
+        <div class="card" id="concept3">
+            <div class="card-header panel-heading">
+                <i class="fa fa-book card-header-icon" aria-hidden="true"></i>3. Prove Lines Parallel
+            </div>
+            <div class="card-body">
+                <div class="tabs-container">
+                    <nav>
+                        <div class="nav nav-tabs" id="" role="tablist">
+                            <!-- Add navigation tabs here. Make sure to give it a unique ID and the href matches the id below-->
+                            <a class="nav-item nav-link active" id="instruction0103" data-toggle="tab" href="#instruction-0103" role="tab" aria-controls="tab-0X01" aria-selected="true">
+                            Instruction
+                        </a>
+                            <a class="nav-item nav-link" id="examples0203" data-toggle="tab" href="#examples-0203" role="tab" aria-controls="tab-0X02" aria-selected="false">
+                            Examples
+                        </a>
+                            <a class="nav-item nav-link" id="video0303" data-toggle="tab" href="#video-0303" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                            Video
+                        </a>
+                            <a class="nav-item nav-link" id="selfcheck0403" data-toggle="tab" href="#selfcheck-0403" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                            Self-Check
+                        </a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="">
+                        <!-- Make sure all id's match the href's above -->
+                        <!--Tab 1-->
+                        <div class="tab-pane fade show active" id="instruction-0103" role="tabpanel" aria-labelledby="tab01-tab">
+                            <p>Certain angle pairs can be used to show that two lines are parallel. Previously, you learned that if two or more lines are parallel and have a transversal, special angle pairs must be either congruent or supplementary. Now you will learn that the converse is also true, which changes the order of a statement and says it backwards. Therefore, the converse states that if certain angle pairs are congruent or supplementary, then the lines must be parallel.
+                            </p>
+                            <!--Table-->
+                            <table class="table table-bordered table-striped">
+
+
+
+                                <!--Table body-->
+                                <tbody>
+                                    <tr>
+
+                                        <td>
+                                            <h5>Converse of the Corresponding Angles Theorem</h5>
+                                            <p>If two lines are cut by a transversal so that corresponding angles are congruent, then the lines must be parallel.
+                                            </p>
+                                        </td>
+                                        <td><img class="img-800" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-i0301.png" /></td>
+
+                                    </tr>
+                                    <tr>
+
+                                        <td>
+                                            <h5>Converse of the Alternate Exterior Angles Theorem</h5>
+                                            <p>If two lines are cut by a transversal so that alternate exterior angles are congruent, then the lines must be parallel.
+                                            </p>
+                                        </td>
+                                        <td><img class="img-800" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-i0302.png" /></td>
+
+                                    </tr>
+                                    <tr>
+
+                                        <td>
+                                            <h5>Converse of the Alternate Interior Angles Theorem</h5>
+                                            <p>If two lines are cut by a transversal so that alternate interior angles are congruent, then the lines must be parallel. </p>
+                                        </td>
+                                        <td><img class="img-800" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-i0303.png" /></td>
+
+                                    </tr>
+                                    <tr>
+
+                                        <td>
+                                            <h5>Converse to the Same Side Interior Angles Theorem</h5>
+                                            <p>If two lines are cut by a transversal so that same side interior angles are supplementary, then the lines must be parallel.
+                                            </p>
+                                        </td>
+                                        <td><img class="img-800" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-i0304.png" /></td>
+                                    </tr>
+
+
+                                </tbody>
+                                <!--Table body-->
+
+
+
+                            </table>
+                            <hr>
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Transitive Property of Parallel Lines</h4>
+                                    <p>The transitive property can also be applied to parallel lines:</p>
+                                    <ul>
+                                        <li>If two lines are parallel to the same line, then they are also parallel to each other. </li>
+                                        <li>If \(p\parallel q\) and \(q\parallel r\) then \(p\parallel r\).
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-300" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-i0305.png">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+
+                        </div>
+                        <!--Tab 2-->
+                        <div class="tab-pane fade" id="examples-0203" role="tabpanel" aria-labelledby="tab02-tab">
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6 col-divider">
+                                    <h4>Example 3.1</h4>
+                                    <p>Decide which lines are parallel. Not all lines must be parallel in a diagram when a pair of angles are congruent. You must only choose the two lines that share the same transversal which the angles touch.
+                                    </p>
+                                    <p>Use the figure and the given information to determine which lines, if any, are parallel. Justify your answer using one of the theorems.
+                                    </p>
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-e0301.png">
+
+                                </div>
+                                <div class="col-md-6 image-responsive justify-content-center align-items-center">
+                                    <ol type="a">
+                                        <li>If \(\angle 9\cong \angle 16\), then _____\(\parallel \)_____ by the _____________________________________
+                                        </li>
+                                        <li>If \(\angle 5\cong \angle 13\), then _____\(\parallel \)_____ by the _____________________________________</li>
+                                        <li>If \(\angle 1\cong \angle 6\), then _____\(\parallel \)_____ by the _____________________________________</li>
+                                    </ol>
+                                    <hr style="width:50%">
+
+                                    <i><h4>Solution:</h4></i>
+                                    <ol type="a">
+                                        <li>If \(\angle 9\cong \angle 16\), then <u>\(a\parallel b\)</u> by the converse of the alternate exterior angles theorem.</li>
+                                        <li>If \(\angle 5\cong \angle 13\), then \(c\parallel d\) by the converse of the corresponding angles theorem.</li>
+                                        <li>If \(\angle 1\cong \angle 6\), then no lines must be parallel because \(\angle 1\) and \( \angle 6\) are vertical angles which do not use parallel lines when congruent. More information is needed.
+                                        </li>
+                                    </ol>
+
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+                            <hr>
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6 col-divider">
+                                    <h4>Example 3.2</h4>
+                                    <h5>Prove Lines Parallel Using a Two-Column Proof</h5>
+                                    <p>This example shows how to apply the converse to the same side interior angles theorem in order to prove lines parallel in a two-column proof. Be sure to follow the steps as before using each previous statement to help to create the next.
+                                    </p>
+                                    <p>Given: \(\angle 1\) and \(\angle 3\) are supplementary
+                                    </p>
+                                    <p>Prove: \(g\parallel h\)</p>
+
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-e0302.png">
+
+
+                                </div>
+
+                            </div>
+                            <hr style="width:50%">
+                            <div class="image-responsive d-flex justify-content-center align-items-center">
+                                <img class="img-700" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-e0302answer.png">
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+
+                        </div>
+                        <!--Tab 3-->
+                        <div class="tab-pane fade" id="video-0303" role="tabpanel" aria-labelledby="tab03-tab">
+                            Video Coming Soon
+                        </div>
+                        <div class="tab-pane fade" id="selfcheck-0403" role="tabpanel" aria-labelledby="tab03-tab">
+                            <!-- Self-Check 1 Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="grid-subtitle">Self-Check 3.1</h4>
+                                    <p>
+                                        Use the figure and the given information to determine which lines, if any, are parallel. Justify your answer using one of the theorems.
+
+                                    </p>
+                                    <hr style="width:50%">
+                                    <ol type="a">
+                                        <li>If \(\angle 11\cong \angle 8\), then _____\(\parallel \)_____ by the _____________________________________.</li>
+                                        <li>If \(\angle 14\cong \angle 15\), then _____\(\parallel \)_____ by the _____________________________________.</li>
+                                        <li>If \(\angle 1\cong \angle 3\), then _____\(\parallel \)_____ by the _____________________________________.</li>
+                                    </ol>
+                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck1-modal-0403">
+                Answer
+            </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0301.png" />
+
+
+                                </div>
+                            </div>
+                            <!-- Modal 1 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck1-modal-0403" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 3.1
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <h4><i>Solution:</i></h4>
+                                            <ol type="a">
+                                                <li>If \(\angle 11\cong \angle 8\), then \(d\parallel c\) by the converse of the alternate interior angles theorem.</li>
+                                                <li>If \(\angle 14\cong \angle 15\), then no lines must be parallel because \(\angle 14\) and \( \angle 15\) are same side interior angles must be supplementary on parallel lines, not congruent. Therefore, more information is needed in order for lines to be parallel. </li>
+                                                <li>If \(\angle 1\cong \angle 3\), then \(a\parallel b\) by the converse of the corresponding angles theorem.
+                                                </li>
+                                            </ol>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                    Close
+                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 1-->
+                            <!--End Self-Check 1 -->
+                            <hr>
+                            <!-- Self-Check 2 Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="grid-subtitle">Self-Check 3.2</h4>
+
+
+                                    <p>
+                                        Complete the two-column proof to prove the statement true.
+                                    </p>
+                                    <p>Given: \(\angle 4\) and \(\angle 6\) are supplementary, \(\angle 5\) and \(\angle 6\) create a linear pair.</p>
+                                    <p>Prove: \(r\parallel s\)
+                                    </p>
+                                    <hr style="width:50%">
+                                    <img class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0302table.png" />
+
+
+
+                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck2-modal-0403">
+                Answer
+            </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0302.png" />
+                                </div>
+                            </div>
+                            <!-- Modal 1 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck2-modal-0403" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 3.2
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                <!--Swap out image here-->
+                                                <img class="img-700" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0203answer.png" />
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                    Close
+                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 1-->
+                            <!--End Self-Check 2 -->
+                            <hr>
+                            <!-- Self-Check 3 Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="grid-subtitle">Self-Check 3.3</h4>
+                                    <p>Complete the two-column proof to prove the statement true.</p>
+                                    <p>Given: \(\angle 2\cong \angle 4\) and \(\angle 4\cong \angle 3\)
+                                    </p>
+                                    <p>Prove: \(\overleftrightarrow {PO}\parallel \overleftrightarrow {MN}\)</p>
+                                    <hr style="width:50%">
+                                    <img class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0303%20table.png" />
+
+                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck3-modal-0403">
+                Answer
+            </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0303.png" />
+                                </div>
+                            </div>
+                            <!-- Modal 1 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck3-modal-0403" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 3.3
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                <!--Swap out image here-->
+                                                <img class="img-700" src="https://storage.googleapis.com/emspmg/Mathematics/G.CO.C.9/L04-Introduction-to-Proofs/G.CO.C.9-L04-sc0303answer.png" />
+
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                    Close
+                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End of Modal 1-->
+                                <!--End Self-Check 3 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Toolkit-->
+        <div id="btn-tools" class="row bg-primary">
+            <a class="bs-btn bs-btn-primary" title="Graphing Calculator" data-placement="top" data-target="#desmos-graphing-calculator" data-toggle="modal"> <i class="fa fa-chart-line" style="font-size: 25px;" aria-hidden="true"> </i> </a>
+            <a class="bs-btn bs-btn-primary" title="Scientific Calculator" data-placement="top" data-target="#desmos-scientific-calculator" data-toggle="modal"> <i class="fa fa-calculator" style="font-size: 25px;" aria-hidden="true"> </i> </a>
+        </div>
+        <div id="desmos-graphing-calculator" class="modal fade" role="dialog" aria-labelledby="desmos graphing calculator" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div id="" class="modal-content ems-modal-content">
+                    <div class="modal-header">
+                        <h5 id="desmos-graphing-calculator-head" class="modal-title">Desmos Graphing Calculator</h5>
+                        <a class="close" aria-label="Close" data-dismiss="modal"> <span aria-hidden="true"> &times; </span> </a>
+                    </div>
+                    <div class="modal-body embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://storage.googleapis.com/emspmg/Mathematics/Tools/desmos.html" width="300" height="150"></iframe>
+                    </div>
+                    <div class="modal-footer"><a class="bs-btn bs-btn-primary" data-dismiss="modal"> Close </a></div>
+                </div>
+            </div>
+        </div>
+        <div id="desmos-scientific-calculator" class="modal fade" role="dialog" aria-labelledby="desmos scientific calculator" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div id="" class="modal-content ems-modal-content">
+                    <div class="modal-header">
+                        <h5 id="desmos-scientific-calculator-head" class="modal-title">Desmos Scientific Calculator</h5>
+                        <a class="close" aria-label="Close" data-dismiss="modal"> <span aria-hidden="true"> &times; </span> </a>
+                    </div>
+                    <div class="modal-body embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.desmos.com/scientific" width="300" height="150"></iframe>
+                    </div>
+                    <div class="modal-footer"><a class="bs-btn bs-btn-primary" data-dismiss="modal"> Close </a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Tool Kit-->
+            </div>
+            <!--====  End of Concept # Block Snippet  ====-->
+
+
+            <!--====  End of Start of Template  ====-->
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+
+
+            </script>
+            <script src="https://storage.googleapis.com/emspmg/style/bundle.js"></script>
+</body>
+
+</html>

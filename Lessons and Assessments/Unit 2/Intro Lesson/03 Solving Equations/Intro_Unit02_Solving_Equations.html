@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Introduction Unit 02: Solving Equations
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/emspmg/style/custom-style.css" />
+</head>
+
+<body>
+    <!--=======================================
+    =            Start of Template            =
+    ========================================-->
+    <!-- In Canvas, remove the "container" class -->
+    <div class="container ems-container-fluid">
+        <!--=================================
+        =            Hero Banner            =
+        ==================================-->
+        <div id="" class="row hero">
+            <div class="hero-image">
+                <div>
+                    <!-- Add hero iframe here -->
+                    <img class="img-fluid rounded" src="https://storage.googleapis.com/emspmg/Mathematics/introductions-review/02L03-Solving-Equations/hero-image-unit2intro.jpg?imwidth=1400" alt="">
+                </div>
+                <!-- Hero Text -->
+                <div class="hero-text-bg" style="left: 5%; top: 5%;" data-mce-style="left: 5%; top: 5%;">
+                    <div class="hero-text">
+                        <h1>Introduction Unit 03: Solving Equations</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====  End of Hero Banner  ====-->
+        <!--========================================
+    =            Objectives Snippet            =
+    =========================================-->
+        <div class="card">
+            <div class="card-header panel-heading-lt">
+                <i class="fa fa-bullseye card-header-icon"></i> Objective
+            </div>
+            <div class="card-body">
+                <div class="col">
+
+                    <ol>
+                        <li>
+                           <a href="#concept1">I can solve algebraic equations and explain each step in the process.</a>
+
+                        </li>
+
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <!--====  End of Objectives Snippet  ====-->
+        <!--========================================
+    =            Prior Knowledge Snippet       =
+    =========================================-->
+        <div class="card">
+            <div class="card-header panel-heading-pk">
+                <i class="fa fa-puzzle-piece card-header-icon" aria-hidden="true"></i> Prior Knowledge
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <ol>
+                        <!--To add more list items, copy and paste one below. You must change the data target -->
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#order">
+                                Order of Operations
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#substitution">
+                                Substitution
+                            </a>
+                        </li>
+                    </ol>
+                </div>
+                <!-- Modal 1 -->
+                <!--You must change the id below to match the data-target above -->
+                <div class="modal fade" id="order" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="">
+                                    Order of Operations
+                                </h5>
+                                <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </a>
+                            </div>
+                            <!--This is where you insert content for the modal -->
+                            <div class="modal-body">
+                                <p>PEMDAS:</p>
+                                <ol>
+                                    <li>Parenthesis</li>
+                                    <li>Exponents</li>
+                                    <li>Multiplication</li>
+                                    <li>Division</li>
+                                    <li>Addition</li>
+                                    <li>Subtraction</li>
+                                </ol>
+                                <p><i>From left to right.</i></p>
+
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Modal 1-->
+                <!-- Modal 2 -->
+                <!--You must change the id below to match the data-target above -->
+                <div class="modal fade" id="substitution" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="">
+                                    Substitution
+                                </h5>
+                                <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </a>
+                            </div>
+                            <!--This is where you insert content for the modal -->
+                            <div class="modal-body">
+                                <p>The substitution method is most useful for systems of 2 equations in 2 unknowns. The main idea here is that we solve one of the equations for one of the unknowns, and then substitute the result into the other equation.</p>
+
+                                <ol>
+                                    <li>
+                                        Solve one of the equations for either x = or y = .
+                                    </li>
+                                    <li>Substitute the solution from step 1 into the other equation.</li>
+                                    <li>Solve this new equation.</li>
+                                    <li>Solve for the second variable.</li>
+                                </ol>
+                                <hr style="width:50%">
+                                <p>Example: Solve the following system by substitution</p>
+                                <p>\(2x + 3y = 5\)</p>
+                                <p>\(x + y = 5\)</p>
+                                <ol>
+                                    <li>Step 1: Solve one of the equations for either x = or y = . We will solve the second equation for y.</li>
+                                    <ol type="a">
+                                        <li>\(x + y = 5\)</li>
+                                        <li>\(y = 5 - x\)</li>
+                                    </ol>
+
+                                    <li>Substitute the solution from step 1 into the second equation.</li>
+                                    <ol type="a">
+                                        <li>\(2x + 3y = 5\)</li>
+                                        <li>\(2x + 3(5 - x) = 5\)</li>
+                                    </ol>
+
+                                    <li>Solve this new equation.</li>
+                                    <ol type="a">
+                                        <li>\(2x + 3(5 - x) = 5\)</li>
+                                        <li>\(2x + 15 - 3x = 5\)</li>
+                                        <li>\(-x + 15 = 5\)</li>
+                                        <li>\(-x = 5 - 15\)</li>
+                                        <li>\(x = 10\)</li>
+                                    </ol>
+
+                                    <li>Solve for the second variable.</li>
+                                    <ol type="a">
+                                        <li>\(y = 5 - x\)</li>
+                                        <li>\(y = 5 - 10\)</li>
+                                        <li>\(y = -5\)</li>
+                                    </ol>
+
+                                    <li>The solution is: \((x, y) = (10, -5)\)</li>
+                                </ol>
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Modal 2-->
+
+            </div>
+        </div>
+        <!--====  End of Prior Knowledge Snippet  ====-->
+        <!--========================================
+    =          Concept #1 Block Snippet         =
+    =========================================-->
+        <div class="card" id="concept1">
+            <div class="card-header panel-heading">
+                <i class="fa fa-book card-header-icon" aria-hidden="true"></i>1. One Step Algebraic Equations
+            </div>
+            <div class="card-body">
+                <div class="tabs-container">
+                    <nav>
+                        <div class="nav nav-tabs" id="" role="tablist">
+                            <!-- Add navigation tabs here. Make sure to give it a unique ID and the href matches the id below-->
+                            <a class="nav-item nav-link active" id="instruction0101" data-toggle="tab" href="#instruction-0101" role="tab" aria-controls="tab-0X01" aria-selected="true">
+                                Instruction
+                            </a>
+                            <a class="nav-item nav-link" id="examples0102" data-toggle="tab" href="#examples-0102" role="tab" aria-controls="tab-0X02" aria-selected="false">
+                                Examples
+                            </a>
+                            <a class="nav-item nav-link" id="video0103" data-toggle="tab" href="#video-0103" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                                Video
+                            </a>
+                            <a class="nav-item nav-link" id="selfcheck0104" data-toggle="tab" href="#selfcheck-0104" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                                Self-Check
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="">
+                        <!-- Make sure all id's match the href's above -->
+                        <!--Tab 1-->
+                        <div class="tab-pane fade show active" id="instruction-0101" role="tabpanel" aria-labelledby="tab01-tab">
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col col-divider">
+                                    <h4>Defining an Equation</h4>
+                                    <p>An equation states that two things are equal to each other, one on either side. It must use an equal sign “=”. Examine the following equation:
+                                    </p>
+                                    <p>\(5 - 3 = 1 + 1.\) </p>
+                                    <p>This equation states that the value of the left side \((5 - 3)\) is equal to the value of the right side \((1 + 1)\), even though the two sides look different. After simplifying both sides, the result is that \(2 = 2\).
+                                    </p>
+                                </div>
+                                <div class="col">
+                                    <h4>Equations in Algebra
+                                    </h4>
+                                    <p>In algebraic equations, a variable, often written as a letter, is used to represent an unknown quantity. Investigate this algebraic equation: \(5x-2=8\). This equation states that the value of the left side \((5x-2)\) is equal to the value of the right side \((8)\) even though they look different.
+                                    </p>
+
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+
+                            <!--Stop Copy Here-->
+                            <hr>
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Solving One Step Equations</h4>
+                                    <p>To solve an equation in Algebra, you must find the value of the unknown quantity that is represented by the variable. To do so, you must isolate the variable (get the variable alone) on one side of the equation. </p>
+                                    <p>Three important hints:
+                                    </p>
+                                    <ol>
+                                        <li>Always write your steps vertically and be sure to line up your equal sign under the previous sign.
+                                        </li>
+                                        <li>Always remember to complete the opposite operation to BOTH sides of the equal sign. Whatever is changed on one side must be changed on the other.
+                                        </li>
+                                        <li>Always check your work by substituting your answer into the place of the variable in the original problem. If solved correctly, you will get the same value on both sides.
+                                        </li>
+                                    </ol>
+                                    <hr style="width:50%">
+                                    <div class="image-responsive d-flex justify-content-center align-items-center">
+                                        <!--Swap out image here-->
+                                        <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/introductions-review/02L03-Solving-Equations/Intro%20Unit%202%20%20-%20L03Artboard%2020.png">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Tab 2-->
+                        <div class="tab-pane fade" id="examples-0102" role="tabpanel" aria-labelledby="tab02-tab">
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Solve the equation. Then check your answer. Be sure to use the hints in the instruction tab to help you.
+                                    </h4>
+                                </div>
+                            </div>
+                            <hr style="width:50%">
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Example 1.1</h4>
+                                    <p>\(x-13=9\)
+                                    </p>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-200" src="https://storage.googleapis.com/emspmg/Mathematics/introductions-review/02L03-Solving-Equations/Intro%20Unit%202%20%20-%20L03Artboard%2021.png">
+                                </div>
+
+                            </div>
+                            <hr>
+                            <!--End 1x2 Image Right Grid -->
+
+                            <!--Stop Copy Here-->
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Example 1.2</h4>
+                                    <p>\(15\ =\ 6x\)</p>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-200" src="https://storage.googleapis.com/emspmg/Mathematics/introductions-review/02L03-Solving-Equations/Intro%20Unit%202%20%20-%20L03Artboard%2060.png">
+                                </div>
+                            </div>
+                            <hr>
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Example 1.3</h4>
+                                    <p>\(\frac{x}{4}=5\)
+                                    </p>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-200" src="https://storage.googleapis.com/emspmg/Mathematics/introductions-review/02L03-Solving-Equations/Intro%20Unit%202%20%20-%20L03Artboard%2061.png">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+
+                            <!--Stop Copy Here-->
+                            <!--End 1x2 Image Right Grid -->
+
+                            <!--Stop Copy Here-->
+                        </div>
+                        <!--Tab 3-->
+                        <div class="tab-pane fade" id="video-0103" role="tabpanel" aria-labelledby="tab03-tab">
+                            Video Coming Soon
+                        </div>
+                        <div class="tab-pane fade" id="selfcheck-0104" role="tabpanel" aria-labelledby="tab03-tab">
+                            <div class="row">
+                                <div class="col">
+                                    <h4>Solve the equation. Then check your answer. Be sure to use the hints in the instruction tab to help you.
+                                    </h4>
+                                </div>
+                            </div>
+                            <hr style="width:50%">
+
+                            <!-- Start copying here -->
+                            <!--Self-Check # Grid-->
+                            <!-- 2x2 Grid Image Bottom Grid -->
+                            <div class="row">
+                                <!-- Top-Left -->
+                                <div class="col-md-6 col-divider">
+                                    <h4 class="grid-subtitle">
+                                        Self-Check 1.1
+                                    </h4>
+                                    <p>\(3x= 21\)</p>
+
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck1-modal-0104">
+                                    Answer
+                            </a>
+                                    </div>
+                                </div>
+                                <!-- Top-Right -->
+                                <div class="col-md-6">
+                                    <h4 class="grid-subtitle">
+                                        Self-Check 1.2
+                                    </h4>
+                                    <p>\(x-5 = -7\)
+                                    </p>
+
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck2-modal-0104">
+                                Answer
+                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr/>
+                            <div class="row">
+                                <!-- Bottom-Left -->
+                                <div class="col-md-6 col-divider">
+                                    <h4 class="grid-subtitle">
+                                        Self-Check 1.3
+                                    </h4>
+                                    <p>Put Question Text Here</p>
+                                    \(35 = 6+x\)
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck3-modal-0104">
+                                Answer
+                            </a>
+                                    </div>
+                                </div>
+                                <!-- Bottom-Right -->
+                                <div class="col-md-6">
+                                    <h4 class="grid-subtitle">
+                                        Self-Check 1.4
+                                    </h4>
+                                    <p>\(\frac{x}{5}=6\)</p>
+
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck4-modal-0104">
+                                Answer
+                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End 2x2 Image Right Grid -->
+                            <!-- Modal 1 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck1-modal-0104" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 1.1
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                        
+                                    </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                <!--Swap out image here-->
+                                                <img class="img-200" src="https://storage.googleapis.com/emspmg/Mathematics/introductions-review/02L03-Solving-Equations/Intro%20Unit%202%20%20-%20L03Artboard%2024.png">
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 1-->
+                            <!-- Modal 2 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck2-modal-0104" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 1.2
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                <!--Swap out image here-->
+                                                <img class="img-200" src="https://storage.googleapis.com/emspmg/Mathematics/introductions-review/02L03-Solving-Equations/Intro%20Unit%202%20%20-%20L03Artboard%2023%20copy%202.png">
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 2-->
+                            <!-- Modal 3 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck3-modal-0104" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 1.3
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                <!--Swap out image here-->
+                                                <img class="img-200" src="https://storage.googleapis.com/emspmg/Mathematics/introductions-review/02L03-Solving-Equations/Intro%20Unit%202%20%20-%20L03Artboard%2022.png">
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 3-->
+                            <!-- Modal 4 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck4-modal-0104" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 1.4
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                <!--Swap out image here-->
+                                                <img class="img-200" src="https://storage.googleapis.com/emspmg/Mathematics/introductions-review/02L03-Solving-Equations/Intro%20Unit%202%20%20-%20L03Artboard%2022%20copy.png">
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 4-->
+                            <!--End Self-Check # Grid-->
+                            <!-- Stop copying here -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====  End of Concept # 1 Block Snippet  ====-->
+        <!-- Copy from here -->
+        <!--========================================
+    =          Concept # 2 Block Snippet         =
+    =========================================-->
+        <div class="card">
+            <div class="card-header panel-heading">
+                <i class="fa fa-book card-header-icon" aria-hidden="true"></i> 2. Solving Two Step Equations
+            </div>
+            <div class="card-body">
+                <div class="tabs-container">
+                    <nav>
+                        <div class="nav nav-tabs" id="" role="tablist">
+                            <!-- Add navigation tabs here. Make sure to give it a unique ID and the href matches the id below-->
+                            <a class="nav-item nav-link active" id="instruction0201" data-toggle="tab" href="#instruction-0201" role="tab" aria-controls="tab-0X01" aria-selected="true">
+                            Instruction
+                        </a>
+                            <a class="nav-item nav-link" id="examples0202" data-toggle="tab" href="#examples-0202" role="tab" aria-controls="tab-0X02" aria-selected="false">
+                            Examples
+                        </a>
+                            <a class="nav-item nav-link" id="video0203" data-toggle="tab" href="#video-0203" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                            Video
+                        </a>
+                            <a class="nav-item nav-link" id="selfcheck0204" data-toggle="tab" href="#selfcheck-0204" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                            Self-Check
+                        </a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="">
+                        <!-- Make sure all id's match the href's above -->
+                        <!--Tab 1-->
+                        <div class="tab-pane fade show active" id="instruction-0201" role="tabpanel" aria-labelledby="tab01-tab">
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>To solve equations with multiple steps, use the order of operations backwards. Instead of using the regular PEMDAS, use SADMEP to solve. When you check your answer at the end, you will still use regular PEMDAS.<br><br>Examine the equation \(2x-6=18\).
+                                    </p>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/introductions-review/02L03-Solving-Equations/Intro%20Unit%202%20%20-%20L03Artboard%2067.png">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+
+                            <!--Stop Copy Here-->
+                        </div>
+                        <!--Tab 2-->
+                        <div class="tab-pane fade" id="examples-0202" role="tabpanel" aria-labelledby="tab02-tab">
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Example 2.1</h4>
+                                    <h5>Solve the equation. Then check your answer.
+                                    </h5>
+                                    <p>\(4-x = 16\)</p>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/introductions-review/02L03-Solving-Equations/Intro%20Unit%202%20%20-%20L03Artboard%2069.png">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+
+                            <!--Stop Copy Here-->
+                        </div>
+                        <!--Tab 3-->
+                        <div class="tab-pane fade" id="video-0203" role="tabpanel" aria-labelledby="tab03-tab">
+                            Video Coming Soon
+                        </div>
+                        <div class="tab-pane fade" id="selfcheck-0204" role="tabpanel" aria-labelledby="tab03-tab">
+                            <!-- Self-Check 1 Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4 class="grid-subtitle">Self-Check 2.1</h4>
+                                    <h5>Solve the equation. Then check your answer. </h5>
+                                    <p>
+                                        \(\frac{x}{2}+5=31\)
+                                    </p>
+                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck1-modal-0204">
+                Answer
+            </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+
+                                </div>
+                            </div>
+                            <!-- Modal 1 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck1-modal-0204" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 2.1
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                <!--Swap out image here-->
+                                                <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/introductions-review/02L03-Solving-Equations/Intro%20Unit%202%20%20-%20L03Artboard%2068.png">
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                    Close
+                </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 1-->
+                            <!--End Self-Check 1 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====  End of Concept # 2 Block Snippet  ====-->
+        <!-- Copy from here -->
+        <!--========================================
+    =          Concept # 3 Block Snippet         =
+    =========================================-->
+        <div class="card">
+            <div class="card-header panel-heading">
+                <i class="fa fa-book card-header-icon" aria-hidden="true"></i> 3. Solving Multistep Equations with Variables on Both Sides
+            </div>
+            <div class="card-body">
+                <div class="tabs-container">
+                    <nav>
+                        <div class="nav nav-tabs" id="" role="tablist">
+                            <!-- Add navigation tabs here. Make sure to give it a unique ID and the href matches the id below-->
+                            <a class="nav-item nav-link active" id="instruction0301" data-toggle="tab" href="#instruction-0301" role="tab" aria-controls="tab-0X01" aria-selected="true">
+                            Instruction
+                        </a>
+                            <a class="nav-item nav-link" id="examples0302" data-toggle="tab" href="#examples-0302" role="tab" aria-controls="tab-0X02" aria-selected="false">
+                            Examples
+                        </a>
+                            <a class="nav-item nav-link" id="video0303" data-toggle="tab" href="#video-0303" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                            Video
+                        </a>
+                            <a class="nav-item nav-link" id="selfcheck0304" data-toggle="tab" href="#selfcheck-0304" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                            Self-Check
+                        </a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="">
+                        <!-- Make sure all id's match the href's above -->
+                        <!--Tab 1-->
+                        <div class="tab-pane fade show active" id="instruction-0301" role="tabpanel" aria-labelledby="tab01-tab">
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>Equations can have variables on both sides of the equation. The best way to work with variables on both sides is to first get all of them onto one side. It is recommended, when possible, to move the smaller variable first. After that, solve the equations as before.
+                                    </p>
+                                    <p>Examine this example to see the first step when solving the equation. The rest is worked out in the examples tab.</p>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/introductions-review/02L03-Solving-Equations/Intro%20Unit%202%20%20-%20L03Artboard%2070.png">
+                                </div>
+                            </div>
+                            <hr style="width:50%">
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p>Equations can have extra steps as well. The following is an equation which requires distribution where the outside value must be multiplied to all of the values inside of the parentheses. See below to review distribution of an algebraic expression:
+                                    </p>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/introductions-review/02L03-Solving-Equations/Intro%20Unit%202%20%20-%20L03Artboard%2070%20copy%202.png">
+                                </div>
+                                <hr style="width:50%">
+                                <p>Please see Example 3.2 to apply this property to an equation. After distribution, you can continue solving the equation as before.
+                                </p>
+
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+
+                            <!--Stop Copy Here-->
+                            <!--End 1x2 Image Right Grid -->
+
+                            <!--Stop Copy Here-->
+                        </div>
+                        <!--Tab 2-->
+                        <div class="tab-pane fade" id="examples-0302" role="tabpanel" aria-labelledby="tab02-tab">
+                            <div class="row">
+                                <div class="col">
+                                    <p>Solve the equation. Then check your answer. </p>
+                                </div>
+                            </div>
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Example 3.1</h4>
+                                    <p>\(5x - 12 = 2x + 3\)
+                                    </p>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/introductions-review/02L03-Solving-Equations/Intro%20Unit%202%20%20-%20L03Artboard%2070.png">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+
+                            <!--Stop Copy Here-->
+                            <hr>
+                            <!--Start Copy Here-->
+                            <!-- 1x2 Grid Image Right Grid -->
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h4>Example 3.2</h4>
+                                    <p>\(4\left(x-1\right)=2x+3\)</p>
+                                </div>
+                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Swap out image here-->
+                                    <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/introductions-review/02L03-Solving-Equations/Intro%20Unit%202%20%20-%20L03Artboard%2027.png">
+                                </div>
+                            </div>
+                            <!--End 1x2 Image Right Grid -->
+
+                            <!--Stop Copy Here-->
+                        </div>
+                        <!--Tab 3-->
+                        <div class="tab-pane fade" id="video-0303" role="tabpanel" aria-labelledby="tab03-tab">
+                            Video Coming Soon
+                        </div>
+                        <div class="tab-pane fade" id="selfcheck-0304" role="tabpanel" aria-labelledby="tab03-tab">
+                            <div class="row">
+                                <div class="col">
+                                    <p>Solve the equation. Then check your answer. </p>
+                                </div>
+                            </div>
+                            <!-- Start copying here -->
+                            <!--Self-Check # Grid-->
+                            <!-- 2x2 Grid Image Bottom Grid -->
+                            <div class="row">
+                                <!-- Top-Left -->
+                                <div class="col-md-6 col-divider">
+                                    <h4 class="grid-subtitle">
+                                        Self-Check 3.1
+                                    </h4>
+                                    <p>\(x+7 = 31-4x\)</p>
+
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck1-modal-0304">
+                                    Answer
+                            </a>
+                                    </div>
+                                </div>
+                                <!-- Top-Right -->
+                                <div class="col-md-6">
+                                    <h4 class="grid-subtitle">
+                                        Self-Check 3.2
+                                    </h4>
+                                    <p>\(5x+18=3\left(x+4\right)-6\)
+                                    </p>
+
+                                    <div class="grid-answer mt-2">
+                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck2-modal-0304">
+                                Answer
+                            </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!--End 2x2 Image Right Grid -->
+                            <!-- Modal 1 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck1-modal-0304" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 3.1
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                        
+                                    </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                <!--Swap out image here-->
+                                                <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/introductions-review/02L03-Solving-Equations/Intro%20Unit%202%20%20-%20L03Artboard%2026.png">
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 1-->
+                            <!-- Modal 2 Target -->
+                            <!--You must change the id below to match the "data-target" above -->
+                            <div class="modal fade" id="selfcheck2-modal-0304" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content ems-modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="">
+                                                Answer: Self-Check 3.2
+                                            </h5>
+                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </a>
+                                        </div>
+                                        <!--This is where you insert content for the modal -->
+                                        <div class="modal-body">
+                                            <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                <!--Swap out image here-->
+                                                <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/introductions-review/02L03-Solving-Equations/Intro%20Unit%202%20%20-%20L03Artboard%2025.png">
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End of Modal 2-->
+
+                            <!--End Self-Check # Grid-->
+                            <!-- Stop copying here -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Toolkit-->
+        <div id="btn-tools" class="row bg-primary">
+            <a class="bs-btn bs-btn-primary" title="Graphing Calculator" data-placement="top" data-target="#desmos-graphing-calculator" data-toggle="modal"> <i class="fa fa-chart-line" style="font-size: 25px;" aria-hidden="true"> </i> </a>
+            <a class="bs-btn bs-btn-primary" title="Scientific Calculator" data-placement="top" data-target="#desmos-scientific-calculator" data-toggle="modal"> <i class="fa fa-calculator" style="font-size: 25px;" aria-hidden="true"> </i> </a>
+        </div>
+        <div id="desmos-graphing-calculator" class="modal fade" role="dialog" aria-labelledby="desmos graphing calculator" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div id="" class="modal-content ems-modal-content">
+                    <div class="modal-header">
+                        <h5 id="desmos-graphing-calculator-head" class="modal-title">Desmos Graphing Calculator</h5>
+                        <a class="close" aria-label="Close" data-dismiss="modal"> <span aria-hidden="true"> &times; </span> </a>
+                    </div>
+                    <div class="modal-body embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://storage.googleapis.com/emspmg/Mathematics/Tools/desmos.html" width="300" height="150"></iframe>
+                    </div>
+                    <div class="modal-footer"><a class="bs-btn bs-btn-primary" data-dismiss="modal"> Close </a></div>
+                </div>
+            </div>
+        </div>
+        <div id="desmos-scientific-calculator" class="modal fade" role="dialog" aria-labelledby="desmos scientific calculator" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div id="" class="modal-content ems-modal-content">
+                    <div class="modal-header">
+                        <h5 id="desmos-scientific-calculator-head" class="modal-title">Desmos Scientific Calculator</h5>
+                        <a class="close" aria-label="Close" data-dismiss="modal"> <span aria-hidden="true"> &times; </span> </a>
+                    </div>
+                    <div class="modal-body embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.desmos.com/scientific" width="300" height="150"></iframe>
+                    </div>
+                    <div class="modal-footer"><a class="bs-btn bs-btn-primary" data-dismiss="modal"> Close </a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- End Tool Kit-->
+        </div>
+        <!--====  End of Concept # 3 Block Snippet  ====-->
+        <!-- Copy to here    -->
+        <!-- Copy to here    -->
+
+        <!--====  End of Start of Template  ====-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+
+
+        </script>
+        <script src="https://storage.googleapis.com/emspmg/style/bundle.js"></script>
+</body>
+
+</html>
