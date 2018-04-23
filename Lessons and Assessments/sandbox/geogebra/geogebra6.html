@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="ggb-element" data-ggb-url="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.5/L02-Sequence-of-Transformations/geogebra/G.CO.A.5-0101.ggb"></div>
+    <div class="ggb-element" data-ggb-url="https://storage.googleapis.com/emspmg/Mathematics/G.CO.A.5/L02-Sequence-of-Transformations/geogebra/G.CO.A.5-0201-rotation.ggb"></div>
+    
+    
+
+    <script src="https://cdn.geogebra.org/apps/deployggb.js"></script>
+
+
+    <script>
+        window.addEventListener("load", function() {
+            var ggbElements = document.querySelectorAll(".ggb-element");
+            for(var i=0; i<ggbElements.length; i++){
+                var ggbElement = ggbElements[i];
+                var ggbURL=ggbElement.dataset.ggbUrl;
+                var ggbParameters = {
+                    filename: ggbURL,
+                    appName: "classic",
+                    width: 800,
+                    height:600,
+                    showToolBar:true,
+                    showAlgebraInput:false,
+                    showMenuBar:false,
+                    preventFocus:true,
+                    showFullscreenButton:true,
+                    showResetIcon:true,
+                    enableRightClick:true,
+                    enableLabelDrags:true
+                }
+                var ggbApp = new GGBApplet(ggbParameters, true);
+            
+                ggbApp = new GGBApplet(ggbParameters, true);
+                ggbApp.inject(ggbElement);
+            } 
+            
+        });
+    </script>
+</body>
+</html>
