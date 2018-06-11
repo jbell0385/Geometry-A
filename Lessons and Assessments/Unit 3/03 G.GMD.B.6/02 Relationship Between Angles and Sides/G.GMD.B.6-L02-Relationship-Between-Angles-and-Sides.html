@@ -46,11 +46,15 @@
                     </p>
                     <ol>
                         <li>
-                            <a href="#concept01">I can apply the converse to the Unequal Sides Theorem in order to list angles least to greatest.
+                            <a href="#concept01"> I can apply the Unequal Sides Theorem in order to list sides from least to greatest.
 
                             </a></li>
                         <li>
-                            <a href="#concept02">I can apply the Unequal Sides Theorem in order to list sides from least to greatest.
+                            <a href="#concept02"> I can apply the converse of the Unequal Sides Theorem in order to list angles least to greatest. 
+                            </a> </li>
+                        <li>
+                            <a href="#concept03"> I can integrate algebra and the Unequal Sides Theorem to order sides from least to greatest.
+
                             </a> </li>
                     </ol>
                 </div>
@@ -69,813 +73,850 @@
                     <ol>
                         <!--To add more list items, copy and paste one below. You must change the data target -->
                         <li>
-                            <a href="#" data-toggle="modal" data-target="#exampleModal1">
+                            <a href="#" data-toggle="modal" data-target="#tot">
                                 Types of Triangles
                             </a>
                         </li>
                         <li>
-                            <a href="#" data-toggle="modal" data-target="#exampleModal2">
+                            <a href="#" data-toggle="modal" data-target="#TAS">
                                 Triangle Angle Sum Theorem
                             </a>
                         </li>
                     </ol>
                 </div>
-                <!-- Modal 1 -->
-                <!--You must change the id below to match the data-target above -->
-                <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <!-- Types of Triangles -->
+                <!--You must change the id below to match the "data-target" above -->
+                <div class="modal fade" id="tot" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
-                        <div class="modal-content">
+                        <div class="modal-content ems-modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="">
-                                    Types of Triangles Coming Soon
+                                    Types of Triangles
                                 </h5>
-                                <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-                                    </a>
+                                <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">
+                                                &times;
+                                            </span>
+                                        </a>
                             </div>
                             <!--This is where you insert content for the modal -->
                             <div class="modal-body">
+                                <p><i>Classification by Angle Measures</i></p>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Classification</th>
+                                            <th scope="col">Definition</th>
+                                            <th scope="col">Diagram</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Acute</td>
+                                            <td>Acute Triangles have all three angles with measures less than \(90^{\circ }\).</td>
+                                            <td>
+                                                <div class="image-responsive">
+                                                    <!--Swap out image here-->
+                                                    <img src="https://storage.googleapis.com/emspmg/Mathematics/glossary/acute.png" alt="An acute triangle EDF with all three measures of 35, 69 and 76 degrees are less than 90 degrees.">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Right</td>
+                                            <td>Right Triangles have only one angle equal to \(90^{\circ }\) and the other two angles less than \(90^{\circ }\).</td>
+                                            <td>
+                                                <div class="image-responsive">
+                                                    <!--Swap out image here-->
+                                                    <img src="https://storage.googleapis.com/emspmg/Mathematics/glossary/right.png" alt="Right triangle DEF with angles of 40, 50 and 90 degrees.">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>Eqiangular</td>
+                                            <td>Acute Triangles have all three angles congruent to each other. Since the sum of angle measures is \(180^{\circ }\), each angle can be found by dividing the sum by three, so the measure of each is \(60^{\circ }\). Equiangular triangles must also be equilateral. </td>
+                                            <td>
+                                                <div class="image-responsive">
+                                                    <!--Swap out image here-->
+                                                    <img src="https://storage.googleapis.com/emspmg/Mathematics/glossary/equiangular.png" alt="A triangle with three equal angles, EFD.">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <p><i>Classification by Side Lengths:</i></p>
+                                <table class="table table-bordered">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Classification</th>
+                                            <th scope="col">Definition</th>
+                                            <th scope="col">Diagram</th>
 
-                            </div>
-                            <div class="modal-footer">
-                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
-                                        Close
-                                    </a>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                Scalene
+                                            </td>
+                                            <td>
+                                                Scalene Triangles have NO sides congruent. All three must have different lengths.
+                                            </td>
+                                            <td>
+                                                <div class="image-responsive">
+                                                    <!--Swap out image here-->
+                                                    <img src="https://storage.googleapis.com/emspmg/Mathematics/glossary/scalene.png" alt="A triangle with all three sides of different lengths.">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Isosceles
+                                            </td>
+                                            <td>
+
+                                                Isosceles Triangles have AT LEAST two sides congruent. This means that they can have either two or three sides with equal lengths.
+
+                                            </td>
+                                            <td>
+                                                <div class="image-responsive">
+                                                    <!--Swap out image here-->
+                                                    <img src="https://storage.googleapis.com/emspmg/Mathematics/glossary/isosceles.png" alt="A triangle with at least two sides that are equal. Sides MN and NP are congruent, where side MP is not.">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                Equilateral
+                                            </td>
+                                            <td>
+
+                                                Equilateral Triangles must have ALL three sides congruent. Equilateral triangles must also be equiangular.
+
+                                            </td>
+                                            <td>
+                                                <div class="image-responsive">
+                                                    <!--Swap out image here-->
+                                                    <img src="https://storage.googleapis.com/emspmg/Mathematics/glossary/equilateral.png" alt="A triangle with three equal sides.">
+                                            </td>
+                                        </tr>
+                                    </tbody>
+
+                                </table>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                            Close
+                                        </a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- End of Modal 1-->
-                <!-- Modal 2 -->
-                <!--You must change the id below to match the data-target above -->
-                <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="">
-                                    Triangle Angle Sum Theorem Coming Soon
-                                </h5>
-                                <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-                                    </a>
-                            </div>
-                            <!--This is where you insert content for the modal -->
-                            <div class="modal-body">
-
-                            </div>
-                            <div class="modal-footer">
-                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
-                                        Close
-                                    </a>
+                    <!-- End of types of Triangles-->
+                    <!-- Triangle Angle Sum Theorem -->
+                    <!--You must change the id below to match the "data-target" above -->
+                    <div class="modal fade" id="TAS" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content ems-modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="">
+                                        Triangle Angle Sum Theorem
+                                    </h5>
+                                    <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">
+                                                &times;
+                                            </span>
+                                        </a>
+                                </div>
+                                <!--This is where you insert content for the modal -->
+                                <div class="modal-body">
+                                    <p>The Triangle Angle Sum Theorem states that the sum of all interior angles of every triangle must be \(180^{\circ }\). A two-column proof can be used to prove this theorem true.
+                                    </p>
+                                </div>
+                                <div class="col-md-6 image-responsive">
+                                    <!--Swap out image here-->
+                                    <img src="https://storage.googleapis.com/emspmg/Mathematics/glossary/triangle_angle_sum.png" alt="In \(\Delta EDF\), \(41^{\circ }+107^{\circ }+32^{\circ }=180^{\circ }\)
+.">
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                            Close
+                                        </a>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <!-- End of Triangle Angle Sum Theorem-->
                 </div>
-                <!-- End of Modal 2-->
-
             </div>
-        </div>
-        <!--====  End of Prior Knowledge Snippet  ====-->
-        <!--========================================
+            <!--====  End of Prior Knowledge Snippet  ====-->
+            <!--========================================
     =          Concept # Block Snippet         =
     =========================================-->
-        <div class="card" id="concept01">
-            <div class="card-header panel-heading">
-                <i class="fa fa-book card-header-icon" aria-hidden="true"></i>1. List Sides from Least to Greatest
-            </div>
-            <div class="card-body">
-                <div class="tabs-container">
-                    <nav>
-                        <div class="nav nav-tabs" id="" role="tablist">
-                            <!-- Add navigation tabs here. Make sure to give it a unique ID and the href matches the id below-->
-                            <a class="nav-item nav-link active" id="instruction0101" data-toggle="tab" href="#instruction-0101" role="tab" aria-controls="tab-0X01" aria-selected="true">
+            <div class="card" id="concept01">
+                <div class="card-header panel-heading">
+                    <i class="fa fa-book card-header-icon" aria-hidden="true"></i>1. List Sides from Least to Greatest
+                </div>
+                <div class="card-body">
+                    <div class="tabs-container">
+                        <nav>
+                            <div class="nav nav-tabs" id="" role="tablist">
+                                <!-- Add navigation tabs here. Make sure to give it a unique ID and the href matches the id below-->
+                                <a class="nav-item nav-link active" id="instruction0101" data-toggle="tab" href="#instruction-0101" role="tab" aria-controls="tab-0X01" aria-selected="true">
                                 Instruction
                             </a>
-                            <a class="nav-item nav-link" id="examples0102" data-toggle="tab" href="#examples-0102" role="tab" aria-controls="tab-0X02" aria-selected="false">
+                                <a class="nav-item nav-link" id="examples0102" data-toggle="tab" href="#examples-0102" role="tab" aria-controls="tab-0X02" aria-selected="false">
                                 Examples
                             </a>
-                            <a class="nav-item nav-link" id="video0103" data-toggle="tab" href="#video-0103" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                                <a class="nav-item nav-link" id="video0103" data-toggle="tab" href="#video-0103" role="tab" aria-controls="tab-0X03" aria-selected="false">
                                 Video
                             </a>
-                            <a class="nav-item nav-link" id="interactive0104" data-toggle="tab" href="#interactive-0104" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                                <a class="nav-item nav-link" id="interactive0104" data-toggle="tab" href="#interactive-0104" role="tab" aria-controls="tab-0X03" aria-selected="false">
                                 Interactive
                             </a>
 
-                            <a class="nav-item nav-link" id="selfcheck0105" data-toggle="tab" href="#selfcheck-0105" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                                <a class="nav-item nav-link" id="selfcheck0105" data-toggle="tab" href="#selfcheck-0105" role="tab" aria-controls="tab-0X03" aria-selected="false">
                                 Self-Check
                             </a>
-                        </div>
-                    </nav>
-                    <div class="tab-content" id="concept01">
-                        <!-- Make sure all id's match the href's above -->
-                        <!--Tab 1-->
-                        <div class="tab-pane fade show active" id="instruction-0101" role="tabpanel" aria-labelledby="tab01-tab">
-                            <!--Start Copy Here-->
-                            <!-- 1x2 Grid Image Right Grid -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h4>Opposite Sides</h4>
-                                    <p>This lesson investigates how each angle measurement of a triangle affects the side across or opposite from that angle. In the diagram below in \(\triangle ABC\), \(\angle A\) is always opposite the side created with the other two vertices of B and C to create side \(\overline{BC}\). The same is true for the other two vertices and their opposite sides. </p>
-                                </div>
-                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
-                                    <!--Swap out image here-->
-                                    <img alt="a triangle" class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02i0101.png">
-                                </div>
                             </div>
-                            <!--End 1x2 Image Right Grid -->
-
-                            <!--Stop Copy Here-->
-                            <hr>
-                            <!--Start Copy Here-->
-                            <!-- 1x2 Grid Image Right Grid -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h4>The Unequal Sides Theorem</h4>
-                                    <p>The Unequal Sides Theorem states that when angles are of different measure in a triangle, the angle opposite from the longest side is greater than the angle opposite from the shortest side. This means the largest angle is always across from the longest side and the smallest angle is always across from the shortest side. Examine the following diagram to understand the relationship.
-                                    </p>
-                                </div>
-                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
-                                    <!--Swap out image here-->
-                                    <img alt="a triangle" class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02i0102.png">
-                                </div>
-                                <p>The converse of the Unequal Sides Theorem is also true. The largest angle must be opposite from the longest side and the smallest angle must be opposite from the shortest side.
-                                </p>
-                                <p>The following examples will instruct how to list the sides from least to greatest using the theorem.
-                                </p>
-                            </div>
-                            <!--End 1x2 Image Right Grid -->
-
-                            <!--Stop Copy Here-->
-                        </div>
-
-
-                        <!--Tab 2-->
-                        <div class="tab-pane fade" id="examples-0102" role="tabpanel" aria-labelledby="tab02-tab">
-                            <!--Start Copy Here-->
-                            <!-- 1x2 Grid Image Right Grid -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h4> Example 1.1</h4>
-                                    <h5>List Side Lengths From Least to Greatest</h5>
-                                    <p>Order the side lenghts from least to greatest. Write the answer as an inequality. Triangle is not drawn to scale. </p>
-                                    <div class="image-responsive d-flex justify-content-center align-items-center">
-                                        <!--Swap out image here-->
-                                        <img alt="a triangle" class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0101.png">
+                        </nav>
+                        <div class="tab-content" id="concept01">
+                            <!-- Make sure all id's match the href's above -->
+                            <!--Tab 1-->
+                            <div class="tab-pane fade show active" id="instruction-0101" role="tabpanel" aria-labelledby="tab01-tab">
+                                <!--Start Copy Here-->
+                                <!-- 1x2 Grid Image Right Grid -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h4>Opposite Sides</h4>
+                                        <p>This lesson investigates how each angle measurement of a triangle affects the side across or <i>opposite</i> to that angle. Here in \(\triangle ABC\), the opposite side to \(\angle A\) is \(\overline{BC}\) which is created by the other two vertices, \(B\) and \(C\). The same relationship is true for the other two angles and their opposite sides. </p>
                                     </div>
-
-                                </div>
-                                <div class="col-md-6">
-                                    <p><strong>Solution:</strong> </p>
-                                    <p>First, color code the sides and angles to help pair up each angle with its opposite side. In order to list the sides from least to greatest, first list the angles from least to greatest. Since one angle is missing, its measure must be found first. Use the Triangle Sum Theorem to find its measure.
-                                    </p>
-                                    <div class="image-responsive d-flex justify-content-center align-items-center">
+                                    <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
                                         <!--Swap out image here-->
-                                        <img alt="a triangle" class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0101%20answer1.png">
-
-                                    </div>
-                                    <p>Next, use the measures of the angles to list sides from least to greatest. Label sides to match them from their opposite angles.
-                                    </p>
-                                    <div class="image-responsive d-flex justify-content-center align-items-center">
-                                        <!--Swap out image here-->
-                                        <img alt="a triangle" class="img-300" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0101%20answer%202.png">
-
+                                        <img alt="a triangle" class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02i0101.png">
                                     </div>
                                 </div>
                                 <!--End 1x2 Image Right Grid -->
 
                                 <!--Stop Copy Here-->
                                 <hr>
-
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="video-0103" role="tabpanel" aria-labelledby="tab03-tab">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/91KoEI3dHqU?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-                            </div>
-                        </div>
-                        <!--Tab 3-->
-                        <div class="tab-pane fade" id="interactive-0104" role="tabpanel" aria-labelledby="tab04-tab">
-                            <h4>GeoGebra</h4>
-                            <p>Use GeoGebra to evaluate what happens to angles measures and side lengths when you adjust an angle measure.
-                            </p>
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe scrolling="no" title="Relationship between Angles and Sides in a Triangle" alt="a moveable triangle" src="https://www.geogebra.org/material/iframe/id/NAEkvvsU/width/800/height/430/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="800px" height="430px" style="border:0px;"> </iframe>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade" id="selfcheck-0105" role="tabpanel" aria-labelledby="tab03-tab">
-                            <!-- Self-Check 1 Grid -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h4 class="grid-subtitle">Self-Check 1.1</h4>
-                                    <p>
-                                        List the side lengths from least to greatest in \(\triangle ARG\). Write the answer as an inequality. Triangle is not drawn to scale.
-                                    </p>
-                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
-                                    <div class="grid-answer mt-2">
-                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck1-modal-0105">
-                Answer
-            </a>
+                                <!--Start Copy Here-->
+                                <!-- 1x2 Grid Image Right Grid -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h4>The Unequal Sides Theorem</h4>
+                                        <p>The Unequal Sides Theorem states that when angles are of different measure in a triangle, the angle opposite from the longest side is greater than the angle opposite from the shortest side. This means the largest angle is always across from the longest side and the smallest angle is always across from the shortest side. Examine the following diagram to understand the relationship.
+                                        </p>
                                     </div>
-                                </div>
-                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
-                                    <!--Swap out image here-->
-                                    <img alt="a triangle" class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0101.png" />
-                                </div>
-                            </div>
-                            <!-- Modal 1 Target -->
-                            <!--You must change the id below to match the "data-target" above -->
-                            <div class="modal fade" id="selfcheck1-modal-0105" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content ems-modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="">
-                                                Answer: Self-Check 1.1
-                                            </h5>
-                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </a>
-                                        </div>
-                                        <!--This is where you insert content for the modal -->
-                                        <div class="modal-body">
-                                            <p>Use the Unequal Sides Theorem to list the sides in order. First find the missing angle by using the Triangle Angle Sum Theorem. Then list opposites sides from their angles in order.
-                                            </p>
-                                            <div class="image-responsive d-flex justify-content-center align-items-center">
-                                                <!--Swap out image here-->
-                                                <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0101%20answer%20.png">
-
-                                            </div>
-                                            <p>Writing the sides in order using an inequality, the order least to greatest is: \(\overline{AG}\lt\overline{GR}\lt\overline{RA}\).</p>
-
-                                        </div>
-                                        <div class="modal-footer">
-                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
-                    Close
-                </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End of Modal 1-->
-                            <!--End Self-Check 1 -->
-                            <hr>
-                            <!-- Self-Check 2 Grid -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h4 class="grid-subtitle">Self-Check 1.2</h4>
-                                    <p>
-                                        List the side lengths from least to greatest in \(\triangle ARG\). Write the answer as an inequality. Triangle is not drawn to scale.
-                                    </p>
-                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
-                                    <div class="grid-answer mt-2">
-                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck2-modal-0105">
-                Answer
-            </a>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
-                                    <!--Swap out image here-->
-                                    <img alt="a triangle" class="img-300" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0102.png" />
-                                </div>
-                            </div>
-                            <!-- Modal 1 Target -->
-                            <!--You must change the id below to match the "data-target" above -->
-                            <div class="modal fade" id="selfcheck2-modal-0105" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content ems-modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="">
-                                                Answer: Self-Check 1.2
-                                            </h5>
-                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-                </a>
-                                        </div>
-                                        <!--This is where you insert content for the modal -->
-                                        <div class="modal-body">
-                                            <p>Use the Unequal Sides Theorem to list the sides in order. Since there are two congruent angle measures are missing, set up an equation to solve first using the Triangle Angle Sum Theorem. Then list opposites sides from their angles in order.
-                                            </p>
-                                            <div class="image-responsive d-flex justify-content-center align-items-center">
-                                                <!--Swap out image here-->
-                                                <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0102%20answer.png">
-
-                                            </div>
-                                            <p>Write the sides in order using an inequality. Since two sides are equal, those two can be written interchangeably with and equal side between. The order least to greatest is:
-                                            </p>
-                                            <p>\(\overline{QR}=\overline{QS}\lt\overline{RS}\). </p>
-                                            <p>The two short sides can be switched as well.
-                                            </p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
-                    Close
-                </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End of Modal 1-->
-                            <!--End Self-Check 2 -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--====  End of Concept # Block Snippet  ====-->
-        <!-- Copy from here -->
-        <!--========================================
-    =          Concept # 2 Block Snippet         =
-    =========================================-->
-        <div class="card" id="concept02">
-            <div class="card-header panel-heading">
-                <i class="fa fa-book card-header-icon" aria-hidden="true"></i> 2. List Angles from Least to Greatest
-
-            </div>
-            <div class="card-body">
-                <div class="tabs-container">
-                    <nav>
-                        <div class="nav nav-tabs" id="" role="tablist">
-                            <!-- Add navigation tabs here. Make sure to give it a unique ID and the href matches the id below-->
-                            <a class="nav-item nav-link active" id="instruction0201" data-toggle="tab" href="#instruction-0201" role="tab" aria-controls="tab-0X01" aria-selected="true">
-                            Instruction
-                        </a>
-                            <a class="nav-item nav-link" id="examples0202" data-toggle="tab" href="#examples-0202" role="tab" aria-controls="tab-0X02" aria-selected="false">
-                            Examples
-                        </a>
-                            <a class="nav-item nav-link" id="video0203" data-toggle="tab" href="#video-0203" role="tab" aria-controls="tab-0X03" aria-selected="false">
-                            Video
-                        </a>
-                            <a class="nav-item nav-link" id="interactive0204" data-toggle="tab" href="#interactive-0204" role="tab" aria-controls="tab-0X03" aria-selected="false">
-                            Interactive
-                        </a>
-
-                            <a class="nav-item nav-link" id="selfcheck0205" data-toggle="tab" href="#selfcheck-0205" role="tab" aria-controls="tab-0X03" aria-selected="false">
-                            Self-Check
-                        </a>
-                        </div>
-                    </nav>
-                    <div class="tab-content" id="">
-                        <!-- Make sure all id's match the href's above -->
-                        <!--Tab 1-->
-                        <div class="tab-pane fade show active" id="instruction-0201" role="tabpanel" aria-labelledby="tab01-tab">
-                            <!--Start Copy Here-->
-                            <!-- 1x2 Grid Image Right Grid -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <p>The reverse of the Unequal Sides Theorem is also true. This states that the side opposite from the largest angle is longer than the side opposite from the smallest angle. This means the longest side is always across from the largest angle and the shortest side is always across from the smallest angle. The same diagram applies as before.
-                                    </p>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="image-responsive d-flex justify-content-center align-items-center">
+                                    <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
                                         <!--Swap out image here-->
-                                        <img alt="a triangle" class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02i0201.png">
+                                        <img alt="a triangle" class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02i0102.png">
                                     </div>
-                                    <p>Listing angles from least to greatest can be confusing. In the examples tab, pay close attention on how to list them.</p>
+                                    <p>The converse of the Unequal Sides Theorem is also true. The largest angle must be opposite from the longest side and the smallest angle must be opposite from the shortest side.
+                                    </p>
+                                    <p>The following examples will instruct how to list the sides from least to greatest using the theorem.
+                                    </p>
                                 </div>
                                 <!--End 1x2 Image Right Grid -->
 
                                 <!--Stop Copy Here-->
                             </div>
-                        </div>
-                        <!--Tab 2-->
-                        <div class="tab-pane fade" id="examples-0202" role="tabpanel" aria-labelledby="tab02-tab">
-                            <!--Start Copy Here-->
-                            <!-- 1x2 Grid Image Right Grid -->
-                            <div class="row">
-                                <div class="col-md-6 order-md-5">
-                                    <p><strong>Solution:</strong></p>
-                                    <p>First, color code the angles and sides to help pair up each side with its opposite angle. In order to list the angles from least to greatest, first list the sides from least to greatest.
-                                    </p>
-                                    <!--Swap out image here-->
-                                    <div class="image-responsive d-flex justify-content-center align-items-center">
-                                        <!--Swap out image here-->
-                                        <img alt="a triangle" class="img-300" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0201%20answer.png">
+
+
+                            <!--Tab 2-->
+                            <div class="tab-pane fade" id="examples-0102" role="tabpanel" aria-labelledby="tab02-tab">
+                                <!--Start Copy Here-->
+                                <!-- 1x2 Grid Image Right Grid -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h4> Example 1.1</h4>
+                                        <h5>List Side Lengths From Least to Greatest</h5>
+                                        <p>Order the side lenghts from least to greatest. Write the answer as an inequality. Triangle is not drawn to scale. </p>
+                                        <div class="image-responsive d-flex justify-content-center align-items-center">
+                                            <!--Swap out image here-->
+                                            <img alt="a triangle" class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0101.png">
+                                        </div>
+
                                     </div>
+                                    <div class="col-md-6">
+                                        <p><strong>Solution:</strong> </p>
+                                        <p>First, color code the sides and angles to help pair up each angle with its opposite side. In order to list the sides from least to greatest, first list the angles from least to greatest. Since one angle is missing, its measure must be found first. Use the Triangle Sum Theorem to find its measure.
+                                        </p>
+                                        <div class="image-responsive d-flex justify-content-center align-items-center">
+                                            <!--Swap out image here-->
+                                            <img alt="a triangle" class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0101%20answer1.png">
 
+                                        </div>
+                                        <p>Next, use the measures of the angles to list sides from least to greatest. Label sides to match them from their opposite angles.
+                                        </p>
+                                        <div class="image-responsive d-flex justify-content-center align-items-center">
+                                            <!--Swap out image here-->
+                                            <img alt="a triangle" class="img-300" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0101%20answer%202.png">
 
-                                    <p>Now, by using the opposite angles in relation to the sides, \(\angle A\) is the smallest angle and \(\angle I\) is the largest. Be careful when writing the inequality, the \(m\) symbol to represent the measurement must be written for each angle, along with the angle symbol and the less than symbol. Use less than symbols since the previous angle must be less than then next. Altogether from least to greatest, the angles are: \(m\angle A \lt m\angle R\lt m\angle I\) </p>
-                                </div>
-
-                                <div class="col-md-6 order-md-4 image-responsive">
-                                    <h4>Example 2.1</h4>
-                                    <h5>List Angle Measures from Least to Greatest
-                                    </h5>
-                                    <p>Order the angle measures from least to greatest in \(\triangle AIR\). Write the answer as an inequality. Triangle is not drawn to scale.
-
-                                    </p>
-                                    <div class="image-responsive d-flex justify-content-center align-items-center">
-                                        <!--Swap out image here-->
-                                        <img alt="a triangle" class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0201.png">
+                                        </div>
+                                        <p>Last, list the sides least to greatest. Use less than symbols since the previous side must be less than then next. The answer least to greatest is: \(OY \lt TO \lt YT\) </p>
                                     </div>
+                                    <!--End 1x2 Image Right Grid -->
 
+                                    <!--Stop Copy Here-->
+                                    <hr>
 
                                 </div>
-                                <!--End 1x2 Image Right Grid -->
-
-                                <!--Stop Copy Here-->
                             </div>
-                        </div>
-                        <div class="tab-pane fade" id="video-0203" role="tabpanel" aria-labelledby="tab03-tab">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/R-tR-pQ-RI8?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <div class="tab-pane fade" id="video-0103" role="tabpanel" aria-labelledby="tab03-tab">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/91KoEI3dHqU?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+                                </div>
                             </div>
-                        </div>
-
-                        <!--Tab 3-->
-                        <div class="tab-pane fade" id="interactive-0204" role="tabpanel" aria-labelledby="tab04-tab">
-                            <h4>Geogebra</h4>
-                            <p>Use GeoGebra to evaluate what happens to angles measures and side lengths when you adjust a side length.
-                            </p>
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe scrolling="no" title="Relationship between Angles and Sides in a Triangle" alt="a moveable triangle" src="https://www.geogebra.org/material/iframe/id/NAEkvvsU/width/800/height/430/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="800px" height="430px" style="border:0px;"> </iframe>
+                            <!--Tab 3-->
+                            <div class="tab-pane fade" id="interactive-0104" role="tabpanel" aria-labelledby="tab04-tab">
+                                <h4>GeoGebra</h4>
+                                <p>Use GeoGebra to evaluate what happens to angles measures and side lengths when you adjust an angle measure.
+                                </p>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe scrolling="no" title="Relationship between Angles and Sides in a Triangle" alt="a moveable triangle" src="https://www.geogebra.org/material/iframe/id/NAEkvvsU/width/800/height/430/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="800px" height="430px" style="border:0px;"> </iframe>
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="tab-pane fade" id="selfcheck-0205" role="tabpanel" aria-labelledby="tab03-tab">
-                            <!-- Self-Check 1 Grid -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h4 class="grid-subtitle">Self-Check 2.1</h4>
-                                    <p>Order the angle measures from least to greatest in \(\triangle CAR\). Write the answer as an inequality. Triangle is not drawn to scale.</p>
-
-                                    <!--Change the "data-target" below to match the id of the modal used for this button -->
-                                    <div class="grid-answer mt-2">
-                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck1-modal-0205">
+                            <div class="tab-pane fade" id="selfcheck-0105" role="tabpanel" aria-labelledby="tab03-tab">
+                                <!-- Self-Check 1 Grid -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h4 class="grid-subtitle">Self-Check 1.1</h4>
+                                        <p>
+                                            List the side lengths from least to greatest in \(\triangle ARG\). Write the answer as an inequality. Triangle is not drawn to scale.
+                                        </p>
+                                        <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                        <div class="grid-answer mt-2">
+                                            <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck1-modal-0105">
                 Answer
             </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                        <!--Swap out image here-->
+                                        <img alt="a triangle" class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0101.png" />
                                     </div>
                                 </div>
-                                <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
-                                    <!--Swap out image here-->
-                                    <img alt="a triangle" class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0201.png" />
-                                </div>
-                            </div>
-                            <!-- Modal 1 Target -->
-                            <!--You must change the id below to match the "data-target" above -->
-                            <div class="modal fade" id="selfcheck1-modal-0205" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content ems-modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="">
-                                                Answer: Self-Check 2.1
-                                            </h5>
-                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                                <!-- Modal 1 Target -->
+                                <!--You must change the id below to match the "data-target" above -->
+                                <div class="modal fade" id="selfcheck1-modal-0105" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content ems-modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="">
+                                                    Answer: Self-Check 1.1
+                                                </h5>
+                                                <a href="#" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </a>
-                                        </div>
-                                        <!--This is where you insert content for the modal -->
-                                        <div class="modal-body">
-                                            <div class="col-md-12">
-                                                <p>First, color code the angles and sides to help pair up each side with its opposite angle. In order to list the angles from least to greatest, first list the sides from least to greatest.
+                                            </div>
+                                            <!--This is where you insert content for the modal -->
+                                            <div class="modal-body">
+                                                <p>Use the Unequal Sides Theorem to list the sides in order. First find the missing angle by using the Triangle Angle Sum Theorem. Then list opposites sides from their angles in order.
                                                 </p>
                                                 <div class="image-responsive d-flex justify-content-center align-items-center">
                                                     <!--Swap out image here-->
-                                                    <img class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0201%20answer.png">
+                                                    <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0101%20answer%20.png">
+
                                                 </div>
-                                                <p>Now, by using the opposite angles in relation to the sides, \(\angle R\) is the smallest angle and \(\angle C\) is the largest. Be careful when writing the inequality, the \(m\) symbol to represent the measurement must be written for each angle, along with the angle symbol and the less than symbol. Use less than symbols since the previous angle must be less than then next. Altogether from least to greatest, the angles are: \(m\angle R \lt m\angle A \lt m\angle C\) </p>
+                                                <p>Writing the sides in order using an inequality, the order least to greatest is: \(AG \lt GR \lt RA\). </p>
 
                                             </div>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                            <div class="modal-footer">
+                                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
                     Close
                 </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- End of Modal 1-->
+                                <!--End Self-Check 1 -->
+                                <hr>
+                                <!-- Self-Check 2 Grid -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h4 class="grid-subtitle">Self-Check 1.2</h4>
+                                        <p>
+                                            List the side lengths from least to greatest in . Write the answer as an inequality. Triangle is not drawn to scale. \(\triangle QRS\).
+                                        </p>
+                                        <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                        <div class="grid-answer mt-2">
+                                            <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck2-modal-0105">
+                Answer
+            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                        <!--Swap out image here-->
+                                        <img alt="a triangle" class="img-300" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0102.png" />
+                                    </div>
+                                </div>
+                                <!-- Modal 1 Target -->
+                                <!--You must change the id below to match the "data-target" above -->
+                                <div class="modal fade" id="selfcheck2-modal-0105" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content ems-modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="">
+                                                    Answer: Self-Check 1.2
+                                                </h5>
+                                                <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </a>
+                                            </div>
+                                            <!--This is where you insert content for the modal -->
+                                            <div class="modal-body">
+                                                <p>Use the Unequal Sides Theorem to list the sides in order. Since there are two congruent angle measures are missing, set up an equation to solve first using the Triangle Angle Sum Theorem. Then list opposites sides from their angles in order.
+                                                </p>
+                                                <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                    <!--Swap out image here-->
+                                                    <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0102%20answer.png">
+
+                                                </div>
+                                                <p>Write the sides in order using an inequality. Since two sides are equal, those two can be written interchangeably with and equal side between. The order least to greatest is:
+                                                </p>
+                                                <p></p>
+                                                <p>The two short sides can be switched as well. \(QR = QS \lt RS\)
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                    Close
+                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End of Modal 1-->
+                                <!--End Self-Check 2 -->
                             </div>
-                            <!-- End of Modal 1-->
-                            <!--End Self-Check 1 -->
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--====  End of Concept # 2 Block Snippet  ====-->
-        <!-- Copy from here -->
-        <!--========================================
-    =          Concept # 3 Block Snippet         =
+            <!--====  End of Concept # Block Snippet  ====-->
+            <!-- Copy from here -->
+            <!--========================================
+    =          Concept # 2 Block Snippet         =
     =========================================-->
-        <div class="card">
-            <div class="card-header panel-heading">
-                <i class="fa fa-book card-header-icon" aria-hidden="true"></i>3. Apply Algebra to the Unequal Sides Theorem
+            <div class="card" id="concept02">
+                <div class="card-header panel-heading">
+                    <i class="fa fa-book card-header-icon" aria-hidden="true"></i> 2. List Angles from Least to Greatest
 
-            </div>
-            <div class="card-body">
-                <div class="tabs-container">
-                    <nav>
-                        <div class="nav nav-tabs" id="" role="tablist">
-                            <!-- Add navigation tabs here. Make sure to give it a unique ID and the href matches the id below-->
-                            <a class="nav-item nav-link active" id="instruction0301" data-toggle="tab" href="#instruction-0301" role="tab" aria-controls="tab-0X01" aria-selected="true">
+                </div>
+                <div class="card-body">
+                    <div class="tabs-container">
+                        <nav>
+                            <div class="nav nav-tabs" id="" role="tablist">
+                                <!-- Add navigation tabs here. Make sure to give it a unique ID and the href matches the id below-->
+                                <a class="nav-item nav-link active" id="instruction0201" data-toggle="tab" href="#instruction-0201" role="tab" aria-controls="tab-0X01" aria-selected="true">
                             Instruction
                         </a>
-                            <a class="nav-item nav-link" id="examples0302" data-toggle="tab" href="#examples-0302" role="tab" aria-controls="tab-0X02" aria-selected="false">
+                                <a class="nav-item nav-link" id="examples0202" data-toggle="tab" href="#examples-0202" role="tab" aria-controls="tab-0X02" aria-selected="false">
                             Examples
                         </a>
-                            <a class="nav-item nav-link" id="video0303" data-toggle="tab" href="#video-0303" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                                <a class="nav-item nav-link" id="video0203" data-toggle="tab" href="#video-0203" role="tab" aria-controls="tab-0X03" aria-selected="false">
                             Video
                         </a>
-                            <a class="nav-item nav-link" id="selfcheck0304" data-toggle="tab" href="#selfcheck-0304" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                                <a class="nav-item nav-link" id="interactive0204" data-toggle="tab" href="#interactive-0204" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                            Interactive
+                        </a>
+
+                                <a class="nav-item nav-link" id="selfcheck0205" data-toggle="tab" href="#selfcheck-0205" role="tab" aria-controls="tab-0X03" aria-selected="false">
                             Self-Check
                         </a>
-                        </div>
-                    </nav>
-                    <div class="tab-content" id="">
-                        <!-- Make sure all id's match the href's above -->
-                        <!--Tab 1-->
-                        <div class="tab-pane fade show active" id="instruction-0301" role="tabpanel" aria-labelledby="tab01-tab">
-                            <p>The Unequal Sides Theorem can also be used when only one or even no angle measures and side lengths are known. By using algebra, writing sides in order from least to greatest can still be accomplished by using the Triangle Angle Sum Theorem as before.
-                            </p>
-                            <hr style="width:50%">
-                            <p>Some questions will include converting written expressions into algebraic form. To begin, review the following common expressions.
-                            </p>
-                            <p>Twice: two times another</p>
-                            <p>Triple: three times another
-                            </p>
-                            <p>Quadruple: four times another</p>
-                            <p>Quintuple: five times another
-                            </p>
-                            <p>Greater than: add the value to another number</p>
-                            <p>Less than: subtract the value to another number
-                            </p>
-                            <hr style="width:50%">
-                            <p>The following are converted from written expressions to algebraic expressions. \(x\) will be used as the other number.
-                            </p>
-                            <ol>
-                                <li>Triple a number: \(3x\)
-                                </li>
-                                <li>Eight more than twice a number: \(2x+8\)
-                                </li>
-                                <li>Seventeen less than a number: \(x-17\)
-                                </li>
-                            </ol>
-                            <hr style="width:50%">
-                            <p>In the last two examples, the numbers added or subtracted are written after the unknown number because they are in addition to or subtracted from another. Remember this important attribute when creating equations in the following examples. </p>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="">
+                            <!-- Make sure all id's match the href's above -->
+                            <!--Tab 1-->
+                            <div class="tab-pane fade show active" id="instruction-0201" role="tabpanel" aria-labelledby="tab01-tab">
+                                <!--Start Copy Here-->
+                                <!-- 1x2 Grid Image Right Grid -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p>The reverse of the Unequal Sides Theorem is also true. This states that the side opposite from the largest angle is longer than the side opposite from the smallest angle. This means the longest side is always across from the largest angle and the shortest side is always across from the smallest angle. The same diagram applies as before.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="image-responsive d-flex justify-content-center align-items-center">
+                                            <!--Swap out image here-->
+                                            <img alt="a triangle" class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02i0201.png">
+                                        </div>
+                                        <p>Listing angles from least to greatest can be confusing. In the examples tab, pay close attention on how to list them.</p>
+                                    </div>
+                                    <!--End 1x2 Image Right Grid -->
 
-                        </div>
-                        <!--Tab 2-->
-                        <div class="tab-pane fade" id="examples-0302" role="tabpanel" aria-labelledby="tab02-tab">
-                            <!--Start Copy Here-->
-                            <!-- 1x2 Grid Image Right Grid -->
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h4>Example 3.1</h4>
-                                    <h5>Write Side Lengths in Order Using a Given Diagram</h5>
-                                    <p>List the side lengths from least to greatest in \(\triangle ARG\). Write the answer as an inequality. Triangle is not drawn to scale.
-                                    </p>
-                                    <div class="image-responsive d-flex justify-content-center align-items-center">
+                                    <!--Stop Copy Here-->
+                                </div>
+                            </div>
+                            <!--Tab 2-->
+                            <div class="tab-pane fade" id="examples-0202" role="tabpanel" aria-labelledby="tab02-tab">
+                                <!--Start Copy Here-->
+                                <!-- 1x2 Grid Image Right Grid -->
+                                <div class="row">
+                                    <div class="col-md-6 order-md-5">
+                                        <p><strong>Solution:</strong></p>
+                                        <p>First, color code the angles and sides to help pair up each side with its opposite angle. In order to list the angles from least to greatest, first list the sides from least to greatest.
+                                        </p>
                                         <!--Swap out image here-->
-                                        <img alt="a traingle" class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0301.png">
+                                        <div class="image-responsive d-flex justify-content-center align-items-center">
+                                            <!--Swap out image here-->
+                                            <img alt="a triangle" class="img-300" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0201%20answer.png">
+                                        </div>
+
+
+                                        <p>Now, by using the opposite angles in relation to the sides, \(\angle A\) is the smallest angle and \(\angle I\) is the largest. Be careful when writing the inequality, the \(m\) symbol to represent the measurement must be written for each angle, along with the angle symbol and the less than symbol. Use less than symbols since the previous angle must be less than then next. Altogether from least to greatest, the angles are: \(m\angle A \lt m\angle R\lt m\angle I\) </p>
+                                    </div>
+
+                                    <div class="col-md-6 order-md-4 image-responsive">
+                                        <h4>Example 2.1</h4>
+                                        <h5>List Angle Measures from Least to Greatest
+                                        </h5>
+                                        <p>Order the angle measures from least to greatest in \(\triangle AIR\). Write the answer as an inequality. Triangle is not drawn to scale.
+
+                                        </p>
+                                        <div class="image-responsive d-flex justify-content-center align-items-center">
+                                            <!--Swap out image here-->
+                                            <img alt="a triangle" class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0201.png">
+                                        </div>
+
+
+                                    </div>
+                                    <!--End 1x2 Image Right Grid -->
+
+                                    <!--Stop Copy Here-->
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="video-0203" role="tabpanel" aria-labelledby="tab03-tab">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/R-tR-pQ-RI8?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+                                </div>
+                            </div>
+
+                            <!--Tab 3-->
+                            <div class="tab-pane fade" id="interactive-0204" role="tabpanel" aria-labelledby="tab04-tab">
+                                <h4>Geogebra</h4>
+                                <p>Use GeoGebra to evaluate what happens to angles measures and side lengths when you adjust a side length.
+                                </p>
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe scrolling="no" title="Relationship between Angles and Sides in a Triangle" alt="a moveable triangle" src="https://www.geogebra.org/material/iframe/id/NAEkvvsU/width/800/height/430/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="800px" height="430px" style="border:0px;"> </iframe>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="selfcheck-0205" role="tabpanel" aria-labelledby="tab03-tab">
+                                <!-- Self-Check 1 Grid -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h4 class="grid-subtitle">Self-Check 2.1</h4>
+                                        <p>Order the angle measures from least to greatest in \(\triangle CAR\). Write the answer as an inequality. Triangle is not drawn to scale.</p>
+
+                                        <!--Change the "data-target" below to match the id of the modal used for this button -->
+                                        <div class="grid-answer mt-2">
+                                            <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck1-modal-0205">
+                Answer
+            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 image-responsive d-flex justify-content-center align-items-center">
+                                        <!--Swap out image here-->
+                                        <img alt="a triangle" class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0201.png" />
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <p><strong>Solution:</strong></p>
-                                    <p>Use the Unequal Sides Theorem to list the sides in order. First find all missing angles by using the Triangle Angle Sum Theorem. Then list opposites sides from their angles in order.
-                                    </p>
+                                <!-- Modal 1 Target -->
+                                <!--You must change the id below to match the "data-target" above -->
+                                <div class="modal fade" id="selfcheck1-modal-0205" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content ems-modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="">
+                                                    Answer: Self-Check 2.1
+                                                </h5>
+                                                <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </a>
+                                            </div>
+                                            <!--This is where you insert content for the modal -->
+                                            <div class="modal-body">
+                                                <div class="col-md-12">
+                                                    <p>First, color code the angles and sides to help pair up each side with its opposite angle. In order to list the angles from least to greatest, first list the sides from least to greatest.
+                                                    </p>
+                                                    <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                        <!--Swap out image here-->
+                                                        <img class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0201%20answer.png">
+                                                    </div>
+                                                    <p>Now, by using the opposite angles in relation to the sides, \(\angle R\) is the smallest angle and \(\angle C\) is the largest. Be careful when writing the inequality, the \(m\) symbol to represent the measurement must be written for each angle, along with the angle symbol and the less than symbol. Use less than symbols since the previous angle must be less than then next. Altogether from least to greatest, the angles are: \(m\angle R \lt m\angle A \lt m\angle C\) </p>
+
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                    Close
+                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End of Modal 1-->
+                                <!--End Self-Check 1 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--====  End of Concept # 2 Block Snippet  ====-->
+            <!-- Copy from here -->
+            <!--========================================
+    =          Concept # 3 Block Snippet         =
+    =========================================-->
+            <div class="card" id="concept03">
+                <div class="card-header panel-heading">
+                    <i class="fa fa-book card-header-icon" aria-hidden="true"></i>3. Apply Algebra to the Unequal Sides Theorem
+
+                </div>
+                <div class="card-body">
+                    <div class="tabs-container">
+                        <nav>
+                            <div class="nav nav-tabs" id="" role="tablist">
+                                <!-- Add navigation tabs here. Make sure to give it a unique ID and the href matches the id below-->
+                                <a class="nav-item nav-link active" id="instruction0301" data-toggle="tab" href="#instruction-0301" role="tab" aria-controls="tab-0X01" aria-selected="true">
+                            Instruction
+                        </a>
+                                <a class="nav-item nav-link" id="examples0302" data-toggle="tab" href="#examples-0302" role="tab" aria-controls="tab-0X02" aria-selected="false">
+                            Examples
+                        </a>
+                                <a class="nav-item nav-link" id="video0303" data-toggle="tab" href="#video-0303" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                            Video
+                        </a>
+                                <a class="nav-item nav-link" id="selfcheck0304" data-toggle="tab" href="#selfcheck-0304" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                            Self-Check
+                        </a>
+                            </div>
+                        </nav>
+                        <div class="tab-content" id="">
+                            <!-- Make sure all id's match the href's above -->
+                            <!--Tab 1-->
+                            <div class="tab-pane fade show active" id="instruction-0301" role="tabpanel" aria-labelledby="tab01-tab">
+                                <p>The Unequal Sides Theorem can also be used when only one or even no angle measures and side lengths are known. By using algebra, writing sides in order from least to greatest can still be accomplished by using the Triangle Angle Sum Theorem as before.
+                                </p>
+                                <hr style="width:50%">
+                                <p>Some questions will include converting written expressions into algebraic form. To begin, review the following common expressions.
+                                </p>
+                                <p>Twice: two times another</p>
+                                <p>Triple: three times another
+                                </p>
+                                <p>Quadruple: four times another</p>
+                                <p>Quintuple: five times another
+                                </p>
+                                <p>Greater than: add the value to another number</p>
+                                <p>Less than: Less than: subtact the value from another number.
+                                </p>
+                                <hr style="width:50%">
+                                <p>The following are converted from written expressions to algebraic expressions. \(x\) will be used as the other number.
+                                </p>
+                                <ol>
+                                    <li>Triple a number: \(3x\)
+                                    </li>
+                                    <li>Eight more than twice a number: \(2x+8\)
+                                    </li>
+                                    <li>Seventeen less than a number: \(x-17\)
+                                    </li>
+                                </ol>
+                                <hr style="width:50%">
+                                <p>In the last two examples, the numbers added or subtracted are written after the unknown number because they are in addition to or subtracted from another. Remember this important attribute when creating equations in the following examples. </p>
+
+                            </div>
+                            <!--Tab 2-->
+                            <div class="tab-pane fade" id="examples-0302" role="tabpanel" aria-labelledby="tab02-tab">
+                                <!--Start Copy Here-->
+                                <!-- 1x2 Grid Image Right Grid -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h4>Example 3.1</h4>
+                                        <h5>Write Side Lengths in Order Using a Given Diagram</h5>
+                                        <p>List the side lengths from least to greatest in \(\triangle ABC\). Write the answer as an inequality. Triangle is not drawn to scale.
+                                        </p>
+                                        <div class="image-responsive d-flex justify-content-center align-items-center">
+                                            <!--Swap out image here-->
+                                            <img alt="a traingle" class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0301.png">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p><strong>Solution:</strong></p>
+                                        <p> Use the Unequal Sides Theorem to list the sides in order. First find all missing angles by using the Triangle Angle Sum Theorem. Then list opposite sides from their angles in order least to greatest.
+                                        </p>
 
 
-                                    <div class="image-responsive d-flex justify-content-center align-items-center">
-                                        <!--Swap out image here-->
-                                        <img alt="a triangle" class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0301%20answer1.png">
-                                    </div>
-                                    <p>Last, substitute the measures of the angles into your diagram to find the opposite sides in order from least to greatest.
-                                    </p>
-                                    <div class="image-responsive d-flex justify-content-center align-items-center">
-                                        <!--Swap out image here-->
-                                        <img alt="a triangle" class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0301%20answer2.png">
-                                    </div>
-                                    <p>The inequality for the length of the sides from least to greatest is <strong>\(CB
+                                        <div class="image-responsive d-flex justify-content-center align-items-center">
+                                            <!--Swap out image here-->
+                                            <img alt="a triangle" class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0301%20answer1.png">
+                                        </div>
+                                        <p>Last, substitute the measures of the angles into your diagram to find the opposite sides in order from least to greatest.
+                                        </p>
+                                        <div class="image-responsive d-flex justify-content-center align-items-center">
+                                            <!--Swap out image here-->
+                                            <img alt="a triangle" class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0301%20answer2.png">
+                                        </div>
+                                        <p>The inequality for the length of the sides from least to greatest is <strong>\(CB
                                         \lt AC\lt AB\)</strong>. </p>
+                                    </div>
+                                </div>
+                                <!--End 1x2 Image Right Grid -->
+
+                                <!--Stop Copy Here-->
+                                <hr>
+                                <!--Start Copy Here-->
+                                <!-- 1x2 Grid Image Right Grid -->
+                                <h4>Example 3.2</h4>
+                                <h5>Write Side Lengths in Order Without a Diagram Given</h5>
+                                <p>List the sides from least to greatest in \(\triangle QRS\). Write the answer as an inequality. Use the following information about each angle:
+                                </p>
+                                <ul>
+                                    <li>\(m\angle Q\) is fifty more than twice the \(m\angle R\).
+                                    </li>
+                                    <li>\(m\angle S\) is ten less than quadruple the \(m\angle R\).
+                                    </li>
+                                </ul>
+                                <hr style="width:50%">
+                                <div class="row">
+                                    <div class="col-md-6 image-responsive justify-content-center align-items-center">
+                                        <p><strong>Solution:</strong></p>
+                                        <h5>Step One</h5>
+                                        <p>First, draw a diagram for \(\triangle QRS\). It should be large enough so that you can write in the expressions for each angle. Since you do not know what type of triangle will be pictured, make any type of triangle you would like to use. Color coding the sides and opposite angles at the beginning will aid in ordering as well.
+                                        </p>
+                                        <div class="image-responsive d-flex justify-content-center align-items-center">
+                                            <!--Swap out image here-->
+                                            <img alt="a triangle" class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0302%20answer1%20.png">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Step Two</h5>
+                                        <p> After you have a general diagram drawn, create the expressions for each angle. There is information for \(m\angle Q\) and \(m\angle S\) given but no information for \(m\angle R\). Due to this, use a variable such as x to represent \(m\angle R\).
+                                        </p>
+                                        <p>Now using the given information, write expressions for \(m\angle Q\) and \(m\angle S\) based on \(m\angle R\). For \(m\angle S\), make sure the ten is subtracted from the \(4x\) since it is ten less than the rest of the information.
+                                        </p>
+                                        <div class="image-responsive d-flex justify-content-center align-items-center">
+                                            <!--Swap out image here-->
+                                            <img alt="a triangle" class="img-300" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0302%20answer%202.png">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h5>Step Three</h5>
+                                        <p>The steps are now the same from Example 3.1. Use the Angle Sum Theorem to find the value of \(x\). Substitute the answer into each expression to find the measure of each angle.
+                                        </p>
+                                        <div class="image-responsive d-flex justify-content-center align-items-center">
+                                            <!--Swap out image here-->
+                                            <img alt="a triangle" class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0302%20answer%203.png">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h5>Step Four</h5>
+                                        <p>Last, substitute the measures of the angles into your diagram to find the opposite sides in order from least to greatest. </p>
+                                        <div class="image-responsive d-flex justify-content-center align-items-center">
+                                            <!--Swap out image here-->
+                                            <img alt="a triangle" class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0302%20answer%204.png">
+                                        </div>
+                                        <p>The inequality for the length of the sides from least to greatest is <strong>\(SQ\lt RQ\lt RS\)</strong>. </p>
+                                    </div>
+                                </div>
+                                <!--End 1x2 Image Right Grid -->
+
+                                <!--Stop Copy Here-->
+
+                            </div>
+
+
+
+
+                            <!--Tab 3-->
+                            <div class="tab-pane fade" id="video-0303" role="tabpanel" aria-labelledby="tab03-tab">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/UduJpLaLsD0?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                                 </div>
                             </div>
-                            <!--End 1x2 Image Right Grid -->
-
-                            <!--Stop Copy Here-->
-                            <hr>
-                            <!--Start Copy Here-->
-                            <!-- 1x2 Grid Image Right Grid -->
-                            <h4>Example 3.2</h4>
-                            <h5>Write Side Lengths in Order Without a Diagram Given</h5>
-                            <p>List the sides from least to greatest in \(\triangle QRS\). Write the answer as an inequality. Use the following information about each angle:
-                            </p>
-                            <ul>
-                                <li>\(m\angle Q\) is fifty more than twice the \(m\angle R\).
-                                </li>
-                                <li>\(m\angle S\) is ten less than quadruple the \(m\angle R\).
-                                </li>
-                            </ul>
-                            <hr style="width:50%">
-                            <div class="row">
-                                <div class="col-md-6 image-responsive justify-content-center align-items-center">
-                                    <p><strong>Solution:</strong></p>
-                                    <h5>Step One</h5>
-                                    <p>First, draw a diagram for \(\triangle QRS\). It should be large enough so that you can write in the expressions for each angle. Since you do not know what type of triangle will be pictured, make any type of triangle you would like to use. Color coding the sides and opposite angles at the beginning will aid in ordering as well.
-                                    </p>
-                                    <div class="image-responsive d-flex justify-content-center align-items-center">
-                                        <!--Swap out image here-->
-                                        <img alt="a triangle" class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0302%20answer1%20.png">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <h5>Step Two</h5>
-                                    <p> After you have a general diagram drawn, create the expressions for each angle. There is information for \(m\angle Q\) and \(m\angle S\) given but no information for \(m\angle R\). Due to this, use a variable such as x to represent \(m\angle R\).
-                                    </p>
-                                    <p>Now using the given information, write expressions for \(m\angle Q\) and \(m\angle S\) based on \(m\angle R\). For \(m\angle S\), make sure the ten is subtracted from the \(4x\) since it is ten less than the rest of the information.
-                                    </p>
-                                    <div class="image-responsive d-flex justify-content-center align-items-center">
-                                        <!--Swap out image here-->
-                                        <img alt="a triangle" class="img-300" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0302%20answer%202.png">
-
-                                    </div>
-                                </div>
-                            </div>
-                            <hr>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h5>Step Three</h5>
-                                    <p>The steps are now the same from Example 3.1. Use the Angle Sum Theorem to find the value of \(x\). Substitute the answer into each expression to find the measure of each angle.
-                                    </p>
-                                    <div class="image-responsive d-flex justify-content-center align-items-center">
-                                        <!--Swap out image here-->
-                                        <img alt="a triangle" class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0302%20answer%203.png">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <h5>Step Four</h5>
-                                    <p>Last, substitute the measures of the angles into your diagram to find the opposite sides in order from least to greatest. </p>
-                                    <div class="image-responsive d-flex justify-content-center align-items-center">
-                                        <!--Swap out image here-->
-                                        <img alt="a triangle" class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02e0302%20answer%204.png">
-                                    </div>
-                                    <p>The inequality for the length of the sides from least to greatest is <strong>\(SQ\lt RQ\lt RS\)</strong>. </p>
-                                </div>
-                            </div>
-                            <!--End 1x2 Image Right Grid -->
-
-                            <!--Stop Copy Here-->
-
-                        </div>
-
-
-
-
-                        <!--Tab 3-->
-                        <div class="tab-pane fade" id="video-0303" role="tabpanel" aria-labelledby="tab03-tab">
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/UduJpLaLsD0?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="selfcheck-0304" role="tabpanel" aria-labelledby="tab03-tab">
-                            <!-- Start copying here -->
-                            <!--Self-Check # Grid-->
-                            <!-- 2x2 Grid Image Bottom Grid -->
-                            <div class="row">
-                                <!-- Top-Left -->
-                                <div class="col-md-6 col-divider">
-                                    <h4 class="grid-subtitle">
-                                        Self-Check 3.1
-                                    </h4>
-                                    <p>List the side lengths from least to greatest in \(\triangle MOP\). Write the answer as an inequality. Triangle is not drawn to scale.
-                                    </p>
-                                    <div class="image-responsive d-flex justify-content-center align-items-center">
-                                        <!--Swap out image here-->
-                                        <img alt="a triangle" class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0301.png">
-                                    </div>
-                                    <div class="grid-answer mt-2">
-                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck1-modal-0304">
+                            <div class="tab-pane fade" id="selfcheck-0304" role="tabpanel" aria-labelledby="tab03-tab">
+                                <!-- Start copying here -->
+                                <!--Self-Check # Grid-->
+                                <!-- 2x2 Grid Image Bottom Grid -->
+                                <div class="row">
+                                    <!-- Top-Left -->
+                                    <div class="col-md-6 col-divider">
+                                        <h4 class="grid-subtitle">
+                                            Self-Check 3.1
+                                        </h4>
+                                        <p>List the side lengths from least to greatest in \(\triangle MOP\). Write the answer as an inequality. Triangle is not drawn to scale.
+                                        </p>
+                                        <div class="image-responsive d-flex justify-content-center align-items-center">
+                                            <!--Swap out image here-->
+                                            <img alt="a triangle" class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0301.png">
+                                        </div>
+                                        <div class="grid-answer mt-2">
+                                            <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck1-modal-0304">
                                     Answer
                             </a>
+                                        </div>
                                     </div>
-                                </div>
-                                <!-- Top-Right -->
-                                <div class="col-md-6">
-                                    <h4 class="grid-subtitle">
-                                        Self-Check 3.2
-                                    </h4>
-                                    <p>List the sides from least to greatest in \(\triangle JKL\). Write the answer as an inequality. Use the following information about each angle:
-                                    </p>
-                                    <p>\(m\angle J\) is one hundred less than triple the \(m\angle K\).
-                                    </p>
-                                    <p>\(m\angle L\) is eight less than double the \(m\angle K\).
-                                    </p>
+                                    <!-- Top-Right -->
+                                    <div class="col-md-6">
+                                        <h4 class="grid-subtitle">
+                                            Self-Check 3.2
+                                        </h4>
+                                        <p>List the sides from least to greatest in \(\triangle JKL\). Write the answer as an inequality. Use the following information about each angle:
+                                        </p>
+                                        <p>\(m\angle J\) is one hundred less than triple the \(m\angle K\).
+                                        </p>
+                                        <p>\(m\angle L\) is eight less than double the \(m\angle K\).
+                                        </p>
 
-                                    <div class="grid-answer mt-2">
-                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck2-modal-0304">
+                                        <div class="grid-answer mt-2">
+                                            <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck2-modal-0304">
                                 Answer
                             </a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <hr/>
+                                <hr/>
 
-                            <!--End 2x2 Image Right Grid -->
-                            <!-- Modal 1 Target -->
-                            <!--You must change the id below to match the "data-target" above -->
-                            <div class="modal fade" id="selfcheck1-modal-0304" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content ems-modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="">
-                                                Answer: Self-Check 3.1
-                                            </h5>
-                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                <!--End 2x2 Image Right Grid -->
+                                <!-- Modal 1 Target -->
+                                <!--You must change the id below to match the "data-target" above -->
+                                <div class="modal fade" id="selfcheck1-modal-0304" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content ems-modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="">
+                                                    Answer: Self-Check 3.1
+                                                </h5>
+                                                <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
                                         
                                     </a>
-                                        </div>
-                                        <!--This is where you insert content for the modal -->
-                                        <div class="modal-body">
-                                            <p><strong>Solution: </strong></p>
-                                            <p>Use the Unequal Sides Theorem to list the sides in order. First find all missing angles by using the Triangle Angle Sum Theorem. Then list opposites sides from their angles in order.
-                                            </p>
-                                            <div class="image-responsive d-flex justify-content-center align-items-center">
-                                                <!--Swap out image here-->
-                                                <img class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0301%20answer1.png">
                                             </div>
-                                            <p>Last, substitute the measures of the angles into your diagram to find the opposite sides in order from least to greatest.
-                                            </p>
-                                            <div class="image-responsive d-flex justify-content-center align-items-center">
-                                                <!--Swap out image here-->
-                                                <img class="img-300" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0301%20answer2.png">
-                                            </div>
-                                            <p>The inequality for the length of the sides from least to greatest is <strong>\(MO
+                                            <!--This is where you insert content for the modal -->
+                                            <div class="modal-body">
+                                                <p><strong>Solution: </strong></p>
+                                                <p>Use the Unequal Sides Theorem to list the sides in order. First find all missing angles by using the Triangle Angle Sum Theorem. Then list opposites sides from their angles in order.
+                                                </p>
+                                                <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                    <!--Swap out image here-->
+                                                    <img class="img-500" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0301%20answer1.png">
+                                                </div>
+                                                <p>Last, substitute the measures of the angles into your diagram to find the opposite sides in order from least to greatest.
+                                                </p>
+                                                <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                    <!--Swap out image here-->
+                                                    <img class="img-300" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0301%20answer2.png">
+                                                </div>
+                                                <p>The inequality for the length of the sides from least to greatest is <strong>\(MO
                                                 \lt OP\lt MP\)</strong>. </p>
 
-                                        </div>
-                                        <div class="modal-footer">
-                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
-                                        Close
-                                    </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End of Modal 1-->
-                            <!-- Modal 2 Target -->
-                            <!--You must change the id below to match the "data-target" above -->
-                            <div class="modal fade" id="selfcheck2-modal-0304" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content ems-modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="">
-                                                Answer: Self-Check 3.2
-                                            </h5>
-                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-                    </a>
-                                        </div>
-                                        <!--This is where you insert content for the modal -->
-                                        <div class="modal-body">
-                                            <h5>Step One</h5>
-                                            <p>First, draw a diagram for \(\triangle JKL\). It should be large enough so that you can write in the expressions for each angle. Since you do not know what type of triangle will be pictured, make any type of triangle you would like to use. Color coding the sides and opposite angles at the beginning will aid in ordering as well.
-                                            </p>
-                                            <div class="image-responsive d-flex justify-content-center align-items-center">
-                                                <!--Swap out image here-->
-                                                <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0302.png">
-                                            </div>
-                                            <hr style="width:50%">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <h5>Step Two</h5>
-
-                                                    <p>After you have a general diagram drawn, create the expressions for each angle. There is information for \(m\angle Q\) and \(m\angle S\) given but no information for \(m\angle R\). Due to this, use a variable such as x to represent \(m\angle R\).</p>
-                                                </div>
-
-
-                                                <div class="col-md-6">
-                                                    <h5>Step Three</h5>
-                                                    <p>Now using the given information, write expressions for \(m\angle Q\) and \(m\angle S\) based on \(m\angle R\). For \(m\angle S\), make sure the ten is subtracted from the \(4x\) since it is ten less than the rest of the information.
-                                                        <div class="image-responsive d-flex justify-content-center align-items-center">
-                                                            <!--Swap out image here-->
-                                                            <img class="img-200" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0302%20answer%201.png">
-
-                                                        </div>
-                                                </div>
-                                            </div>
-                                            <hr style="width:50%">
-                                            <div class="row">
-                                                <div class="col-md-6">
-                                                    <h5>Step Four</h5>
-                                                    <p>The steps are now the same from Example 3.1. Use the Angle Sum Theorem to find the value of \(x\). Substitute the answer into each expression to find the measure of each angle.
-
-
-                                                    </p>
-                                                    <div class="image-responsive d-flex justify-content-center align-items-center">
-                                                        <!--Swap out image here-->
-                                                        <img class="img-800" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0302%20answer%202.png">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <h5>Step Five</h5>
-                                                    <p>Last, substitute the measures of the angles into your diagram to find the opposite sides in order from least to greatest. </p>
-                                                    <div class="image-responsive d-flex justify-content-center align-items-center">
-                                                        <!--Swap out image here-->
-                                                        <img class="img-300" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0302%20answer%203.png">
-
-
-
-                                                    </div>
-                                                    <p>The inequality for the length of the sides from least to greatest is <strong>\(KL\lt JL\lt KJ\)</strong>.
-                                                    </p>
-                                                </div>
                                             </div>
                                             <div class="modal-footer">
                                                 <a href="#" class="btn btn-secondary" data-dismiss="modal">
@@ -885,64 +926,141 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- End of Modal 2-->
+                                <!-- End of Modal 1-->
+                                <!-- Modal 2 Target -->
+                                <!--You must change the id below to match the "data-target" above -->
+                                <div class="modal fade" id="selfcheck2-modal-0304" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content ems-modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="">
+                                                    Answer: Self-Check 3.2
+                                                </h5>
+                                                <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </a>
+                                            </div>
+                                            <!--This is where you insert content for the modal -->
+                                            <div class="modal-body">
+                                                <h5>Step One</h5>
+                                                <p>First, draw a diagram for \(\triangle JKL\). It should be large enough so that you can write in the expressions for each angle. Since you do not know what type of triangle will be pictured, make any type of triangle you would like to use. Color coding the sides and opposite angles at the beginning will aid in ordering as well.
+                                                </p>
+                                                <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                    <!--Swap out image here-->
+                                                    <img class="img-600" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0302.png">
+                                                </div>
+                                                <hr style="width:50%">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <h5>Step Two</h5>
 
-                                <!--End Self-Check # 1 Grid-->
-                                <!-- Stop copying here -->
+                                                        <p>Replace with: After you have a general diagram drawn, create the expressions for each angle. There is information for \(m\angle J\) and \(m\angle L\) given but no information for \(m\angle K\). Due to this, use a variable such as \(y\) to represent \(m\angle K\). </p>
+                                                    </div>
+
+
+                                                    <div class="col-md-6">
+                                                        <h5>Step Three</h5>
+                                                        <p>Now, using the given information, write expressions for \(m\angle J\) and \(m\angle L\) based on \(m\angle K\). For \(m\angle J\), make sure the one hundred is subtracted from the \(3y\) since it is one hundred less than the rest of the information. The same idea should be applied for \(m\angle L\).</p>
+
+                                                            <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                                <!--Swap out image here-->
+                                                                <img class="img-200" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0302%20answer%201.png">
+
+                                                            </div>
+                                                    </div>
+                                                </div>
+                                                <hr style="width:50%">
+                                                <div class="row">
+                                                    <div class="col-md-6">
+                                                        <h5>Step Four</h5>
+                                                        <p>The steps are now the same from Example 3.1. Use the Angle Sum Theorem to find the value of  \(y\). Substitute the answer into each expression to find the measure of each angle.
+
+
+                                                        </p>
+                                                        <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                            <!--Swap out image here-->
+                                                            <img class="img-800" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0302%20answer%202.png">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <h5>Step Five</h5>
+                                                        <p>Last, substitute the measures of the angles into your diagram to find the opposite sides in order from least to greatest. </p>
+                                                        <div class="image-responsive d-flex justify-content-center align-items-center">
+                                                            <!--Swap out image here-->
+                                                            <img class="img-300" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L02-Relationship-Between-Angles-and-Sides/G.GMD.B.6%20-%20L02sc0302%20answer%203.png">
+
+
+
+                                                        </div>
+                                                        <p>The inequality for the length of the sides from least to greatest is <strong>\(KL\lt JL\lt KJ\)</strong>.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- End of Modal 2-->
+
+                                    <!--End Self-Check # 1 Grid-->
+                                    <!-- Stop copying here -->
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!--Toolkit-->
-        <div id="btn-tools" class="row bg-primary">
-            <a class="bs-btn bs-btn-primary" title="Graphing Calculator" data-placement="top" data-target="#desmos-graphing-calculator" data-toggle="modal"> <i class="fa fa-chart-line" style="font-size: 25px;" aria-hidden="true"> </i> </a>
-            <a class="bs-btn bs-btn-primary" title="Scientific Calculator" data-placement="top" data-target="#desmos-scientific-calculator" data-toggle="modal"> <i class="fa fa-calculator" style="font-size: 25px;" aria-hidden="true"> </i> </a>
-        </div>
-        <div id="desmos-graphing-calculator" class="modal fade" role="dialog" aria-labelledby="desmos graphing calculator" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div id="" class="modal-content ems-modal-content">
-                    <div class="modal-header">
-                        <h5 id="desmos-graphing-calculator-head" class="modal-title">Desmos Graphing Calculator</h5>
-                        <a class="close" aria-label="Close" data-dismiss="modal"> <span aria-hidden="true"> &times; </span> </a>
+            <!--Toolkit-->
+            <div id="btn-tools" class="row bg-primary">
+                <a class="bs-btn bs-btn-primary" title="Graphing Calculator" data-placement="top" data-target="#desmos-graphing-calculator" data-toggle="modal"> <i class="fa fa-chart-line" style="font-size: 25px;" aria-hidden="true"> </i> </a>
+                <a class="bs-btn bs-btn-primary" title="Scientific Calculator" data-placement="top" data-target="#desmos-scientific-calculator" data-toggle="modal"> <i class="fa fa-calculator" style="font-size: 25px;" aria-hidden="true"> </i> </a>
+            </div>
+            <div id="desmos-graphing-calculator" class="modal fade" role="dialog" aria-labelledby="desmos graphing calculator" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div id="" class="modal-content ems-modal-content">
+                        <div class="modal-header">
+                            <h5 id="desmos-graphing-calculator-head" class="modal-title">Desmos Graphing Calculator</h5>
+                            <a class="close" aria-label="Close" data-dismiss="modal"> <span aria-hidden="true"> &times; </span> </a>
+                        </div>
+                        <div class="modal-body embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://storage.googleapis.com/emspmg/Mathematics/Tools/desmos.html" width="300" height="150"></iframe>
+                        </div>
+                        <div class="modal-footer"><a class="bs-btn bs-btn-primary" data-dismiss="modal"> Close </a></div>
                     </div>
-                    <div class="modal-body embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://storage.googleapis.com/emspmg/Mathematics/Tools/desmos.html" width="300" height="150"></iframe>
-                    </div>
-                    <div class="modal-footer"><a class="bs-btn bs-btn-primary" data-dismiss="modal"> Close </a></div>
                 </div>
             </div>
-        </div>
-        <div id="desmos-scientific-calculator" class="modal fade" role="dialog" aria-labelledby="desmos scientific calculator" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div id="" class="modal-content ems-modal-content">
-                    <div class="modal-header">
-                        <h5 id="desmos-scientific-calculator-head" class="modal-title">Desmos Scientific Calculator</h5>
-                        <a class="close" aria-label="Close" data-dismiss="modal"> <span aria-hidden="true"> &times; </span> </a>
+            <div id="desmos-scientific-calculator" class="modal fade" role="dialog" aria-labelledby="desmos scientific calculator" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div id="" class="modal-content ems-modal-content">
+                        <div class="modal-header">
+                            <h5 id="desmos-scientific-calculator-head" class="modal-title">Desmos Scientific Calculator</h5>
+                            <a class="close" aria-label="Close" data-dismiss="modal"> <span aria-hidden="true"> &times; </span> </a>
+                        </div>
+                        <div class="modal-body embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="https://www.desmos.com/scientific" width="300" height="150"></iframe>
+                        </div>
+                        <div class="modal-footer"><a class="bs-btn bs-btn-primary" data-dismiss="modal"> Close </a></div>
                     </div>
-                    <div class="modal-body embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item" src="https://www.desmos.com/scientific" width="300" height="150"></iframe>
-                    </div>
-                    <div class="modal-footer"><a class="bs-btn bs-btn-primary" data-dismiss="modal"> Close </a></div>
                 </div>
             </div>
+
+            <!-- End Tool Kit-->
+            <!--====  End of Concept # 3 Block Snippet  ====-->
+            <!-- Copy to here    -->
         </div>
 
-        <!-- End Tool Kit-->
-        <!--====  End of Concept # 3 Block Snippet  ====-->
         <!-- Copy to here    -->
-    </div>
 
-    <!-- Copy to here    -->
-
-    <!--====  End of Start of Template  ====-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
-    </script>
-    <script src="https://storage.googleapis.com/emspmg/style/bundle.js"></script>
+        <!--====  End of Start of Template  ====-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
+        <script src="https://storage.googleapis.com/emspmg/style/bundle.js"></script>
 </body>
 
 </html>

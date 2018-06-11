@@ -79,7 +79,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" data-toggle="modal" data-target="#">
+                            <a href="#" data-toggle="modal" data-target="#adjacentangles">
                                 Adjacent Angles
                             </a>
                         </li>
@@ -95,6 +95,40 @@
                         </li>
                     </ol>
                 </div>
+                 <!-- Adjacent Angles -->
+                <!--You must change the id below to match the "data-target" above -->
+                <div class="modal fade" id="adjacentangles" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content ems-modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="">
+                                    Adjacent Angles
+                                </h5>
+                                <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">
+                                                &times;
+                                            </span>
+                                        </a>
+                            </div>
+                            <!--This is where you insert content for the modal -->
+                            <div class="modal-body">
+                                <p>Adjacent Angles are two attached angles that have a shared vertex and a shared ray as a side. These parts are called a common vertex and a common side. The two angles do not overlap on top of each other.
+                                </p>
+                            </div>
+                            <div class="col-md-6 image-responsive">
+                                <!--Swap out image here-->
+                                <img src="https://storage.googleapis.com/emspmg/Mathematics/glossary/gaa.png" alt="Here, \(m\angle ADC\) and \(m\angle CDB\) are adjacent because they share common vertex \(D\) and the common side \(\overrightarrow{DC}\)
+.">
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                            Close
+                                        </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adjacent Angles-->
                 <!-- Vertical Angles -->
                 <!--You must change the id below to match the data-target above -->
                 <div class="modal fade" id="vertical-angles" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -235,9 +269,9 @@
                                         <p>A two-column proof is a structure for creating geometric proofs. A two column table is created with statements on the left side and reasons on the right side.</p>
                                         <h4>Two-Column Proofs Example</h4>
                                         <p>
-                                            Given: \(line\ a\parallel line\ b\)<br> \(\angle 1 = 150^{\circ}\)
+                                            Given: \(a||b,\ m\angle 1=150^{\circ }\) 
                                         </p>
-                                        <p>Prove: \(\angle 6 30^{\circ}\)</p>
+                                        <p>Prove:  \(m\angle 6=30^{\circ }\)</p>
                                         <ol>
                                             <li>Line \(a\) is parallel to line \(b\). That is given.</li>
                                             <li>Angle 1 equals \(150^{\circ}\)</li>

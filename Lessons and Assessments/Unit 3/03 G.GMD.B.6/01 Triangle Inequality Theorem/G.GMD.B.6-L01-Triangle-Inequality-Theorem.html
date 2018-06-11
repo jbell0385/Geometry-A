@@ -118,27 +118,37 @@
                     <nav>
                         <div class="nav nav-tabs" id="" role="tablist">
                             <!-- Add navigation tabs here. Make sure to give it a unique ID and the href matches the id below-->
-                            <a class="nav-item nav-link active" id="instruction0101" data-toggle="tab" href="#instruction-0101" role="tab" aria-controls="tab-0X01" aria-selected="true">
-                                Instruction
-                            </a>
-                            <a class="nav-item nav-link" id="examples0102" data-toggle="tab" href="#examples-0102" role="tab" aria-controls="tab-0X02" aria-selected="false">
-                                Examples
-                            </a>
-                            <a class="nav-item nav-link" id="video0103" data-toggle="tab" href="#video-0103" role="tab" aria-controls="tab-0X03" aria-selected="false">
-                                Video
-                            </a>
-                            <a class="nav-item nav-link" id="interactive0104" data-toggle="tab" href="#interactive-0104" role="tab" aria-controls="tab-0X03" aria-selected="false">
+                            <a class="nav-item nav-link active" id="interactive0101" data-toggle="tab" href="#interactive-0101" role="tab" aria-controls="tab-0101" aria-selected="true">
                                 Interactive
                             </a>
-                            <a class="nav-item nav-link" id="selfcheck0105" data-toggle="tab" href="#selfcheck-0105" role="tab" aria-controls="tab-0X04" aria-selected="false">
+                            <a class="nav-item nav-link" id="instruction0102" data-toggle="tab" href="#instruction-0102" role="tab" aria-controls="tab-0102" aria-selected="false">
+                                Instruction
+                            </a>
+                            <a class="nav-item nav-link" id="examples0103" data-toggle="tab" href="#examples-0103" role="tab" aria-controls="tab-0103" aria-selected="false">
+                                Examples
+                            </a>
+                            <a class="nav-item nav-link" id="video0104" data-toggle="tab" href="#video-0104" role="tab" aria-controls="tab-0104" aria-selected="false">
+                                Video
+                            </a>
+
+                            <a class="nav-item nav-link" id="selfcheck0105" data-toggle="tab" href="#selfcheck-0105" role="tab" aria-controls="tab-0105" aria-selected="false">
 Self-Check
                             </a>
                         </div>
                     </nav>
                     <div class="tab-content" id="">
                         <!-- Make sure all id's match the href's above -->
+                        <div class="tab-pane fade show active" id="interactive-0101" role="tabpanel" aria-labelledby="tab01-tab">
+                            <h4>Explore Triangle Side Lengths</h4>
+                            <p> Create a triangle with the following diagram. Points C and both B's can be manipulated. The two point Bs must overlap to create the triangle. Try to create a triangle when one side is longer than the sum of the other two. What do you notice? Can you create a triangle when the sum is equal to the third side? What generalization can you make from this?</p>
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe src="https://www.desmos.com/calculator/f6dqwaazgp?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
+
+
+                            </div>
+                        </div>
                         <!--Tab 1-->
-                        <div class="tab-pane fade show active" id="instruction-0101" role="tabpanel" aria-labelledby="tab01-tab">
+                        <div class="tab-pane fade" id="instruction-0102" role="tabpanel" aria-labelledby="tab02-tab">
                             <!--Start Copy Here-->
                             <!-- 1x2 Grid Image Right Grid -->
                             <div class="row">
@@ -167,7 +177,7 @@ Self-Check
                             <!--End 1x2 Image Right Grid -->
                         </div>
                         <!--Tab 2-->
-                        <div class="tab-pane fade" id="examples-0102" role="tabpanel" aria-labelledby="tab02-tab">
+                        <div class="tab-pane fade" id="examples-0103" role="tabpanel" aria-labelledby="tab03-tab">
 
                             <!-- 1x2 Grid Image Right Grid -->
 
@@ -326,36 +336,28 @@ Self-Check
                         </div>
 
 
-                        <div class="tab-pane fade" id="video-0103" role="tabpanel" aria-labelledby="tab03-tab">
+                        <div class="tab-pane fade" id="video-0104" role="tabpanel" aria-labelledby="tab04-tab">
                             <div class="embed-responsive embed-responsive-16by9">
                                 <iframe alt="moving triangle on a coordinate plane" width="560" height="315" src="https://www.youtube.com/embed/0a8Eta_g5Fs?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
                             </div>
                         </div>
+                  
+                <div class="tab-pane fade" id="selfcheck-0105" role="tabpanel" aria-labelledby="tab05-tab">
+                    <!-- Start copying here -->
+                    <!--Self-Check # Grid-->
+                    <!-- 2x2 Grid Image Bottom Grid -->
+                    <div class="row">
+                        <!-- Top-Left -->
+                        <div class="col-md-6 col-divider">
+                            <h4 class="grid-subtitle">
+                                Self-Check 1.1
+                            </h4>
+                            <p>Will these side lengths form a triangle? Can the side lengths 8 ft, 11 ft, and 5 ft create a triangle?
+                            </p>
 
-                        <div class="tab-pane fade" id="interactive-0104" role="tabpanel" aria-labelledby="tab04-tab">
-                            <h4>Explore the possible side and angles of a triangle using desmos.</h4>
-                            <div class="embed-responsive embed-responsive-16by9">
-                                <iframe src="https://www.desmos.com/calculator/f6dqwaazgp?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
-
-
-                            </div>
-                        </div>
-                        <div class="tab-pane fade" id="selfcheck-0105" role="tabpanel" aria-labelledby="tab05-tab">
-                            <!-- Start copying here -->
-                            <!--Self-Check # Grid-->
-                            <!-- 2x2 Grid Image Bottom Grid -->
-                            <div class="row">
-                                <!-- Top-Left -->
-                                <div class="col-md-6 col-divider">
-                                    <h4 class="grid-subtitle">
-                                        Self-Check 1.1
-                                    </h4>
-                                    <p>Will these side lengths form a triangle? Can the side lengths 8 ft, 11 ft, and 5 ft create a triangle?
-                                    </p>
-
-                                    <div class="grid-answer mt-2">
-                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck1-modal-0105">
+                            <div class="grid-answer mt-2">
+                                <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck1-modal-0105">
                                     Answer
                             </a>
 
@@ -363,266 +365,171 @@ Self-Check
 
 
 
-                                    </div>
-                                </div>
-                                <!-- Top-Right -->
-                                <div class="col-md-6">
-                                    <h4 class="grid-subtitle">
-                                        Self-Check 1.2
-                                    </h4>
-                                    <p>Jack has some extra wood from building the picture frame below. He is wondering if he can build a second frame from the extra wood. The wood pieces are 15 inches, 15 inches, and 8 inches. Will Jack be able to make another frame with the given lengths?
-                                    </p>
-                                    <div class="image-responsive d-flex justify-content-center align-items-center">
-                                        <!--Swap out image here-->
-                                        <img alt="a gold triangle" class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L01-Triangle-Inequality-Theorem/G.GMD.B.6%20-%20L01sc0102.png">
-                                    </div>
-                                    <div class="grid-answer mt-2">
-                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck2-modal-0105">
-                                Answer
-                            </a>
-                                    </div>
-                                </div>
                             </div>
-                            <hr/>
-                            <div class="row">
-                                <!-- Bottom-Left -->
-                                <div alt="a moving triangle on a coordinate plane" class="col-md-6 col-divider">
-                                    <h4 class="grid-subtitle">
-                                        Self-Check 1.3
-                                    </h4>
-                                    <p>Use Desmos to create a triangle with the lengths 15 cm, 8 cm, 7 cm. After creating the triangles, use inequalities to explain why.</p>
-                                    <p>Please click "edit graph on desmos".</p>
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe src="https://www.desmos.com/calculator/titzfuer8k?embed" width="1000px" height="1000px" style="border: 1px solid #ccc" frameborder=0></iframe>
-                                    </div>
-
-
-                                    <div class="grid-answer mt-2">
-                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck3-modal-0105">
-                                Answer
-                            </a>
-                                    </div>
-                                </div>
-                                <!-- Bottom-Right -->
-                                <div alt="a moving triangle on a coordinate plane" class="col-md-6">
-                                    <h4 class="grid-subtitle">
-                                        Self-Check 1.4
-                                    </h4>
-                                    <p>Use Desmos to create a triangle with the lengths 8 mm, 8 mm, 15 mm. After creating the triangles, use inequalities to explain why.
-                                    </p>
-                                    <p>Please click "edit graph on desmos".</p>
-                                    <div class="embed-responsive embed-responsive-16by9">
-                                        <iframe src="https://www.desmos.com/calculator/qp7v8h66p2?embed" width="500px" height="500px" style="border: 1px solid #ccc" frameborder=0></iframe>
-                                    </div>
-
-                                    <div class="grid-answer mt-2">
-                                        <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck4-modal-0105">
-                                Answer
-                            </a>
-                                    </div>
-                                </div>
+                        </div>
+                        <!-- Top-Right -->
+                        <div class="col-md-6">
+                            <h4 class="grid-subtitle">
+                                Self-Check 1.2
+                            </h4>
+                            <p>Jack has some extra wood from building the picture frame below. He is wondering if he can build a second frame from the extra wood. The wood pieces are 15 inches, 15 inches, and 8 inches. Will Jack be able to make another frame with the given lengths?
+                            </p>
+                            <div class="image-responsive d-flex justify-content-center align-items-center">
+                                <!--Swap out image here-->
+                                <img alt="a gold triangle" class="img-400" src="https://storage.googleapis.com/emspmg/Mathematics/G.GMD.B.6/L01-Triangle-Inequality-Theorem/G.GMD.B.6%20-%20L01sc0102.png">
                             </div>
-                            <!--End 2x2 Image Right Grid -->
-                            <!-- Modal 1 Target -->
-                            <!--You must change the id below to match the "data-target" above -->
-                            <div class="modal fade" id="selfcheck1-modal-0105" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content ems-modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="">
-                                                Answer: Self-Check 1.1
-                                            </h5>
-                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                            <div class="grid-answer mt-2">
+                                <a class="btn btn-secondary" href="#" data-toggle="modal" data-target="#selfcheck2-modal-0105">
+                                Answer
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal 1 Target -->
+                    <!--You must change the id below to match the "data-target" above -->
+                    <div class="modal fade" id="selfcheck1-modal-0105" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content ems-modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="">
+                                        Answer: Self-Check 1.1
+                                    </h5>
+                                    <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
                                        
                                     </a>
-                                        </div>
-                                        <!--This is where you insert content for the modal -->
-                                        <div class="modal-body">
-                                            <p>Using the method from the Instruction tab, any of the given side lengths can be used for sides 1, 2, or 3. The following will use 8 ft, 11 ft and 5 ft as side 1, side 2 and side 3 respectively.
+                                </div>
+                                <!--This is where you insert content for the modal -->
+                                <div class="modal-body">
+                                    <p>Using the method from the Instruction tab, any of the given side lengths can be used for sides 1, 2, or 3. The following will use 8 ft, 11 ft and 5 ft as side 1, side 2 and side 3 respectively.
 
-                                            </p>
+                                    </p>
 
-                                            <table class="table table-borderless">
-                                                <tbody>
-                                                    <tr>
-                                                        <td>
-                                                            <p>\(side\ 1+side\ 2>side\ 3\)</p>
-                                                            <p>\(8+11>5\) ?
-                                                            </p>
-                                                            <p>\(19>5\) ? True
-                                                            </p>
+                                    <table class="table table-borderless">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <p>\(side\ 1+side\ 2>side\ 3\)</p>
+                                                    <p>\(8+11>5\) ?
+                                                    </p>
+                                                    <p>\(19>5\) ? True
+                                                    </p>
 
-                                                        </td>
-                                                        <td>
-                                                            <p>\(side\ 2+side\ 3>side\ 1\)
-                                                            </p>
-                                                            <p>\(11+5>8\) ?</p>
+                                                </td>
+                                                <td>
+                                                    <p>\(side\ 2+side\ 3>side\ 1\)
+                                                    </p>
+                                                    <p>\(11+5>8\) ?</p>
 
 
-                                                            <p>\(16>8\) ? True</p>
+                                                    <p>\(16>8\) ? True</p>
 
-                                                        </td>
-                                                        <td>
-                                                            <p>\(side\ 1+side\ 3>side\ 2\)</p>
-                                                            <p>\(8+5>11\) ?
-                                                            </p>
-                                                            <p>\(13>11\) ? True</p>
+                                                </td>
+                                                <td>
+                                                    <p>\(side\ 1+side\ 3>side\ 2\)</p>
+                                                    <p>\(8+5>11\) ?
+                                                    </p>
+                                                    <p>\(13>11\) ? True</p>
 
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                            <p>Using the generalization, you only need to check that the sum of the two short sides is greater than that third side.
-                                            </p>
-                                            <p>first short side + second short side > long side</p>
-                                            <p>\(5+8>11\) ?
-                                            </p>
-                                            <p>\(13>11\) ? True</p>
-                                            <p>Since this case is true, it is possible to have a triangle with the side lengths of 8 ft, 11 ft, and 5 ft.
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p>Using the generalization, you only need to check that the sum of the two short sides is greater than that third side.
+                                    </p>
+                                    <p>first short side + second short side > long side</p>
+                                    <p>\(5+8>11\) ?
+                                    </p>
+                                    <p>\(13>11\) ? True</p>
+                                    <p>Since this case is true, it is possible to have a triangle with the side lengths of 8 ft, 11 ft, and 5 ft.
 
-                                            </p>
+                                    </p>
 
-                                        </div>
-                                        <div class="modal-footer">
-                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#" class="btn btn-secondary" data-dismiss="modal">
                                         Close
                                     </a>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
-                            <!-- End of Modal 1-->
-                            <!-- Modal 2 Target -->
-                            <!--You must change the id below to match the "data-target" above -->
-                            <div class="modal fade" id="selfcheck2-modal-0105" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content ems-modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="">
-                                                Answer: Self-Check 1.2
-                                            </h5>
-                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-                    </a>
-                                        </div>
-                                        <!--This is where you insert content for the modal -->
-                                        <div class="modal-body">
-                                            <p>
-                                                Using the method from the Instruction tab, any of the given side lengths can be used for sides 1, 2, or 3. The following will use 15 ft, 15 ft and 8 ft as side 1, side 2 and side 3 respectively.
-                                            </p>
-                                            <table class="table table-borderless">
-                                                <tbody>
-                                                    <tr>
-                                                        <td>
-                                                            <p>\(side\ 1+side\ 2>side\ 3\)</p>
-                                                            <p>\(15+15>8\) ?
-                                                            </p>
-                                                            <p>\(30>8\) ? True
-                                                            </p>
-
-                                                        </td>
-                                                        <td>
-                                                            <p>\(side\ 2+side\ 3>side\ 1\)
-                                                            </p>
-                                                            <p>\(15+8>15\) ?</p>
-
-
-                                                            <p>\(23>15\) ? True</p>
-
-                                                        </td>
-                                                        <td>
-                                                            <p>\(side\ 1+side\ 3>side\ 2\)</p>
-                                                            <p>\(15+8>15\) ?
-                                                            </p>
-                                                            <p>\(23>15\) ? True</p>
-
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                            <p>Using the generalization, you only need to check that the sum of the two short sides is greater than that third side. Since the two larger sides are congruent, pick either 15 to represent a shorter side. </p>
-                                            <p>first short side + second short side > long side
-                                            </p>
-                                            <p>\(8+15>15\) ?</p>
-                                            <p>\(23>15\) ? True</p>
-                                            <p>Since this case is true, it is possible to have a triangle with the side lengths of 15 ft, 15 ft, and 8 ft.</p>
-
-                                        </div>
-                                        <div class="modal-footer">
-                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
-                                        Close
-                                    </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End of Modal 2-->
-                            <!-- Modal 3 Target -->
-                            <!--You must change the id below to match the "data-target" above -->
-                            <div class="modal fade" id="selfcheck3-modal-0105" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content ems-modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="">
-                                                Answer: Self-Check 1.3
-                                            </h5>
-                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></a>
-                                        </div>
-                                        <!--This is where you insert content for the modal -->
-                                        <div class="modal-body">
-                                            <p>first short side + second short side > long side
-                                            </p>
-                                            <p>\(8+7>15\) ?</p>
-                                            <p>\(15>15\) ? False</p>
-                                            <p>Since this case is false, it is not possible to have a triangle with the side lengths of 15 cm, 8 cm, and 7 cm.
-                                            </p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
-                                        Close
-                                    </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End of Modal 3-->
-                            <!-- Modal 4 Target -->
-                            <!--You must change the id below to match the "data-target" above -->
-                            <div class="modal fade" id="selfcheck4-modal-0105" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                <div class="modal-dialog" role="document">
-                                    <div class="modal-content ems-modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="">
-                                                Answer: Self-Check 1.4
-                                            </h5>
-                                            <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
-                    </a>
-                                        </div>
-                                        <!--This is where you insert content for the modal -->
-                                        <div class="modal-body">
-                                            <p>first short side + second short side > long side</p>
-                                            <p>\(8+8>15\) ?
-                                            </p>
-                                            <p>\(16>15\) ? True</p>
-                                            <p>Since this case is true, it is possible to have a triangle with the side lengths of 8 mm, 8 mm and 15 mm.
-                                            </p>
-                                        </div>
-                                        <div class="modal-footer">
-                                            <a href="#" class="btn btn-secondary" data-dismiss="modal">
-                                        Close
-                                    </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- End of Modal 4-->
-                            <!--End Self-Check # Grid-->
-                            <!-- Stop copying here -->
                         </div>
-
                     </div>
+                    <!-- End of Modal 1-->
+                    <!-- Modal 2 Target -->
+                    <!--You must change the id below to match the "data-target" above -->
+                    <div class="modal fade" id="selfcheck2-modal-0105" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content ems-modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="">
+                                        Answer: Self-Check 1.2
+                                    </h5>
+                                    <a href="#" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                    </a>
+                                </div>
+                                <!--This is where you insert content for the modal -->
+                                <div class="modal-body">
+                                    <p>
+                                        Using the method from the Instruction tab, any of the given side lengths can be used for sides 1, 2, or 3. The following will use 15 ft, 15 ft and 8 ft as side 1, side 2 and side 3 respectively.
+                                    </p>
+                                    <table class="table table-borderless">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <p>\(side\ 1+side\ 2>side\ 3\)</p>
+                                                    <p>\(15+15>8\) ?
+                                                    </p>
+                                                    <p>\(30>8\) ? True
+                                                    </p>
+
+                                                </td>
+                                                <td>
+                                                    <p>\(side\ 2+side\ 3>side\ 1\)
+                                                    </p>
+                                                    <p>\(15+8>15\) ?</p>
+
+
+                                                    <p>\(23>15\) ? True</p>
+
+                                                </td>
+                                                <td>
+                                                    <p>\(side\ 1+side\ 3>side\ 2\)</p>
+                                                    <p>\(15+8>15\) ?
+                                                    </p>
+                                                    <p>\(23>15\) ? True</p>
+
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p>Using the generalization, you only need to check that the sum of the two short sides is greater than that third side. Since the two larger sides are congruent, pick either 15 to represent a shorter side. </p>
+                                    <p>first short side + second short side > long side
+                                    </p>
+                                    <p>\(8+15>15\) ?</p>
+                                    <p>\(23>15\) ? True</p>
+                                    <p>Since this case is true, it is possible to have a triangle with the side lengths of 15 ft, 15 ft, and 8 ft.</p>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <a href="#" class="btn btn-secondary" data-dismiss="modal">
+                                        Close
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Modal 2-->
+
+                    <!--End Self-Check # Grid-->
+                    <!-- Stop copying here -->
                 </div>
             </div>
         </div>
+            </div>
+        </div>
+
+
+
         <!--====  End of Concept # 1 Block Snippet  ====-->
         <!-- Copy from here -->
         <!--========================================
@@ -728,7 +635,7 @@ Self-Check
                         <!--Tab 3-->
                         <div class="tab-pane fade" id="video-0203" role="tabpanel" aria-labelledby="tab03-tab">
                             <div class="embed-responsive embed-responsive-16by9">
-                               <iframe width="560" height="315" src="https://www.youtube.com/embed/rFeS7TA-Qvs?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/rFeS7TA-Qvs?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="selfcheck-0204" role="tabpanel" aria-labelledby="tab03-tab">
@@ -845,53 +752,53 @@ Self-Check
                         </div>
                     </div>
                 </div>
-            </div>
-            <!--Toolkit-->
-            <div id="btn-tools" class="row bg-primary">
-                <a class="bs-btn bs-btn-primary" title="Graphing Calculator" data-placement="top" data-target="#desmos-graphing-calculator" data-toggle="modal"> <i class="fa fa-chart-line" style="font-size: 25px;" aria-hidden="true"> </i> </a>
-                <a class="bs-btn bs-btn-primary" title="Scientific Calculator" data-placement="top" data-target="#desmos-scientific-calculator" data-toggle="modal"> <i class="fa fa-calculator" style="font-size: 25px;" aria-hidden="true"> </i> </a>
-            </div>
-            <div id="desmos-graphing-calculator" class="modal fade" role="dialog" aria-labelledby="desmos graphing calculator" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div id="" class="modal-content ems-modal-content">
-                        <div class="modal-header">
-                            <h5 id="desmos-graphing-calculator-head" class="modal-title">Desmos Graphing Calculator</h5>
-                            <a class="close" aria-label="Close" data-dismiss="modal"> <span aria-hidden="true"> &times; </span> </a>
-                        </div>
-                        <div class="modal-body embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://storage.googleapis.com/emspmg/Mathematics/Tools/desmos.html" width="300" height="150"></iframe>
-                        </div>
-                        <div class="modal-footer"><a class="bs-btn bs-btn-primary" data-dismiss="modal"> Close </a></div>
-                    </div>
-                </div>
-            </div>
-            <div id="desmos-scientific-calculator" class="modal fade" role="dialog" aria-labelledby="desmos scientific calculator" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div id="" class="modal-content ems-modal-content">
-                        <div class="modal-header">
-                            <h5 id="desmos-scientific-calculator-head" class="modal-title">Desmos Scientific Calculator</h5>
-                            <a class="close" aria-label="Close" data-dismiss="modal"> <span aria-hidden="true"> &times; </span> </a>
-                        </div>
-                        <div class="modal-body embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://www.desmos.com/scientific" width="300" height="150"></iframe>
-                        </div>
-                        <div class="modal-footer"><a class="bs-btn bs-btn-primary" data-dismiss="modal"> Close </a></div>
-                    </div>
-                </div>
-            </div>
 
-            <!-- End Tool Kit-->
+                <!--Toolkit-->
+                <div id="btn-tools" class="row bg-primary">
+                    <a class="bs-btn bs-btn-primary" title="Graphing Calculator" data-placement="top" data-target="#desmos-graphing-calculator" data-toggle="modal"> <i class="fa fa-chart-line" style="font-size: 25px;" aria-hidden="true"> </i> </a>
+                    <a class="bs-btn bs-btn-primary" title="Scientific Calculator" data-placement="top" data-target="#desmos-scientific-calculator" data-toggle="modal"> <i class="fa fa-calculator" style="font-size: 25px;" aria-hidden="true"> </i> </a>
+                </div>
+                <div id="desmos-graphing-calculator" class="modal fade" role="dialog" aria-labelledby="desmos graphing calculator" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div id="" class="modal-content ems-modal-content">
+                            <div class="modal-header">
+                                <h5 id="desmos-graphing-calculator-head" class="modal-title">Desmos Graphing Calculator</h5>
+                                <a class="close" aria-label="Close" data-dismiss="modal"> <span aria-hidden="true"> &times; </span> </a>
+                            </div>
+                            <div class="modal-body embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://storage.googleapis.com/emspmg/Mathematics/Tools/desmos.html" width="300" height="150"></iframe>
+                            </div>
+                            <div class="modal-footer"><a class="bs-btn bs-btn-primary" data-dismiss="modal"> Close </a></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="desmos-scientific-calculator" class="modal fade" role="dialog" aria-labelledby="desmos scientific calculator" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div id="" class="modal-content ems-modal-content">
+                            <div class="modal-header">
+                                <h5 id="desmos-scientific-calculator-head" class="modal-title">Desmos Scientific Calculator</h5>
+                                <a class="close" aria-label="Close" data-dismiss="modal"> <span aria-hidden="true"> &times; </span> </a>
+                            </div>
+                            <div class="modal-body embed-responsive embed-responsive-16by9">
+                                <iframe class="embed-responsive-item" src="https://www.desmos.com/scientific" width="300" height="150"></iframe>
+                            </div>
+                            <div class="modal-footer"><a class="bs-btn bs-btn-primary" data-dismiss="modal"> Close </a></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End Tool Kit-->
+            </div>
+            <!--====  End of Concept # 2 Block Snippet  ====-->
+            <!-- Copy to here    -->
         </div>
-        <!--====  End of Concept # 2 Block Snippet  ====-->
-        <!-- Copy to here    -->
-    </div>
-    <!--====  End of Start of Template  ====-->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
-    </script>
-    <script src="https://storage.googleapis.com/emspmg/style/bundle.js"></script>
+        <!--====  End of Start of Template  ====-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
+        <script src="https://storage.googleapis.com/emspmg/style/bundle.js"></script>
 </body>
 
 </html>
